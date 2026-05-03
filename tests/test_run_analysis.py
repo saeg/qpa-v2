@@ -284,15 +284,23 @@ class TestMainFunction:
                             "pathlib.Path.rglob", return_value=[Path("test.py")]
                         ):
                             with patch(
-                                "pathlib.Path.read_text",
-                                return_value="def test(): pass",
+                                "src.analysis.run.load_pattern_descriptions",
+                                return_value={}
                             ):
-                                with patch("builtins.open", mock_open()) as mock_file:
-                                    with patch("builtins.print"):
-                                        main()
+                                with patch(
+                                    "src.analysis.run.PATTERN_EXCLUSIVE_KEYWORDS_FILE.exists",
+                                    return_value=False
+                                ):
+                                    with patch(
+                                        "pathlib.Path.read_text",
+                                        return_value="def test(): pass",
+                                    ):
+                                        with patch("builtins.open", mock_open()) as mock_file:
+                                            with patch("builtins.print"):
+                                                main()
 
-                                        # Should have processed the file
-                                        mock_file.assert_called()
+                                                # Should have processed the file
+                                                mock_file.assert_called()
 
     def test_main_file_reading_error(self):
         """Test main function when file reading fails."""
@@ -326,16 +334,24 @@ class TestMainFunction:
                             "pathlib.Path.rglob", return_value=[Path("test.py")]
                         ):
                             with patch(
-                                "pathlib.Path.read_text",
-                                side_effect=Exception("Read error"),
+                                "src.analysis.run.load_pattern_descriptions",
+                                return_value={}
                             ):
-                                with patch("builtins.print") as mock_print:
-                                    main()
-                                    # Should handle the error gracefully
-                                    assert any(
-                                        "Could not read file" in str(call)
-                                        for call in mock_print.call_args_list
-                                    )
+                                with patch(
+                                    "src.analysis.run.PATTERN_EXCLUSIVE_KEYWORDS_FILE.exists",
+                                    return_value=False
+                                ):
+                                    with patch(
+                                        "pathlib.Path.read_text",
+                                        side_effect=Exception("Read error"),
+                                    ):
+                                        with patch("builtins.print") as mock_print:
+                                            main()
+                                            # Should handle the error gracefully
+                                            assert any(
+                                                "Could not read file" in str(call)
+                                                for call in mock_print.call_args_list
+                                            )
 
 
 class TestConstants:

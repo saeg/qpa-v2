@@ -57,8 +57,7 @@ class TestKnowledgeBaseConsolidator:
             "qiskit": Path("/test/qiskit.csv")
         }), \
         patch('pandas.read_csv', side_effect=lambda path, **kwargs: mock_dataframes[path.stem]), \
-        patch.object(consolidator.kb_dir, 'mkdir'), \
-        patch.object(consolidator.output_file, 'parent', consolidator.kb_dir), \
+        patch('pathlib.Path.mkdir'), \
         patch('pandas.DataFrame.to_csv') as mock_to_csv:
             
             consolidator.consolidate_knowledge_base()
@@ -77,7 +76,7 @@ class TestKnowledgeBaseConsolidator:
         }), \
         patch('pathlib.Path.exists', side_effect=lambda path: path.name != "pennylane.csv"), \
         patch('pandas.read_csv') as mock_read_csv, \
-        patch.object(consolidator.kb_dir, 'mkdir'), \
+        patch('pathlib.Path.mkdir'), \
         patch('pandas.DataFrame.to_csv') as mock_to_csv:
             
             # Mock successful reads for existing files
@@ -268,7 +267,7 @@ class TestIntegration:
         }), \
         patch('pathlib.Path.exists', return_value=True), \
         patch('pandas.read_csv') as mock_read_csv, \
-        patch.object(consolidator.kb_dir, 'mkdir'), \
+        patch('pathlib.Path.mkdir'), \
         patch('pandas.DataFrame.to_csv') as mock_to_csv:
             
             # Mock successful reads
