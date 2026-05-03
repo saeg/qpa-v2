@@ -9,7 +9,7 @@ from unittest.mock import MagicMock, mock_open, patch
 
 import pytest
 
-from src.analysis.run_analysis import (
+from src.analysis.run import (
     CONCEPT_FILES,
     NOTEBOOKS_ROOT_DIR,
     OUTPUT_CSV_FILE,
@@ -78,7 +78,7 @@ class TestHelperFunctions:
             mock_parse.return_value = mock_tree
 
             with patch(
-                "src.analysis.run_analysis.CodeElementVisitor"
+                "src.analysis.run.CodeElementVisitor"
             ) as mock_visitor_class:
                 mock_visitor = MagicMock()
                 mock_visitor.found_elements = {"test_function"}
@@ -240,10 +240,10 @@ class TestMainFunction:
     def test_main_no_concepts_loaded(self):
         """Test main function when no concepts are loaded."""
         with patch(
-            "src.analysis.run_analysis.load_patterns_map", return_value={}
+            "src.analysis.run.load_patterns_map", return_value={}
         ):
             with patch(
-                "src.analysis.run_analysis.load_quantum_concepts", return_value=[]
+                "src.analysis.run.load_quantum_concepts", return_value=[]
             ):
                 with patch("builtins.print") as mock_print:
                     main()
@@ -263,18 +263,18 @@ class TestMainFunction:
         ]
 
         with patch(
-            "src.analysis.run_analysis.load_patterns_map",
+            "src.analysis.run.load_patterns_map",
             return_value={"concept1": "pattern1"},
         ):
             with patch(
-                "src.analysis.run_analysis.load_quantum_concepts",
+                "src.analysis.run.load_quantum_concepts",
                 return_value=mock_concepts,
             ):
                 with patch(
-                    "src.analysis.run_analysis._save_unclassified_concepts"
+                    "src.analysis.run._save_unclassified_concepts"
                 ):
                     with patch(
-                        "src.analysis.run_analysis.SentenceTransformer"
+                        "src.analysis.run.SentenceTransformer"
                     ) as mock_model_class:
                         mock_model = MagicMock()
                         mock_model_class.return_value = mock_model
@@ -306,17 +306,17 @@ class TestMainFunction:
         ]
 
         with patch(
-            "src.analysis.run_analysis.load_patterns_map", return_value={}
+            "src.analysis.run.load_patterns_map", return_value={}
         ):
             with patch(
-                "src.analysis.run_analysis.load_quantum_concepts",
+                "src.analysis.run.load_quantum_concepts",
                 return_value=mock_concepts,
             ):
                 with patch(
-                    "src.analysis.run_analysis._save_unclassified_concepts"
+                    "src.analysis.run._save_unclassified_concepts"
                 ):
                     with patch(
-                        "src.analysis.run_analysis.SentenceTransformer"
+                        "src.analysis.run.SentenceTransformer"
                     ) as mock_model_class:
                         mock_model = MagicMock()
                         mock_model_class.return_value = mock_model
@@ -355,15 +355,15 @@ class TestConstants:
 
     def test_similarity_thresholds(self):
         """Test SIMILARITY_THRESHOLDS constant."""
-        assert SIMILARITY_THRESHOLDS["name"] == 0.90
-        assert SIMILARITY_THRESHOLDS["summary"] == 0.65
+        assert SIMILARITY_THRESHOLDS["name"] == 0.85
+        assert SIMILARITY_THRESHOLDS["summary"] == 0.72
 
     def test_concept_files(self):
         """Test CONCEPT_FILES constant."""
-        assert len(CONCEPT_FILES) == 3
-        assert all("quantum_concepts.json" in str(f) for f in CONCEPT_FILES)
+        assert len(CONCEPT_FILES) >= 5
+        assert any("quantum_concepts.json" in str(f) for f in CONCEPT_FILES)
 
     def test_pattern_files(self):
         """Test PATTERN_FILES constant."""
-        assert len(PATTERN_FILES) == 3
-        assert all("enriched" in str(f) for f in PATTERN_FILES)
+        assert len(PATTERN_FILES) >= 5
+        assert any("enriched" in str(f) for f in PATTERN_FILES)

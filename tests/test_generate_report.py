@@ -23,7 +23,6 @@ from src.analysis.generate_report import (
     INPUT_CSV_FILE,
     REPORT_TXT_PATH,
     REPORT_MD_PATH,
-    LATEX_OUTPUT_DIR,
     CSV_OUTPUT_DIR,
     PATTERN_FILES,
     TOP_N_CONCEPTS,
@@ -478,7 +477,6 @@ class TestConstants:
         assert isinstance(INPUT_CSV_FILE, Path)
         assert isinstance(REPORT_TXT_PATH, Path)
         assert isinstance(REPORT_MD_PATH, Path)
-        assert isinstance(LATEX_OUTPUT_DIR, Path)
         assert isinstance(CSV_OUTPUT_DIR, Path)
         assert isinstance(PATTERN_FILES, list)
         assert isinstance(TOP_N_CONCEPTS, int)

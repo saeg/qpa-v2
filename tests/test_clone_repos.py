@@ -6,7 +6,7 @@ import subprocess
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-from src.preprocessing.clone_repos import TARGET_DIR, main, run_command
+from src.preprocessing.clone_repos import DEFAULT_TARGET_DIR, main, run_command
 
 
 class TestRunCommand:
@@ -168,5 +168,5 @@ class TestConstants:
     """Test module constants."""
 
     def test_target_dir_constant(self):
-        """Test TARGET_DIR constant."""
-        assert TARGET_DIR == Path("target_github_projects")
+        """Test DEFAULT_TARGET_DIR constant."""
+        assert DEFAULT_TARGET_DIR == Path("target_github_projects")
