@@ -76,11 +76,10 @@ class TestPDFGenerator:
 
         result = generator.markdown_to_html(markdown_content)
 
-        assert "<h1>Test Header</h1>" in result
+        assert "<h1 id=\"test-header\">Test Header</h1>" in result
         assert "<strong>bold</strong>" in result
-        # Note: markdown_to_html may or may not wrap in full HTML document
-        assert "Test Header" in result
-        assert "bold" in result
+        assert "<!DOCTYPE html>" in result
+        assert "<html lang=\"en\">" in result
 
     def test_markdown_to_html_with_code_blocks(self):
         """Test markdown to HTML conversion with code blocks."""
