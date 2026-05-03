@@ -1,0 +1,32 @@
+[
+  {
+    "name": "/dynamic/qutip/floquet_modes_table",
+    "summary": "floquet_modes_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qutip/process_fidelity",
+    "summary": "process_fidelity: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qutip/version_table",
+    "summary": "version_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

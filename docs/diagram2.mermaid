@@ -1,0 +1,34 @@
+---
+title: 'Figure 2: Project and Concept Processing Stage (Compact Version)'
+---
+%%{init: {'flowchart': {'nodeSpacing': 14, 'rankSpacing': 0}}}%%
+
+graph TD
+%% Input Data Artifacts from Previous Stage
+    B1[<strong>Project<br/>List</strong>]
+    A1[<strong>Pattern Definitions</strong><br/>]
+
+%% Processing Steps
+    C[<strong>3. Extract <br/>Concepts</strong><br/>]
+    D[<strong>4. Manual <br/>Classification</strong><br/>]
+    E[<strong>5. Extract <br/>Notebooks</strong><br/>]
+    F[<strong>6. Convert <br/>Notebooks</strong><br/>]
+
+
+%% Intermediate & Final Data Artifacts of this stage
+    D1[<strong>Python <br/>Files</strong><br/>]
+    F1[<strong>Classified <br/>Concepts</strong><br/>]
+
+%% Connections
+    B1 --> C --> D
+    A1 --> D --> F1
+    B1 --> E --> F --> D1
+
+
+
+    classDef process fill:white,color:black,stroke:black,stroke-width:2px,font-size:20px
+    classDef data fill:white,color:black,stroke:black,stroke-width:1px,stroke-dasharray: 3 3,font-size:20px
+
+%% Apply styles
+    class B1,A1,D1,F1 data
+    class C,D,E,F process

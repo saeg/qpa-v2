@@ -1,0 +1,26 @@
+name,summary,pattern
+dynamic/qibo/AAVQE,AAVQE: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qibo/FALQON,FALQON: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qibo/FanOut,FanOut: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qibo/Grover,Grover: implementation of the Grover pattern.,Grover
+dynamic/qibo/IQAE,IQAE: implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+dynamic/qibo/IterativeAmplitudeEstimationResult,IterativeAmplitudeEstimationResult: implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+dynamic/qibo/QAOA,QAOA: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qibo/QFT,QFT: implementation of the Basis Change pattern.,Basis Change
+dynamic/qibo/QuantumCNN,QuantumCNN: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/qibo/VQE,VQE: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qibo/a_fidelity,a_fidelity: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/qibo/blocks_logical_qubits_pairs,blocks_logical_qubits_pairs: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qibo/comp_basis_encoder,comp_basis_encoder: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qibo/construct_qae_circuit,construct_qae_circuit: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/qibo/decompose,decompose: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qibo/graph_state,graph_state: implementation of the Creating Entanglement pattern.,Creating Entanglement
+dynamic/qibo/hadamard_transform,hadamard_transform: implementation of the Basis Change pattern.,Basis Change
+dynamic/qibo/iterative_grover,iterative_grover: implementation of the Grover pattern.,Grover
+dynamic/qibo/logical_pair_to_physical,logical_pair_to_physical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qibo/logical_to_physical,logical_to_physical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qibo/parameter_shift,parameter_shift: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qibo/physical_to_logical,physical_to_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qibo/qPDF,qPDF: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qibo/two_qubit_decomposition,two_qubit_decomposition: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qibo/vqe_loss,vqe_loss: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)

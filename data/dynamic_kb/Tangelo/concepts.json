@@ -1,0 +1,172 @@
+[
+  {
+    "name": "/dynamic/Tangelo/IterativeQPEControl",
+    "summary": "IterativeQPEControl: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/IterativeQPESolver",
+    "summary": "IterativeQPESolver: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/QPESolver",
+    "summary": "QPESolver: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/SA_VQESolver",
+    "summary": "SA_VQESolver: implementation of the Variational Quantum Eigensolver (VQE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/VQESolver",
+    "summary": "VQESolver: implementation of the Variational Quantum Eigensolver (VQE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/VariationalCircuitAnsatz",
+    "summary": "VariationalCircuitAnsatz: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/append_qft_rotations_gates",
+    "summary": "append_qft_rotations_gates: implementation of the Basis Change pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/entangler_circuit",
+    "summary": "entangler_circuit: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/fix_variational_parameters",
+    "summary": "fix_variational_parameters: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/get_qft_circuit",
+    "summary": "get_qft_circuit: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/get_qsp_hamiltonian_simulation_circuit",
+    "summary": "get_qsp_hamiltonian_simulation_circuit: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/get_qsp_hamiltonian_simulation_qubit_list",
+    "summary": "get_qsp_hamiltonian_simulation_qubit_list: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/get_resources",
+    "summary": "get_resources: implementation of the Variational Quantum Eigensolver (VQE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/is_variational",
+    "summary": "is_variational: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/merge_rotations",
+    "summary": "merge_rotations: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/sign_flip",
+    "summary": "sign_flip: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Tangelo/translate_tableau",
+    "summary": "translate_tableau: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

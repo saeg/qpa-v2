@@ -1,0 +1,10 @@
+name,summary,pattern
+dynamic/qclib/CvoqramInitialize,CvoqramInitialize: implementation of the Initialization pattern.,Initialization
+dynamic/qclib/CvqramInitialize,CvqramInitialize: implementation of the Initialization pattern.,Initialization
+dynamic/qclib/FnPointsInitialize,FnPointsInitialize: implementation of the Initialization pattern.,Initialization
+dynamic/qclib/MCU,MCU: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qclib/MultiTargetMCSU2,MultiTargetMCSU2: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qclib/Qdmcu,Qdmcu: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qclib/Ucr,Ucr: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/qclib/decompose,decompose: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qclib/logical_swap,logical_swap: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

@@ -1,0 +1,37 @@
+file_path,ground_truth_pattern
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py,Linear Combination of Unitaries
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py,Linear Combination of Unitaries
+documentation/source/general/tutorial/BigInteger.py,Basis Change
+documentation/source/general/tutorial/BigInteger.py,Quantum Phase Estimation (QPE)
+documentation/source/general/tutorial/CD.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/FT_compilation.py,Basis Change
+documentation/source/general/tutorial/GQSP_filtering.py,Linear Combination of Unitaries
+documentation/source/general/tutorial/H2.py,Hamiltonian Simulation
+documentation/source/general/tutorial/H2.py,Initialization
+documentation/source/general/tutorial/HHL.py,Initialization
+documentation/source/general/tutorial/HHL.py,Quantum Phase Estimation (QPE)
+documentation/source/general/tutorial/Jasp.py,Quantum Arithmetic
+documentation/source/general/tutorial/JaspQAOAtutorial.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/JaspQAOAtutorial.py,Variational Quantum Algorithm (VQA)
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py,Grover
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py,Hamiltonian Simulation
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py,Initialization
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/QIROtutorial.py,Quantum Approximate Optimization Algorithm (QAOA)
+documentation/source/general/tutorial/QMCItutorial.py,Quantum Amplitude Estimation
+documentation/source/general/tutorial/Shor.py,Basis Change
+documentation/source/general/tutorial/Shor.py,Quantum Phase Estimation (QPE)
+documentation/source/general/tutorial/Sudoku.py,Amplitude Amplification
+documentation/source/general/tutorial/Sudoku.py,Grover
+documentation/source/general/tutorial/Sudoku.py,Quantum Phase Estimation (QPE)
+documentation/source/general/tutorial/TSP.py,Grover
+documentation/source/general/tutorial/TSP.py,Quantum Phase Estimation (QPE)
+documentation/source/general/tutorial/tutorial.py,Amplitude Amplification
+documentation/source/general/tutorial/tutorial.py,Basis Change
+documentation/source/general/tutorial/tutorial.py,Grover
+documentation/source/general/tutorial/tutorial.py,Quantum Phase Estimation (QPE)
+src/qrisp/examples/jasp_demo.py,Quantum Arithmetic

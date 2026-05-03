@@ -1,0 +1,11 @@
+{
+  "notebook": "Shor",
+  "url": "https://raw.githubusercontent.com/eclipse-qrisp/Qrisp/main/documentation/source/general/tutorial/Shor.ipynb",
+  "expected_patterns": [
+    "Quantum Phase Estimation (QPE)",
+    "Quantum Arithmetic"
+  ],
+  "raw_call_count": 0,
+  "quantum_call_count": 0,
+  "sequence": []
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "/dynamic/tensorflow-quantum/Differentiator",
+    "summary": "Differentiator: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/tensorflow-quantum/NoisyPQC",
+    "summary": "NoisyPQC: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/tensorflow-quantum/SampledExpectation",
+    "summary": "SampledExpectation: implementation of the Domain Specific Application pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/tensorflow-quantum/test_dnn_qnn_dnn",
+    "summary": "test_dnn_qnn_dnn: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

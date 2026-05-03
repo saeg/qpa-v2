@@ -1,0 +1,62 @@
+[
+  {
+    "name": "/dynamic/blueqatSDK/OneQubitGate",
+    "summary": "OneQubitGate: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/blueqatSDK/QaoaAnsatz",
+    "summary": "QaoaAnsatz: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/blueqatSDK/TwoQubitGate",
+    "summary": "TwoQubitGate: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/blueqatSDK/Vqe",
+    "summary": "Vqe: implementation of the Variational Quantum Eigensolver (VQE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/blueqatSDK/VqeResult",
+    "summary": "VqeResult: implementation of the Variational Quantum Eigensolver (VQE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/blueqatSDK/qaoa",
+    "summary": "qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "/dynamic/metriq-gym/qaoa_circuit",
+    "summary": "qaoa_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/metriq-gym/to_table_row",
+    "summary": "to_table_row: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

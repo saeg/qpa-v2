@@ -1,0 +1,182 @@
+[
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/balanced_oracle",
+    "summary": "balanced_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/build_grover_circuit",
+    "summary": "build_grover_circuit: implementation of the Grover pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/build_oracle",
+    "summary": "build_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/build_oracle_circuit",
+    "summary": "build_oracle_circuit: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/constant_oracle",
+    "summary": "constant_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/controlled_grover_circuit",
+    "summary": "controlled_grover_circuit: implementation of the Grover pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/get_cost",
+    "summary": "get_cost: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/get_quantum_phase_estimation_results",
+    "summary": "get_quantum_phase_estimation_results: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/grovers_search",
+    "summary": "grovers_search: implementation of the Grover pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/imag_time_propogator_qaee",
+    "summary": "imag_time_propogator_qaee: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/qaoa",
+    "summary": "qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/qft",
+    "summary": "qft: implementation of the Basis Change pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/quantum_phase_estimation",
+    "summary": "quantum_phase_estimation: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/quantum_phase_estimation_circuit",
+    "summary": "quantum_phase_estimation_circuit: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/random_circuit",
+    "summary": "random_circuit: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/run_qaoa_circuit",
+    "summary": "run_qaoa_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/run_quantum_phase_estimation",
+    "summary": "run_quantum_phase_estimation: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-algorithm-library/simons_oracle",
+    "summary": "simons_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

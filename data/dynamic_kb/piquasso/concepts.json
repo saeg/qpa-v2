@@ -1,0 +1,22 @@
+[
+  {
+    "name": "/dynamic/piquasso/ControlledPhase",
+    "summary": "ControlledPhase: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/piquasso/fidelity",
+    "summary": "fidelity: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

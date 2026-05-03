@@ -1,0 +1,3 @@
+name,summary,pattern
+dynamic/oqpy/logical_and,logical_and: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/oqpy/logical_or,logical_or: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

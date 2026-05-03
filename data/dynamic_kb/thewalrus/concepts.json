@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/thewalrus/fidelity",
+    "summary": "fidelity: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

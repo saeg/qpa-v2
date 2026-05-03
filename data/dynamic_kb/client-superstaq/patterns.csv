@@ -1,0 +1,9 @@
+name,summary,pattern
+dynamic/client-superstaq/ParallelGates,ParallelGates: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/client-superstaq/RGate,RGate: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/client-superstaq/change_x_to_z_basis,change_x_to_z_basis: implementation of the Basis Change pattern.,Basis Change
+dynamic/client-superstaq/final_logical_to_physical,final_logical_to_physical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/client-superstaq/initial_logical_to_physical,initial_logical_to_physical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/client-superstaq/parallel_gates_operation,parallel_gates_operation: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/client-superstaq/random_clifford,random_clifford: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/client-superstaq/test_logical_to_physicals,test_logical_to_physicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

@@ -1,0 +1,232 @@
+[
+  {
+    "name": "/dynamic/qecc/StabilizerTableau",
+    "summary": "StabilizerTableau: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/check_if_logical_error",
+    "summary": "check_if_logical_error: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/check_if_logical_x_error",
+    "summary": "check_if_logical_x_error: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/check_if_logical_z_error",
+    "summary": "check_if_logical_z_error: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/check_path_on_logical",
+    "summary": "check_path_on_logical: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/check_path_on_logical_st",
+    "summary": "check_path_on_logical_st: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/compute_logical",
+    "summary": "compute_logical: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/depth_optimal_encoding_circuit",
+    "summary": "depth_optimal_encoding_circuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/dss_logical_error_rates",
+    "summary": "dss_logical_error_rates: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/gate_optimal_encoding_circuit",
+    "summary": "gate_optimal_encoding_circuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/gen_pcm_and_logical",
+    "summary": "gen_pcm_and_logical: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/generate_max_parallel_circuit",
+    "summary": "generate_max_parallel_circuit: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/get_logical_operator_basis",
+    "summary": "get_logical_operator_basis: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/get_logical_x",
+    "summary": "get_logical_x: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/get_logical_z",
+    "summary": "get_logical_z: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/get_logicals",
+    "summary": "get_logicals: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/gottesman_encoding_circuit",
+    "summary": "gottesman_encoding_circuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/heuristic_encoding_circuit",
+    "summary": "heuristic_encoding_circuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/logical_error_rate",
+    "summary": "logical_error_rate: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/mc_logical_error_rates",
+    "summary": "mc_logical_error_rates: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/secondary_logical_error_rate",
+    "summary": "secondary_logical_error_rate: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/x_logicals_as_pauli_strings",
+    "summary": "x_logicals_as_pauli_strings: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qecc/z_logicals_as_pauli_strings",
+    "summary": "z_logicals_as_pauli_strings: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

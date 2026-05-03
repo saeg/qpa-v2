@@ -1,0 +1,18 @@
+name,summary,pattern
+dynamic/merlin/CircuitConverter,CircuitConverter: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/merlin/EncodingModeConfig,EncodingModeConfig: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/merlin/FeatureMap,FeatureMap: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/merlin/FeedForwardBlockLegacy,FeedForwardBlockLegacy: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/merlin/FidelityKernel,FidelityKernel: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/merlin/GenericInterferometer,GenericInterferometer: implementation of the Domain Specific Application pattern.,Domain Specific Application
+dynamic/merlin/InitializationContext,InitializationContext: implementation of the Initialization pattern.,Initialization
+dynamic/merlin/NKernelAlignment,NKernelAlignment: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/merlin/QuantumLayer,QuantumLayer: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/merlin/SamplingProcess,SamplingProcess: implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+dynamic/merlin/add_angle_encoding,add_angle_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/merlin/angle_encoding,angle_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/merlin/angle_encoding_specs,angle_encoding_specs: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/merlin/apply_angle_encoding,apply_angle_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/merlin/forward,forward: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/merlin/prepare_input_encoding,prepare_input_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/merlin/validate_encoding_mode,validate_encoding_mode: implementation of the Data Encoding pattern.,Data Encoding

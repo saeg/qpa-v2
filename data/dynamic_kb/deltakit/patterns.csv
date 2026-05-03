@@ -1,0 +1,45 @@
+name,summary,pattern
+dynamic/deltakit/InvertiblePauliGate,InvertiblePauliGate: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/deltakit/LogicalErrorProbabilityPerRoundData,LogicalErrorProbabilityPerRoundData: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/LogicalErrorProbabilityPerRoundResult,LogicalErrorProbabilityPerRoundResult: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/LogicalsInEdges,LogicalsInEdges: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/OneQubitCliffordGate,OneQubitCliffordGate: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/deltakit/OneQubitMeasurementGate,OneQubitMeasurementGate: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/deltakit/b8_to_logical_flip,b8_to_logical_flip: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/calculate_number_of_logical_qubits,calculate_number_of_logical_qubits: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/check_logical_operators_are_independent,check_logical_operators_are_independent: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/compute_graph_distance_for_logical,compute_graph_distance_for_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/compute_logical_error_per_round,compute_logical_error_per_round: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/css_code_compute_logicals,css_code_compute_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/decode_batch_to_logical_flip,decode_batch_to_logical_flip: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/decode_to_logical_flip,decode_to_logical_flip: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/dem_to_decoding_graph_and_logicals,dem_to_decoding_graph_and_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/dem_to_hypergraph_and_logicals,dem_to_hypergraph_and_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/encode_logical_pluses,encode_logical_pluses: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/encode_logical_zeroes,encode_logical_zeroes: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/error_distribution_over_logicals,error_distribution_over_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/errors_per_logical,errors_per_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/extract_logicals,extract_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/fails_per_logical,fails_per_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/get_logical_error_probability,get_logical_error_probability: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/get_logical_operators_from_css_parity_check_matrices,get_logical_operators_from_css_parity_check_matrices: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/get_logical_operators_from_tableau,get_logical_operators_from_tableau: implementation of the Function Table pattern.,Function Table
+dynamic/deltakit/get_num_errors_on_logical,get_num_errors_on_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/get_shifted_logicals,get_shifted_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/get_str_logical_operators_from_tableau,get_str_logical_operators_from_tableau: implementation of the Function Table pattern.,Function Table
+dynamic/deltakit/get_unique_logical_window_ids,get_unique_logical_window_ids: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/inverse_logical_at_boundary,inverse_logical_at_boundary: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/is_logical_along_boundary,is_logical_along_boundary: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/logical_flips_to_b8_file,logical_flips_to_b8_file: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/logicals,logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/logicals_edge_list,logicals_edge_list: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/measure_x_logicals,measure_x_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/measure_z_logicals,measure_z_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/number_of_logicals,number_of_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/overwrite_logicals,overwrite_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/parse_01_to_logical_flips,parse_01_to_logical_flips: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/pauli_gates,pauli_gates: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/deltakit/plot_logical_error_probability_per_round,plot_logical_error_probability_per_round: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/separate_logicals_by_window_id,separate_logicals_by_window_id: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/x_logical_operators,x_logical_operators: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/deltakit/z_logical_operators,z_logical_operators: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

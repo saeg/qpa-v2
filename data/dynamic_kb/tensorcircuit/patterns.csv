@@ -1,0 +1,22 @@
+name,summary,pattern
+dynamic/tensorcircuit/QAOA_ansatz_for_Ising,QAOA_ansatz_for_Ising: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/QAOA_block,QAOA_block: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/QAOA_circuit,QAOA_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/QAOA_loss,QAOA_loss: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/QUBO_QAOA,QUBO_QAOA: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/QUBO_QAOA_cvar,QUBO_QAOA_cvar: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/amplitude_encoding,amplitude_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/tensorcircuit/dynamics_rhs,dynamics_rhs: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/tensorcircuit/gatewise_vqe_vag,gatewise_vqe_vag: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/tensorcircuit/get_logical_physical_mapping,get_logical_physical_mapping: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/tensorcircuit/get_positional_logical_mapping,get_positional_logical_mapping: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/tensorcircuit/parallel_qaoa_train,parallel_qaoa_train: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/qaoa_block_vag,qaoa_block_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/qaoa_noise_vag,qaoa_noise_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/qaoa_simple_train,qaoa_simple_train: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/qaoa_train,qaoa_train: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/qaoa_vag,qaoa_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/quantum_mp_qaoa_vag,quantum_mp_qaoa_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/quantum_qaoa_vag,quantum_qaoa_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit/vqe_energy,vqe_energy: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/tensorcircuit/vqe_energy_shortcut,vqe_energy_shortcut: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)

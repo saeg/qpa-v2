@@ -1,0 +1,522 @@
+[
+  {
+    "name": "/dynamic/squlearn/BaseQNN",
+    "summary": "BaseQNN: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/ComposedEncodingCircuit",
+    "summary": "ComposedEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/ConvertedLayeredEncodingCircuit",
+    "summary": "ConvertedLayeredEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/EncodingCircuitBase",
+    "summary": "EncodingCircuitBase: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/EncodingCircuitDerivatives",
+    "summary": "EncodingCircuitDerivatives: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/EncodingSlotsMismatchError",
+    "summary": "EncodingSlotsMismatchError: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/FidelityKernelExpectationValue",
+    "summary": "FidelityKernelExpectationValue: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/HighDimEncodingCircuit",
+    "summary": "HighDimEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/HubregtsenEncodingCircuit",
+    "summary": "HubregtsenEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/InvertedEncodingCircuit",
+    "summary": "InvertedEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/KernelOptimizer",
+    "summary": "KernelOptimizer: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/KyriienkoEncodingCircuit",
+    "summary": "KyriienkoEncodingCircuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/LayeredEncodingCircuit",
+    "summary": "LayeredEncodingCircuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/LowLevelQNN",
+    "summary": "LowLevelQNN: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/LowLevelQNNBase",
+    "summary": "LowLevelQNNBase: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/LowLevelQNNPennyLane",
+    "summary": "LowLevelQNNPennyLane: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/LowLevelQNNQiskit",
+    "summary": "LowLevelQNNQiskit: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/LowLevelQNNQulacs",
+    "summary": "LowLevelQNNQulacs: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/MultiControlEncodingCircuit",
+    "summary": "MultiControlEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/PrunedEncodingCircuit",
+    "summary": "PrunedEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QCNNEncodingCircuit",
+    "summary": "QCNNEncodingCircuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QGPR",
+    "summary": "QGPR: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QKRR",
+    "summary": "QKRR: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QNNClassifier",
+    "summary": "QNNClassifier: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QNNLossBase",
+    "summary": "QNNLossBase: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QNNRegressor",
+    "summary": "QNNRegressor: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QNN_gradient",
+    "summary": "QNN_gradient: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QRCClassifier",
+    "summary": "QRCClassifier: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QRCRegressor",
+    "summary": "QRCRegressor: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QSVC",
+    "summary": "QSVC: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QSVR",
+    "summary": "QSVR: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/QiskitEncodingCircuit",
+    "summary": "QiskitEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/RandomEncodingCircuit",
+    "summary": "RandomEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/RandomLayeredEncodingCircuit",
+    "summary": "RandomLayeredEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/TargetAlignment",
+    "summary": "TargetAlignment: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/TranspiledEncodingCircuit",
+    "summary": "TranspiledEncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/YZ_CX_EncodingCircuit",
+    "summary": "YZ_CX_EncodingCircuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/create_from_encoding_circuits",
+    "summary": "create_from_encoding_circuits: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/encoding_circuit",
+    "summary": "encoding_circuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/encoding_style",
+    "summary": "encoding_style: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/evaluate_qnn",
+    "summary": "evaluate_qnn: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/feature_vector",
+    "summary": "feature_vector: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/final_encoding",
+    "summary": "final_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/num_encoding_layers",
+    "summary": "num_encoding_layers: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/num_encoding_slots",
+    "summary": "num_encoding_slots: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/num_variational_layers",
+    "summary": "num_variational_layers: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/origin_encoding_circuit",
+    "summary": "origin_encoding_circuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/qnn",
+    "summary": "qnn: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/set_quantum_kernel",
+    "summary": "set_quantum_kernel: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/to_encoding_circuit",
+    "summary": "to_encoding_circuit: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/variational_arrangement",
+    "summary": "variational_arrangement: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/squlearn/variational_gate_block",
+    "summary": "variational_gate_block: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

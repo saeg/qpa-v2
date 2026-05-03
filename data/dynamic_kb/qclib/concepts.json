@@ -1,0 +1,92 @@
+[
+  {
+    "name": "/dynamic/qclib/CvoqramInitialize",
+    "summary": "CvoqramInitialize: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/CvqramInitialize",
+    "summary": "CvqramInitialize: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/FnPointsInitialize",
+    "summary": "FnPointsInitialize: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/MCU",
+    "summary": "MCU: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/MultiTargetMCSU2",
+    "summary": "MultiTargetMCSU2: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/Qdmcu",
+    "summary": "Qdmcu: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/Ucr",
+    "summary": "Ucr: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/decompose",
+    "summary": "decompose: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qclib/logical_swap",
+    "summary": "logical_swap: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

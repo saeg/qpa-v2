@@ -1,0 +1,142 @@
+[
+  {
+    "name": "/dynamic/quimb/MPS_computational_state",
+    "summary": "MPS_computational_state: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/build_pascal_table",
+    "summary": "build_pascal_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/circ_a2a_rand",
+    "summary": "circ_a2a_rand: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/circ_ansatz_1D_rand",
+    "summary": "circ_ansatz_1D_rand: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/circ_qaoa",
+    "summary": "circ_qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/cprint",
+    "summary": "cprint: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/crx_param_gen",
+    "summary": "crx_param_gen: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/cry_param_gen",
+    "summary": "cry_param_gen: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/crz_param_gen",
+    "summary": "crz_param_gen: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/dynamic_random",
+    "summary": "dynamic_random: implementation of the Dynamic Circuit pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/fidelity",
+    "summary": "fidelity: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/gates_qaoa",
+    "summary": "gates_qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/get_pascal_table",
+    "summary": "get_pascal_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/quimb/rotation",
+    "summary": "rotation: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "/dynamic/client-superstaq/ParallelGates",
+    "summary": "ParallelGates: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/client-superstaq/RGate",
+    "summary": "RGate: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/client-superstaq/change_x_to_z_basis",
+    "summary": "change_x_to_z_basis: implementation of the Basis Change pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/client-superstaq/final_logical_to_physical",
+    "summary": "final_logical_to_physical: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/client-superstaq/initial_logical_to_physical",
+    "summary": "initial_logical_to_physical: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/client-superstaq/parallel_gates_operation",
+    "summary": "parallel_gates_operation: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/client-superstaq/random_clifford",
+    "summary": "random_clifford: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/client-superstaq/test_logical_to_physicals",
+    "summary": "test_logical_to_physicals: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

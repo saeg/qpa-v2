@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/OpenFermion-FQE/adapt_vqe",
+    "summary": "adapt_vqe: implementation of the Variational Quantum Eigensolver (VQE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

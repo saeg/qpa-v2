@@ -1,0 +1,72 @@
+[
+  {
+    "name": "/dynamic/pyquil/AbstractQuantumSimulator",
+    "summary": "AbstractQuantumSimulator: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/pyquil/ArithmeticBinaryOp",
+    "summary": "ArithmeticBinaryOp: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/pyquil/DefPermutationGate",
+    "summary": "DefPermutationGate: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/pyquil/LogicalBinaryOp",
+    "summary": "LogicalBinaryOp: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/pyquil/Pow",
+    "summary": "Pow: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/pyquil/get_qubits",
+    "summary": "get_qubits: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/pyquil/recalculation_table",
+    "summary": "recalculation_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

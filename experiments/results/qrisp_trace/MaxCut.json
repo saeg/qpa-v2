@@ -1,0 +1,10 @@
+{
+  "notebook": "MaxCut",
+  "url": "https://raw.githubusercontent.com/eclipse-qrisp/Qrisp/main/documentation/source/general/tutorial/QAOAtutorial/MaxCut.ipynb",
+  "expected_patterns": [
+    "Quantum Approximate Optimization Algorithm (QAOA)"
+  ],
+  "raw_call_count": 0,
+  "quantum_call_count": 0,
+  "sequence": []
+}

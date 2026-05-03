@@ -1,0 +1,81 @@
+file_path;concept_name;pattern;match_type;matched_text;similarity_score;first_line
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;/pennylane/pennylane.templates.subroutines.fable.FABLE;Linear Combination of Unitaries;title;BlockEncoding class 101: Block encoding, LCU, resource estimation In classical computer science, we often perform operations directly on matrices, suc...;0.7566;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;pattern:Linear Combination of Unitaries;Linear Combination of Unitaries;pattern_desc;!/usr/bin/env python coding: utf-8 BlockEncoding class 101: Block encoding, LCU, resource estimation In classical computer science, we often perform o...;0.7355;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block encoding, block-encoding, lcu, qsp, quantum signal processing;0.6250;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;BlockEncoding;1.0000;167
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block encoding, block-encoding, gqsp, lcu, qsp, qsvt, quantum signal processing,;0.9900;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;phase estimation, qpe, quantum phase estimation;0.5000;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;/pennylane/pennylane.templates.subroutines.qubitization.Qubitization;Hamiltonian Simulation;name;qubitization;1.0000;63
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;from_lcu;1.0000;591
+documentation/source/general/tutorial/BigInteger.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;caller:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);caller;shor_ops_kernel() calls QFT();1.0000;254
+documentation/source/general/tutorial/FT_compilation.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;281
+documentation/source/general/tutorial/FT_compilation.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;281
+documentation/source/general/tutorial/FT_compilation.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;281
+documentation/source/general/tutorial/FT_compilation.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;281
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block-encoding, gqsp, lcu, qsp, quantum signal processing;0.6250;0
+documentation/source/general/tutorial/GQSP_filtering.py;/pennylane/pennylane.templates.subroutines.reflection.Reflection;Amplitude Amplification;name;reflection;1.0000;369
+documentation/source/general/tutorial/GQSP_filtering.py;/classiq/open_library.functions.qsvt.gqsp;Linear Combination of Unitaries;name;GQSP;1.0000;379
+documentation/source/general/tutorial/GQSP_filtering.py;/pennylane/pennylane.templates.subroutines.gqsp.GQSP;Linear Combination of Unitaries;name;GQSP;1.0000;379
+documentation/source/general/tutorial/GQSP_filtering.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;GQSP;1.0000;379
+documentation/source/general/tutorial/H2.py;pattern:Hamiltonian Simulation;Hamiltonian Simulation;pattern_desc;!/usr/bin/env python coding: utf-8 Simulating the dynamics of the \$H_2\$ molecule $$ \def\CC{\bf C} \def\QQ{\bf Q} \def\RR{\bf R} \def\ZZ{\bf Z} \def...;0.6599;0
+documentation/source/general/tutorial/H2.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;trotterization;1.0000;222
+documentation/source/general/tutorial/H2.py;kw_name:Initialization;Initialization;keyword_name;state_prep;1.0000;242
+documentation/source/general/tutorial/HHL.py;pattern:Linear Combination of Unitaries;Linear Combination of Unitaries;pattern_desc;!/usr/bin/env python coding: utf-8 Solving linear system problems with HHL The Harrow-Hassidim-Lloyd (HHL) quantum algorithm offers an exponential spe...;0.6882;0
+documentation/source/general/tutorial/HHL.py;kw_name:Initialization;Initialization;keyword_name;dicke_state;1.0000;91
+documentation/source/general/tutorial/HHL.py;/classiq/open_library.functions.qpe.qpe;Quantum Phase Estimation (QPE);name;QPE;1.0000;132
+documentation/source/general/tutorial/HHL.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;QPE;1.0000;132
+documentation/source/general/tutorial/HHL.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;trotterization;1.0000;210
+documentation/source/general/tutorial/Jasp.py;/qiskit/qiskit.circuit.library.arithmetic.multipliers.rg_qft_multiplier.RGQFTMultiplier;Quantum Arithmetic;name;RGQFTMultiplier;1.0000;29
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;maxcut, mixer, qaoa;0.3750;0
+documentation/source/general/tutorial/JaspQAOAtutorial.py;caller:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);caller;ansatz() calls apply_mixer();1.0000;156
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;apply_mixer;1.0000;164
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_name:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_name;create_ansatz;1.0000;180
+documentation/source/general/tutorial/JaspQAOAtutorial.py;caller:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);caller;qaoa() calls create_ansatz();1.0000;202
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;maxcut, mixer, qaoa;0.3750;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;constrained_mixer;1.0000;168
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;hamiltonian_evolution;1.0000;317
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;/qiskit-algorithms/qiskit_algorithms.minimum_eigensolvers.qaoa.QAOA;Quantum Approximate Optimization Algorithm (QAOA);title;MaxCut QAOA Implementation Welcome to our Quantum Approximate Optimization Algorithm (QAOA) implementation tutorial for the MaxCut problem! This tutor...;0.8202;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;maxcut, mixer, qaoa, quantum approximate optimization;0.5000;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;apply_mixer;1.0000;79
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;caller:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);caller;maxcut_cost_funct() calls maxcut_obj();1.0000;113
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;maxcut, mixer, qaoa;0.3750;0
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;caller:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);caller;apply_XY_mixer() calls XY_mixer();1.0000;210
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;QAOAProblem;1.0000;239
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Initialization;Initialization;keyword_name;dicke_state;1.0000;141
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;portfolio_mixer;1.0000;272
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;QAOAProblem;1.0000;167
+documentation/source/general/tutorial/QIROtutorial.py;/qiskit-algorithms/qiskit_algorithms.minimum_eigensolvers.qaoa.QAOA;Quantum Approximate Optimization Algorithm (QAOA);title;Quantum-Informed Recursive Optimization This tutorial will give you an overview of problem specific implementations for solving optimization problems ...;0.9210;0
+documentation/source/general/tutorial/QIROtutorial.py;pattern:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);pattern_desc;!/usr/bin/env python coding: utf-8 Quantum-Informed Recursive Optimization This tutorial will give you an overview of problem specific implementations...;0.6670;0
+documentation/source/general/tutorial/QIROtutorial.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;mixer, qaoa, quantum approximate optimization;0.3750;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;amplitude estimation, iqae, qae;0.5000;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;IQAE;1.0000;147
+documentation/source/general/tutorial/Shor.py;pattern:Quantum Arithmetic;Quantum Arithmetic;pattern_desc;!/usr/bin/env python coding: utf-8 Factoring integers using Shor's Algorithm In the realm of quantum computing, where classical limitations are challe...;0.6553;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;phase estimation, qpe, quantum phase estimation;0.5000;0
+documentation/source/general/tutorial/Shor.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;171
+documentation/source/general/tutorial/Shor.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;171
+documentation/source/general/tutorial/Shor.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;171
+documentation/source/general/tutorial/Shor.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;171
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;phase estimation, qpe, quantum phase estimation;0.5000;0
+documentation/source/general/tutorial/Sudoku.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;qstep_diffuser;1.0000;168
+documentation/source/general/tutorial/Sudoku.py;kw_name:Grover;Grover;keyword_name;qstep_diffuser;1.0000;168
+documentation/source/general/tutorial/Sudoku.py;/qiskit/qiskit.circuit.library.phase_estimation.PhaseEstimation;Quantum Phase Estimation (QPE);name;estimate_phase;0.8563;805
+documentation/source/general/tutorial/Sudoku.py;/qiskit-algorithms/qiskit_algorithms.phase_estimators.phase_estimation.PhaseEstimation;Quantum Phase Estimation (QPE);name;estimate_phase;0.8563;805
+documentation/source/general/tutorial/Sudoku.py;/qiskit-algorithms/qiskit_algorithms.phase_estimators.phase_estimator.PhaseEstimator;Quantum Phase Estimation (QPE);name;estimate_phase;0.8571;805
+documentation/source/general/tutorial/TSP.py;caller:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);caller;qpe_calc_perm_travel_distance() calls QPE();1.0000;181
+documentation/source/general/tutorial/TSP.py;/classiq/open_library.functions.qpe.qpe;Quantum Phase Estimation (QPE);name;QPE;1.0000;183
+documentation/source/general/tutorial/TSP.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;qpe_calc_perm_travel_distance;1.0000;203
+documentation/source/general/tutorial/tutorial.py;pattern:Amplitude Amplification;Amplitude Amplification;pattern_desc;!/usr/bin/env python coding: utf-8 Getting familiar with Qrisp Congratulations, you made it to your first Qrisp tutorial! This tutorial is designed to...;0.6870;0
+documentation/source/general/tutorial/tutorial.py;pattern:Grover;Grover;pattern_desc;!/usr/bin/env python coding: utf-8 Getting familiar with Qrisp Congratulations, you made it to your first Qrisp tutorial! This tutorial is designed to...;0.6839;0
+documentation/source/general/tutorial/tutorial.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;diffuser;1.0000;218
+documentation/source/general/tutorial/tutorial.py;kw_name:Grover;Grover;keyword_name;diffuser;1.0000;218
+documentation/source/general/tutorial/tutorial.py;caller:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);caller;QPE() calls QFT();1.0000;245
+documentation/source/general/tutorial/tutorial.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;/classiq/open_library.functions.qpe.qpe;Quantum Phase Estimation (QPE);name;QPE;1.0000;286
+documentation/source/general/tutorial/tutorial.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;QPE;1.0000;286

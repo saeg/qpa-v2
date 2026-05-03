@@ -1,0 +1,902 @@
+[
+  {
+    "name": "/dynamic/Qualtran/AddScaledValIntoPhaseReg",
+    "summary": "AddScaledValIntoPhaseReg: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/BitEncoding",
+    "summary": "BitEncoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/BlackBoxKikuchiEntryOracle",
+    "summary": "BlackBoxKikuchiEntryOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/BlackBoxKikuchiRowColumnOracle",
+    "summary": "BlackBoxKikuchiRowColumnOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/BlockEncoding",
+    "summary": "BlockEncoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/ComplexPhaseOracle",
+    "summary": "ComplexPhaseOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/DoubleFactorizationBlockEncoding",
+    "summary": "DoubleFactorizationBlockEncoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/EntryOracle",
+    "summary": "EntryOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/ExplicitEntryOracle",
+    "summary": "ExplicitEntryOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/GroverEncoder",
+    "summary": "GroverEncoder: implementation of the Grover pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/GroverSynthesizer",
+    "summary": "GroverSynthesizer: implementation of the Grover pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/GuidedHamiltonianPhaseEstimation",
+    "summary": "GuidedHamiltonianPhaseEstimation: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/HamiltonianSimulationByGQSP",
+    "summary": "HamiltonianSimulationByGQSP: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/IntState",
+    "summary": "IntState: implementation of the Amplitude Amplification pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/LCUBlockEncoding",
+    "summary": "LCUBlockEncoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/LogicalErrorModel",
+    "summary": "LogicalErrorModel: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/PrepareOracle",
+    "summary": "PrepareOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/QFTPhaseGradient",
+    "summary": "QFTPhaseGradient: implementation of the Quantum Arithmetic pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/QPEWindowStateBase",
+    "summary": "QPEWindowStateBase: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/QubitizationQPE",
+    "summary": "QubitizationQPE: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/QvrInterface",
+    "summary": "QvrInterface: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/RowColumnOracle",
+    "summary": "RowColumnOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/SelectBlockEncoding",
+    "summary": "SelectBlockEncoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/SelectOracle",
+    "summary": "SelectOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/SingleFactorizationBlockEncoding",
+    "summary": "SingleFactorizationBlockEncoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/SqrtEntryOracle",
+    "summary": "SqrtEntryOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/SymmetricBandedRowColumnOracle",
+    "summary": "SymmetricBandedRowColumnOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/TestBlockEncoding",
+    "summary": "TestBlockEncoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/TestPauliSelectOracle",
+    "summary": "TestPauliSelectOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/TestPrepareOracle",
+    "summary": "TestPrepareOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/TestSelectOracle",
+    "summary": "TestSelectOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/TextbookQPE",
+    "summary": "TextbookQPE: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/TopLeftRowColumnOracle",
+    "summary": "TopLeftRowColumnOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/TwoBitFFFT",
+    "summary": "TwoBitFFFT: implementation of the Basis Change pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/UniformEntryOracle",
+    "summary": "UniformEntryOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/UniformSqrtEntryOracle",
+    "summary": "UniformSqrtEntryOracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/cost_eval_oracle",
+    "summary": "cost_eval_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/format_classical_truth_table",
+    "summary": "format_classical_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/from_matrix",
+    "summary": "from_matrix: implementation of the Linear Combination of Unitaries pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/get_binst_table_attributes",
+    "summary": "get_binst_table_attributes: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/get_classical_truth_table",
+    "summary": "get_classical_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/logical_error_model",
+    "summary": "logical_error_model: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/logical_error_rate",
+    "summary": "logical_error_rate: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/n_discrete_logical_gates",
+    "summary": "n_discrete_logical_gates: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/oracle_O_F",
+    "summary": "oracle_O_F: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/oracle_O_H",
+    "summary": "oracle_O_H: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/phase_gradient_oracle",
+    "summary": "phase_gradient_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/phase_oracle",
+    "summary": "phase_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/qpe_bloq",
+    "summary": "qpe_bloq: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/qpe_fail_prob",
+    "summary": "qpe_fail_prob: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/qpe_precision",
+    "summary": "qpe_precision: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/qpe_window_state",
+    "summary": "qpe_window_state: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/signed_block_encodings",
+    "summary": "signed_block_encodings: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_add_truth_table",
+    "summary": "test_add_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_black_box_lcu_block_encoding",
+    "summary": "test_black_box_lcu_block_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_black_box_select_block_encoding",
+    "summary": "test_black_box_select_block_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_cnot_truth_table",
+    "summary": "test_cnot_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_df_block_encoding",
+    "summary": "test_df_block_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_explicit_entry_oracle",
+    "summary": "test_explicit_entry_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_hamiltonian_simulation_by_gqsp",
+    "summary": "test_hamiltonian_simulation_by_gqsp: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_hamiltonian_simulation_by_gqsp_t_complexity",
+    "summary": "test_hamiltonian_simulation_by_gqsp_t_complexity: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_i_truth_table",
+    "summary": "test_i_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_lcu_block_encoding",
+    "summary": "test_lcu_block_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_logical_error_model",
+    "summary": "test_logical_error_model: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_logical_error_rate",
+    "summary": "test_logical_error_rate: implementation of the Quantum Logical Operators pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_mean_estimation_grover",
+    "summary": "test_mean_estimation_grover: implementation of the Grover pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_multi_truth_table",
+    "summary": "test_multi_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_one_body_block_encoding",
+    "summary": "test_one_body_block_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_phase_estimation_of_qubitized_hubbard_model_notebook",
+    "summary": "test_phase_estimation_of_qubitized_hubbard_model_notebook: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_phase_oracle",
+    "summary": "test_phase_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_phase_oracle_consistent_protocols",
+    "summary": "test_phase_oracle_consistent_protocols: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_prepare_oracle",
+    "summary": "test_prepare_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_qpe_of_gqsp",
+    "summary": "test_qpe_of_gqsp: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_qubitization_phase_estimation_of_walk",
+    "summary": "test_qubitization_phase_estimation_of_walk: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_qubitization_qpe_chem_thc_bloq_autotester",
+    "summary": "test_qubitization_qpe_chem_thc_bloq_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_qubitization_qpe_hubbard_model_large_autotester",
+    "summary": "test_qubitization_qpe_hubbard_model_large_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_qubitization_qpe_hubbard_model_small_autotester",
+    "summary": "test_qubitization_qpe_hubbard_model_small_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_qubitization_qpe_sparse_chem_bloq_autotester",
+    "summary": "test_qubitization_qpe_sparse_chem_bloq_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_select_block_encoding",
+    "summary": "test_select_block_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_select_oracle",
+    "summary": "test_select_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_sf_block_encoding",
+    "summary": "test_sf_block_encoding: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_symmetric_banded_row_column_oracle",
+    "summary": "test_symmetric_banded_row_column_oracle: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_symmetric_banded_row_column_oracle_classical",
+    "summary": "test_symmetric_banded_row_column_oracle_classical: implementation of the Oracle pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_textbook_phase_estimation_qubitized_walk",
+    "summary": "test_textbook_phase_estimation_qubitized_walk: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_textbook_phase_estimation_zpow_theta",
+    "summary": "test_textbook_phase_estimation_zpow_theta: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_truth_table",
+    "summary": "test_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_truth_table_classical",
+    "summary": "test_truth_table_classical: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_truth_table_using_classical_sim",
+    "summary": "test_truth_table_using_classical_sim: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/test_x_truth_table",
+    "summary": "test_x_truth_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/Qualtran/verify_hamiltonian_simulation_by_gqsp",
+    "summary": "verify_hamiltonian_simulation_by_gqsp: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

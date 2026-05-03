@@ -1,0 +1,719 @@
+{
+  "qiskit": {
+    "overall": {
+      "tp": 20,
+      "fp": 13,
+      "fn": 2,
+      "precision": 0.6060606060606061,
+      "recall": 0.9090909090909091,
+      "f1": 0.7272727272727273
+    },
+    "per_pattern": {
+      "Amplitude Amplification": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Function Table": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Grover": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "Hamiltonian Simulation": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "Initialization": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Linear Combination of Unitaries": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Oracle": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "Quantum Approximate Optimization Algorithm (QAOA)": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "SWAP Test": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Variational Quantum Algorithm (VQA)": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Variational Quantum Eigensolver (VQE)": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      }
+    },
+    "gt_size": 22,
+    "pred_size": 33,
+    "fp_by_channel": {
+      "keyword_comment": 3,
+      "keyword_name": 8,
+      "name": 7,
+      "title": 2
+    }
+  },
+  "qualtran": {
+    "overall": {
+      "tp": 15,
+      "fp": 33,
+      "fn": 14,
+      "precision": 0.3125,
+      "recall": 0.5172413793103449,
+      "f1": 0.38961038961038963
+    },
+    "overall_unrestr": {
+      "tp": 35,
+      "fp": 78,
+      "fn": 86,
+      "precision": 0.30973451327433627,
+      "recall": 0.2892561983471074,
+      "f1": 0.29914529914529914
+    },
+    "per_pattern": {
+      "Amplitude Amplification": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "Basis Change": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454
+      },
+      "Circuit Construction Utility": {
+        "tp": 1,
+        "fp": 10,
+        "fn": 7,
+        "precision": 0.09090909090909091,
+        "recall": 0.125,
+        "f1": 0.10526315789473685
+      },
+      "Creating Entanglement": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Data Encoding": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "Initialization": {
+        "tp": 3,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.3333333333333333,
+        "recall": 0.6,
+        "f1": 0.42857142857142855
+      },
+      "Oracle": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Amplitude Estimation": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Approximate Optimization Algorithm (QAOA)": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Phase Estimation (QPE)": {
+        "tp": 5,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.7142857142857143,
+        "recall": 0.8333333333333334,
+        "f1": 0.7692307692307692
+      },
+      "Variational Quantum Eigensolver (VQE)": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "gt_size": 29,
+    "gt_total": 121,
+    "pred_size": 48,
+    "pred_total": 113,
+    "restricted_patterns": [
+      "Amplitude Amplification",
+      "Basis Change",
+      "Circuit Construction Utility",
+      "Data Encoding",
+      "Initialization",
+      "Quantum Phase Estimation (QPE)"
+    ],
+    "fp_by_channel": {
+      "caller": 1,
+      "keyword_name": 8,
+      "name": 12,
+      "title": 7,
+      "keyword_comment": 7,
+      "summary": 1
+    }
+  },
+  "qrisp": {
+    "overall": {
+      "tp": 19,
+      "fp": 33,
+      "fn": 4,
+      "precision": 0.36538461538461536,
+      "recall": 0.8260869565217391,
+      "f1": 0.5066666666666666
+    },
+    "per_pattern": {
+      "Amplitude Amplification": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Basis Change": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571
+      },
+      "Creating Entanglement": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Data Encoding": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Domain Specific Application": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Dynamic Circuit": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Function Table": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Grover": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Hamiltonian Simulation": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Initialization": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Linear Combination of Unitaries": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "Quantum Amplitude Estimation": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Quantum Approximate Optimization Algorithm (QAOA)": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333
+      },
+      "Quantum Arithmetic": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "Quantum Logical Operators": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Phase Estimation (QPE)": {
+        "tp": 5,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "Variational Quantum Algorithm (VQA)": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Variational Quantum Eigensolver (VQE)": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "gt_size": 23,
+    "pred_size": 52,
+    "fp_by_channel": {
+      "keyword_name": 15,
+      "keyword_comment": 18,
+      "title": 1,
+      "caller": 2,
+      "name": 8
+    }
+  },
+  "combined": {
+    "overall": {
+      "tp": 20,
+      "fp": 81,
+      "fn": 10,
+      "precision": 0.19801980198019803,
+      "recall": 0.6666666666666666,
+      "f1": 0.30534351145038163
+    },
+    "per_pattern": {
+      "Amplitude Amplification": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Basis Change": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "Circuit Construction Utility": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Data Encoding": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "Grover": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Hamiltonian Simulation": {
+        "tp": 1,
+        "fp": 18,
+        "fn": 1,
+        "precision": 0.05263157894736842,
+        "recall": 0.5,
+        "f1": 0.09523809523809525
+      },
+      "Initialization": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Amplitude Estimation": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "Quantum Approximate Optimization Algorithm (QAOA)": {
+        "tp": 4,
+        "fp": 7,
+        "fn": 0,
+        "precision": 0.36363636363636365,
+        "recall": 1.0,
+        "f1": 0.5333333333333333
+      },
+      "Quantum Logical Operators": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Neural Network (QNN)": {
+        "tp": 5,
+        "fp": 15,
+        "fn": 1,
+        "precision": 0.25,
+        "recall": 0.8333333333333334,
+        "f1": 0.3846153846153846
+      },
+      "SWAP Test": {
+        "tp": 3,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.375,
+        "recall": 1.0,
+        "f1": 0.5454545454545454
+      },
+      "Variational Quantum Algorithm (VQA)": {
+        "tp": 2,
+        "fp": 20,
+        "fn": 3,
+        "precision": 0.09090909090909091,
+        "recall": 0.4,
+        "f1": 0.14814814814814814
+      },
+      "Variational Quantum Eigensolver (VQE)": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      }
+    },
+    "per_fw": {
+      "qibo": {
+        "tp": 7,
+        "fp": 27,
+        "fn": 3,
+        "precision": 0.20588235294117646,
+        "recall": 0.7,
+        "f1": 0.3181818181818182,
+        "gt_size": 10,
+        "pred_size": 34,
+        "fp_by_channel": {
+          "name": 7,
+          "caller": 6,
+          "keyword_comment": 8,
+          "keyword_name": 11,
+          "title": 2
+        }
+      },
+      "squlearn": {
+        "tp": 9,
+        "fp": 28,
+        "fn": 2,
+        "precision": 0.24324324324324326,
+        "recall": 0.8181818181818182,
+        "f1": 0.375,
+        "gt_size": 11,
+        "pred_size": 37,
+        "fp_by_channel": {
+          "title": 10,
+          "keyword_comment": 4,
+          "keyword_name": 18,
+          "name": 2
+        }
+      },
+      "ReCirq": {
+        "tp": 4,
+        "fp": 26,
+        "fn": 5,
+        "precision": 0.13333333333333333,
+        "recall": 0.4444444444444444,
+        "f1": 0.20512820512820512,
+        "gt_size": 9,
+        "pred_size": 30,
+        "fp_by_channel": {
+          "name": 5,
+          "keyword_name": 17,
+          "caller": 2,
+          "keyword_comment": 8
+        }
+      }
+    },
+    "gt_size": 30,
+    "pred_size": 101,
+    "fp_by_channel": {
+      "title": 12,
+      "keyword_comment": 20,
+      "keyword_name": 46,
+      "caller": 8,
+      "name": 14
+    }
+  },
+  "qpanda": {
+    "overall": {
+      "tp": 13,
+      "fp": 35,
+      "fn": 8,
+      "precision": 0.2708333333333333,
+      "recall": 0.6190476190476191,
+      "f1": 0.37681159420289856
+    },
+    "per_pattern": {
+      "Amplitude Amplification": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Basis Change": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Circuit Construction Utility": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Creating Entanglement": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Domain Specific Application": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Grover": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "Hamiltonian Simulation": {
+        "tp": 2,
+        "fp": 12,
+        "fn": 0,
+        "precision": 0.14285714285714285,
+        "recall": 1.0,
+        "f1": 0.25
+      },
+      "Initialization": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Oracle": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Approximate Optimization Algorithm (QAOA)": {
+        "tp": 5,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.5555555555555556,
+        "recall": 0.8333333333333334,
+        "f1": 0.6666666666666667
+      },
+      "Quantum Arithmetic": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Quantum Logical Operators": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Variational Quantum Algorithm (VQA)": {
+        "tp": 2,
+        "fp": 5,
+        "fn": 4,
+        "precision": 0.2857142857142857,
+        "recall": 0.3333333333333333,
+        "f1": 0.30769230769230765
+      },
+      "Variational Quantum Eigensolver (VQE)": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75
+      }
+    },
+    "gt_size": 21,
+    "pred_size": 48,
+    "fp_by_channel": {
+      "caller": 21,
+      "keyword_name": 29,
+      "keyword_comment": 1,
+      "name": 8
+    }
+  }
+}

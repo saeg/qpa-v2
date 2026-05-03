@@ -1,0 +1,10 @@
+name,summary,pattern
+dynamic/graphix/PauliExponentialDAG,PauliExponentialDAG: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/graphix/add_basis_change,add_basis_change: implementation of the Basis Change pattern.,Basis Change
+dynamic/graphix/basis_amplitude,basis_amplitude: implementation of the Initialization pattern.,Initialization
+dynamic/graphix/evolve,evolve: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/graphix/from_focused_flow,from_focused_flow: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/graphix/prepare_graph_state,prepare_graph_state: implementation of the Creating Entanglement pattern.,Creating Entanglement
+dynamic/graphix/rand_gate,rand_gate: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/graphix/to_statevector,to_statevector: implementation of the Creating Entanglement pattern.,Creating Entanglement
+dynamic/graphix/to_tableau,to_tableau: implementation of the Function Table pattern.,Function Table

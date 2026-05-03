@@ -1,0 +1,31 @@
+File Name,Pattern Match,Artifact,Framework
+qibo/src/qibo/models/grover.py,Grover,Grover class,qibo
+qibo/src/qibo/models/grover.py,Amplitude Amplification,Grover class,qibo
+qibo/src/qibo/models/qft.py,Basis Change,QFT function,qibo
+qibo/src/qibo/models/variational.py,Variational Quantum Eigensolver (VQE),VQE class,qibo
+qibo/src/qibo/models/variational.py,Variational Quantum Algorithm (VQA),VQE+QAOA classes,qibo
+qibo/src/qibo/models/variational.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA class,qibo
+qibo/src/qibo/models/encodings.py,Data Encoding,encodings module,qibo
+qibo/src/qibo/models/iqae.py,Quantum Amplitude Estimation,IQAE class,qibo
+qibo/src/qibo/models/qcnn.py,Quantum Neural Network (QNN),QuantumCNN class,qibo
+qibo/src/qibo/models/evolution.py,Hamiltonian Simulation,StateEvolution class,qibo
+squlearn/examples/qnn/classification_example.py,Quantum Neural Network (QNN),QNNClassifier,squlearn
+squlearn/examples/qnn/multiclass_classification.py,Quantum Neural Network (QNN),QNNClassifier,squlearn
+squlearn/examples/qnn/example_qcnn_encoding_circuit.py,Quantum Neural Network (QNN),QCNN encoding circuit,squlearn
+squlearn/examples/qnn/example_qcnn_encoding_circuit.py,Data Encoding,QCNN encoding circuit,squlearn
+squlearn/examples/encoding_circuits/various_encoding_circuit.py,Data Encoding,EncodingCircuit,squlearn
+squlearn/examples/encoding_circuits/layered_encoding_circuit.py,Data Encoding,LayeredEncodingCircuit,squlearn
+squlearn/examples/kernel/example_fidelity_kernel.py,SWAP Test,FidelityKernel,squlearn
+squlearn/examples/kernel/example_projected_kernel.py,SWAP Test,ProjectedQuantumKernel,squlearn
+squlearn/examples/tutorials/kernel_digit_classification.py,Quantum Neural Network (QNN),QNNClassifier,squlearn
+squlearn/examples/tutorials/kernel_digit_classification.py,SWAP Test,FidelityKernel,squlearn
+squlearn/examples/tutorials/qnn_backend_mitigation.py,Quantum Neural Network (QNN),QNNRegressor,squlearn
+ReCirq/docs/qaoa/qaoa_maxcut.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA MaxCut,ReCirq
+ReCirq/docs/qaoa/qaoa_maxcut.py,Variational Quantum Algorithm (VQA),QAOA MaxCut,ReCirq
+ReCirq/docs/qaoa/qaoa_ising.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA Ising,ReCirq
+ReCirq/docs/qaoa/qaoa_ising.py,Variational Quantum Algorithm (VQA),QAOA Ising,ReCirq
+ReCirq/docs/qaoa/binary_paintshop.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA Binary Paintshop,ReCirq
+ReCirq/docs/qaoa/binary_paintshop.py,Variational Quantum Algorithm (VQA),QAOA Binary Paintshop,ReCirq
+ReCirq/docs/hfvqe/quickstart.py,Variational Quantum Eigensolver (VQE),HF-VQE quickstart,ReCirq
+ReCirq/docs/hfvqe/quickstart.py,Variational Quantum Algorithm (VQA),HF-VQE quickstart,ReCirq
+ReCirq/docs/hfvqe/quickstart.py,Hamiltonian Simulation,molecular Hamiltonian,ReCirq

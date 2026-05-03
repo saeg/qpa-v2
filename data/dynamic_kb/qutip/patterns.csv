@@ -1,0 +1,4 @@
+name,summary,pattern
+dynamic/qutip/floquet_modes_table,floquet_modes_table: implementation of the Function Table pattern.,Function Table
+dynamic/qutip/process_fidelity,process_fidelity: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/qutip/version_table,version_table: implementation of the Function Table pattern.,Function Table

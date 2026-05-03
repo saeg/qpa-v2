@@ -1,0 +1,82 @@
+[
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/AnalogHamiltonianSimulation",
+    "summary": "AnalogHamiltonianSimulation: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/AnalogHamiltonianSimulationQuantumTaskResult",
+    "summary": "AnalogHamiltonianSimulationQuantumTaskResult: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/AnalogHamiltonianSimulationShotStatus",
+    "summary": "AnalogHamiltonianSimulationShotStatus: implementation of the Hamiltonian Simulation pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/InitializationCriteria",
+    "summary": "InitializationCriteria: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/QubitInitializationCriteria",
+    "summary": "QubitInitializationCriteria: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/apply_initialization_noise",
+    "summary": "apply_initialization_noise: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/apply_noise_to_gates",
+    "summary": "apply_noise_to_gates: implementation of the Circuit Construction Utility pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/amazon-braket-sdk-python/format_publications_table",
+    "summary": "format_publications_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

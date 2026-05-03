@@ -1,0 +1,28 @@
+name,summary,pattern
+dynamic/tensorcircuit-ng/QAOA_ansatz_for_Ising,QAOA_ansatz_for_Ising: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/QAOA_block,QAOA_block: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/QAOA_circuit,QAOA_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/QAOA_loss,QAOA_loss: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/QUBO_QAOA,QUBO_QAOA: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/QUBO_QAOA_cvar,QUBO_QAOA_cvar: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/add_edge_table,add_edge_table: implementation of the Function Table pattern.,Function Table
+dynamic/tensorcircuit-ng/amplitude_encoding,amplitude_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/tensorcircuit-ng/any,any: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/tensorcircuit-ng/current_inverse_tableau,current_inverse_tableau: implementation of the Function Table pattern.,Function Table
+dynamic/tensorcircuit-ng/current_tableau,current_tableau: implementation of the Function Table pattern.,Function Table
+dynamic/tensorcircuit-ng/dynamics_rhs,dynamics_rhs: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/tensorcircuit-ng/gatewise_vqe_vag,gatewise_vqe_vag: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/tensorcircuit-ng/get_logical_physical_mapping,get_logical_physical_mapping: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/tensorcircuit-ng/get_positional_logical_mapping,get_positional_logical_mapping: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/tensorcircuit-ng/parallel_qaoa_train,parallel_qaoa_train: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/qaoa_block_vag,qaoa_block_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/qaoa_noise_vag,qaoa_noise_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/qaoa_simple_train,qaoa_simple_train: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/qaoa_train,qaoa_train: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/qaoa_vag,qaoa_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/qng,qng: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/tensorcircuit-ng/quantum_mp_qaoa_vag,quantum_mp_qaoa_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/quantum_qaoa_vag,quantum_qaoa_vag: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/tensorcircuit-ng/tableau_gate,tableau_gate: implementation of the Function Table pattern.,Function Table
+dynamic/tensorcircuit-ng/vqe_energy,vqe_energy: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/tensorcircuit-ng/vqe_energy_shortcut,vqe_energy_shortcut: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)

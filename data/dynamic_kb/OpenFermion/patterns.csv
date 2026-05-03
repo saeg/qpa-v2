@@ -1,0 +1,13 @@
+name,summary,pattern
+dynamic/OpenFermion/general_basis_change,general_basis_change: implementation of the Basis Change pattern.,Basis Change
+dynamic/OpenFermion/generate_costing_table,generate_costing_table: implementation of the Function Table pattern.,Function Table
+dynamic/OpenFermion/optimal_givens_decomposition,optimal_givens_decomposition: implementation of the Basis Change pattern.,Basis Change
+dynamic/OpenFermion/prony,prony: implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+dynamic/OpenFermion/qubit_generator_matrix,qubit_generator_matrix: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/OpenFermion/table_qubit_vs_toffoli,table_qubit_vs_toffoli: implementation of the Function Table pattern.,Function Table
+dynamic/OpenFermion/test_generate_costing_table_df,test_generate_costing_table_df: implementation of the Function Table pattern.,Function Table
+dynamic/OpenFermion/test_generate_costing_table_sf,test_generate_costing_table_sf: implementation of the Function Table pattern.,Function Table
+dynamic/OpenFermion/test_generate_costing_table_sparse,test_generate_costing_table_sparse: implementation of the Function Table pattern.,Function Table
+dynamic/OpenFermion/test_generate_costing_table_thc,test_generate_costing_table_thc: implementation of the Function Table pattern.,Function Table
+dynamic/OpenFermion/test_namedtensor_initialization,test_namedtensor_initialization: implementation of the Initialization pattern.,Initialization
+dynamic/OpenFermion/weight_one_segment_code,weight_one_segment_code: implementation of the Data Encoding pattern.,Data Encoding

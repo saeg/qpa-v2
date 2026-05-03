@@ -1,0 +1,7 @@
+name,summary,pattern
+dynamic/blueqatSDK/OneQubitGate,OneQubitGate: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/blueqatSDK/QaoaAnsatz,QaoaAnsatz: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/blueqatSDK/TwoQubitGate,TwoQubitGate: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/blueqatSDK/Vqe,Vqe: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/blueqatSDK/VqeResult,VqeResult: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/blueqatSDK/qaoa,qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/ARC-Alkali-Rydberg-Calculator/DynamicPolarizability",
+    "summary": "DynamicPolarizability: implementation of the Dynamic Circuit pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

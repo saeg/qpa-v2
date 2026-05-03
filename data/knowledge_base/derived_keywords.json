@@ -1,0 +1,2422 @@
+{
+  "Quantum Arithmetic": {
+    "concept_count": 43,
+    "keywords": [
+      "adder",
+      "arithmetic",
+      "modular",
+      "rotations",
+      "multiplier",
+      "pauli",
+      "piecewise",
+      "adders",
+      "number",
+      "exponentiation",
+      "qft",
+      "place"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "adder",
+        "score": 179.002
+      },
+      {
+        "token": "arithmetic",
+        "score": 172.117
+      },
+      {
+        "token": "modular",
+        "score": 121.475
+      },
+      {
+        "token": "rotations",
+        "score": 72.656
+      },
+      {
+        "token": "multiplier",
+        "score": 68.847
+      },
+      {
+        "token": "pauli",
+        "score": 67.85
+      },
+      {
+        "token": "piecewise",
+        "score": 55.078
+      },
+      {
+        "token": "adders",
+        "score": 48.193
+      },
+      {
+        "token": "number",
+        "score": 47.995
+      },
+      {
+        "token": "exponentiation",
+        "score": 46.736
+      },
+      {
+        "token": "qft",
+        "score": 45.553
+      },
+      {
+        "token": "place",
+        "score": 42.516
+      }
+    ],
+    "bigrams": [
+      "pauli_rotations",
+      "modular_exponentiation",
+      "polynomial_pauli",
+      "classical_number",
+      "arithmetic_adders",
+      "number_modulo",
+      "ripple_carry",
+      "exact_reciprocal",
+      "linear_pauli",
+      "place_modular",
+      "carry_adder",
+      "integer_comparator"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "pauli_rotations",
+        "count": 18
+      },
+      {
+        "phrase": "modular_exponentiation",
+        "count": 9
+      },
+      {
+        "phrase": "polynomial_pauli",
+        "count": 8
+      },
+      {
+        "phrase": "classical_number",
+        "count": 8
+      },
+      {
+        "phrase": "arithmetic_adders",
+        "count": 7
+      },
+      {
+        "phrase": "number_modulo",
+        "count": 7
+      },
+      {
+        "phrase": "ripple_carry",
+        "count": 6
+      },
+      {
+        "phrase": "exact_reciprocal",
+        "count": 6
+      },
+      {
+        "phrase": "linear_pauli",
+        "count": 6
+      },
+      {
+        "phrase": "place_modular",
+        "count": 6
+      },
+      {
+        "phrase": "carry_adder",
+        "count": 5
+      },
+      {
+        "phrase": "integer_comparator",
+        "count": 5
+      }
+    ]
+  },
+  "Basis Change": {
+    "concept_count": 12,
+    "keywords": [
+      "qft",
+      "transform",
+      "discrete",
+      "sine",
+      "cosine",
+      "basis",
+      "aqft",
+      "qct",
+      "qst",
+      "type2",
+      "fourier",
+      "change"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "qft",
+        "score": 72.885
+      },
+      {
+        "token": "transform",
+        "score": 63.775
+      },
+      {
+        "token": "discrete",
+        "score": 41.308
+      },
+      {
+        "token": "sine",
+        "score": 37.866
+      },
+      {
+        "token": "cosine",
+        "score": 33.406
+      },
+      {
+        "token": "basis",
+        "score": 21.094
+      },
+      {
+        "token": "aqft",
+        "score": 20.654
+      },
+      {
+        "token": "qct",
+        "score": 20.654
+      },
+      {
+        "token": "qst",
+        "score": 20.654
+      },
+      {
+        "token": "type2",
+        "score": 20.654
+      },
+      {
+        "token": "fourier",
+        "score": 16.495
+      },
+      {
+        "token": "change",
+        "score": 13.769
+      }
+    ],
+    "bigrams": [
+      "fourier_transform",
+      "discrete_sine",
+      "sine_cosine",
+      "cosine_transform",
+      "qft_fourier",
+      "basis_rotation",
+      "transform_qft",
+      "transform_qct",
+      "discrete_cosine",
+      "cosine_dct",
+      "sine_dst",
+      "dst_transform"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "fourier_transform",
+        "count": 6
+      },
+      {
+        "phrase": "discrete_sine",
+        "count": 5
+      },
+      {
+        "phrase": "sine_cosine",
+        "count": 4
+      },
+      {
+        "phrase": "cosine_transform",
+        "count": 4
+      },
+      {
+        "phrase": "qft_fourier",
+        "count": 3
+      },
+      {
+        "phrase": "basis_rotation",
+        "count": 3
+      },
+      {
+        "phrase": "transform_qft",
+        "count": 3
+      },
+      {
+        "phrase": "transform_qct",
+        "count": 3
+      },
+      {
+        "phrase": "discrete_cosine",
+        "count": 3
+      },
+      {
+        "phrase": "cosine_dct",
+        "count": 3
+      },
+      {
+        "phrase": "sine_dst",
+        "count": 3
+      },
+      {
+        "phrase": "dst_transform",
+        "count": 3
+      }
+    ]
+  },
+  "Oracle": {
+    "concept_count": 6,
+    "keywords": [
+      "oracle",
+      "flip",
+      "phase",
+      "hidden",
+      "sign",
+      "bit",
+      "linear",
+      "grover",
+      "solve",
+      "flips",
+      "predicate",
+      "problem"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "oracle",
+        "score": 61.962
+      },
+      {
+        "token": "flip",
+        "score": 30.981
+      },
+      {
+        "token": "phase",
+        "score": 26.729
+      },
+      {
+        "token": "hidden",
+        "score": 17.212
+      },
+      {
+        "token": "sign",
+        "score": 17.212
+      },
+      {
+        "token": "bit",
+        "score": 15.184
+      },
+      {
+        "token": "linear",
+        "score": 9.691
+      },
+      {
+        "token": "grover",
+        "score": 5.498
+      },
+      {
+        "token": "solve",
+        "score": 3.442
+      },
+      {
+        "token": "flips",
+        "score": 3.442
+      },
+      {
+        "token": "predicate",
+        "score": 3.442
+      },
+      {
+        "token": "problem",
+        "score": 2.526
+      }
+    ],
+    "bigrams": [
+      "phase_oracle",
+      "oracle_phase",
+      "bit_flip",
+      "flip_oracle",
+      "hidden_linear",
+      "oracle_bit",
+      "flip_sign"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "phase_oracle",
+        "count": 8
+      },
+      {
+        "phrase": "oracle_phase",
+        "count": 5
+      },
+      {
+        "phrase": "bit_flip",
+        "count": 3
+      },
+      {
+        "phrase": "flip_oracle",
+        "count": 3
+      },
+      {
+        "phrase": "hidden_linear",
+        "count": 3
+      },
+      {
+        "phrase": "oracle_bit",
+        "count": 2
+      },
+      {
+        "phrase": "flip_sign",
+        "count": 2
+      }
+    ]
+  },
+  "Circuit Construction Utility": {
+    "concept_count": 33,
+    "keywords": [
+      "generalized",
+      "diagonal",
+      "pauli",
+      "permutation",
+      "iqp",
+      "unitary",
+      "rot",
+      "mcmt",
+      "arbitrary",
+      "gms",
+      "checking",
+      "volume"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "generalized",
+        "score": 106.094
+      },
+      {
+        "token": "diagonal",
+        "score": 35.74
+      },
+      {
+        "token": "pauli",
+        "score": 32.897
+      },
+      {
+        "token": "permutation",
+        "score": 30.981
+      },
+      {
+        "token": "iqp",
+        "score": 30.369
+      },
+      {
+        "token": "unitary",
+        "score": 30.313
+      },
+      {
+        "token": "rot",
+        "score": 27.539
+      },
+      {
+        "token": "mcmt",
+        "score": 24.096
+      },
+      {
+        "token": "arbitrary",
+        "score": 21.994
+      },
+      {
+        "token": "gms",
+        "score": 20.654
+      },
+      {
+        "token": "checking",
+        "score": 17.212
+      },
+      {
+        "token": "volume",
+        "score": 17.212
+      }
+    ],
+    "bigrams": [
+      "pauli_rot",
+      "fourier_checking",
+      "uniformly_controlled",
+      "pauli_rotations",
+      "arbitrary_unitary",
+      "checking_fourier",
+      "generalized_diagonal",
+      "generalized_gms",
+      "lmer_rensen",
+      "multi_controlled",
+      "generalized_mcmt",
+      "generalized_pauli"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "pauli_rot",
+        "count": 4
+      },
+      {
+        "phrase": "fourier_checking",
+        "count": 3
+      },
+      {
+        "phrase": "uniformly_controlled",
+        "count": 3
+      },
+      {
+        "phrase": "pauli_rotations",
+        "count": 3
+      },
+      {
+        "phrase": "arbitrary_unitary",
+        "count": 3
+      },
+      {
+        "phrase": "checking_fourier",
+        "count": 2
+      },
+      {
+        "phrase": "generalized_diagonal",
+        "count": 2
+      },
+      {
+        "phrase": "generalized_gms",
+        "count": 2
+      },
+      {
+        "phrase": "lmer_rensen",
+        "count": 2
+      },
+      {
+        "phrase": "multi_controlled",
+        "count": 2
+      },
+      {
+        "phrase": "generalized_mcmt",
+        "count": 2
+      },
+      {
+        "phrase": "generalized_pauli",
+        "count": 2
+      }
+    ]
+  },
+  "Quantum Logical Operators": {
+    "concept_count": 7,
+    "keywords": [
+      "boolean",
+      "logic",
+      "xor",
+      "bitwise",
+      "inner",
+      "temporary",
+      "logical",
+      "product",
+      "random",
+      "number",
+      "implementing",
+      "vectors"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "boolean",
+        "score": 44.751
+      },
+      {
+        "token": "logic",
+        "score": 41.308
+      },
+      {
+        "token": "xor",
+        "score": 30.981
+      },
+      {
+        "token": "bitwise",
+        "score": 17.212
+      },
+      {
+        "token": "inner",
+        "score": 15.184
+      },
+      {
+        "token": "temporary",
+        "score": 13.769
+      },
+      {
+        "token": "logical",
+        "score": 10.327
+      },
+      {
+        "token": "product",
+        "score": 9.691
+      },
+      {
+        "token": "random",
+        "score": 8.248
+      },
+      {
+        "token": "number",
+        "score": 7.578
+      },
+      {
+        "token": "implementing",
+        "score": 5.052
+      },
+      {
+        "token": "vectors",
+        "score": 3.442
+      }
+    ],
+    "bigrams": [
+      "boolean_logic",
+      "inner_product",
+      "logical_number",
+      "bitwise_xor",
+      "logic_implementing",
+      "implementing_logical",
+      "logic_xor",
+      "xor_bitwise",
+      "xor_random"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "boolean_logic",
+        "count": 6
+      },
+      {
+        "phrase": "inner_product",
+        "count": 3
+      },
+      {
+        "phrase": "logical_number",
+        "count": 3
+      },
+      {
+        "phrase": "bitwise_xor",
+        "count": 3
+      },
+      {
+        "phrase": "logic_implementing",
+        "count": 2
+      },
+      {
+        "phrase": "implementing_logical",
+        "count": 2
+      },
+      {
+        "phrase": "logic_xor",
+        "count": 2
+      },
+      {
+        "phrase": "xor_bitwise",
+        "count": 2
+      },
+      {
+        "phrase": "xor_random",
+        "count": 2
+      }
+    ]
+  },
+  "Data Encoding": {
+    "concept_count": 14,
+    "keywords": [
+      "feature",
+      "embeddings",
+      "embedding",
+      "map",
+      "pauli",
+      "angle",
+      "encodes",
+      "data",
+      "machine",
+      "learning",
+      "features",
+      "amplitude"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "feature",
+        "score": 45.469
+      },
+      {
+        "token": "embeddings",
+        "score": 36.443
+      },
+      {
+        "token": "embedding",
+        "score": 36.443
+      },
+      {
+        "token": "map",
+        "score": 30.313
+      },
+      {
+        "token": "pauli",
+        "score": 22.617
+      },
+      {
+        "token": "angle",
+        "score": 21.994
+      },
+      {
+        "token": "encodes",
+        "score": 21.258
+      },
+      {
+        "token": "data",
+        "score": 20.208
+      },
+      {
+        "token": "machine",
+        "score": 18.75
+      },
+      {
+        "token": "learning",
+        "score": 18.75
+      },
+      {
+        "token": "features",
+        "score": 18.221
+      },
+      {
+        "token": "amplitude",
+        "score": 17.517
+      }
+    ],
+    "bigrams": [
+      "feature_map",
+      "embedding_encodes",
+      "encodes_features",
+      "pauli_feature",
+      "machine_learning",
+      "data_preparation",
+      "preparation_pauli",
+      "map_feature",
+      "map_order",
+      "order_pauli",
+      "pauli_evolution",
+      "map_pauli"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "feature_map",
+        "count": 6
+      },
+      {
+        "phrase": "embedding_encodes",
+        "count": 6
+      },
+      {
+        "phrase": "encodes_features",
+        "count": 5
+      },
+      {
+        "phrase": "pauli_feature",
+        "count": 4
+      },
+      {
+        "phrase": "machine_learning",
+        "count": 4
+      },
+      {
+        "phrase": "data_preparation",
+        "count": 3
+      },
+      {
+        "phrase": "preparation_pauli",
+        "count": 3
+      },
+      {
+        "phrase": "map_feature",
+        "count": 2
+      },
+      {
+        "phrase": "map_order",
+        "count": 2
+      },
+      {
+        "phrase": "order_pauli",
+        "count": 2
+      },
+      {
+        "phrase": "pauli_evolution",
+        "count": 2
+      },
+      {
+        "phrase": "map_pauli",
+        "count": 2
+      }
+    ]
+  },
+  "Initialization": {
+    "concept_count": 22,
+    "keywords": [
+      "state",
+      "preparation",
+      "prepare",
+      "preparations",
+      "amplitudes",
+      "prepares",
+      "uniform",
+      "superposition",
+      "basis",
+      "initializes",
+      "dicke",
+      "sparse"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "state",
+        "score": 142.92
+      },
+      {
+        "token": "preparation",
+        "score": 126.463
+      },
+      {
+        "token": "prepare",
+        "score": 63.232
+      },
+      {
+        "token": "preparations",
+        "score": 48.193
+      },
+      {
+        "token": "amplitudes",
+        "score": 47.995
+      },
+      {
+        "token": "prepares",
+        "score": 32.99
+      },
+      {
+        "token": "uniform",
+        "score": 30.981
+      },
+      {
+        "token": "superposition",
+        "score": 30.369
+      },
+      {
+        "token": "basis",
+        "score": 28.125
+      },
+      {
+        "token": "initializes",
+        "score": 21.258
+      },
+      {
+        "token": "dicke",
+        "score": 20.654
+      },
+      {
+        "token": "sparse",
+        "score": 20.654
+      }
+    ],
+    "bigrams": [
+      "state_preparation",
+      "preparation_prepare",
+      "state_preparations",
+      "prepares_state",
+      "uniform_superposition",
+      "arbitrary_state",
+      "basis_state",
+      "computational_basis",
+      "state_amplitudes",
+      "dicke_state",
+      "data_preparation",
+      "preparation_state"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "state_preparation",
+        "count": 21
+      },
+      {
+        "phrase": "preparation_prepare",
+        "count": 9
+      },
+      {
+        "phrase": "state_preparations",
+        "count": 7
+      },
+      {
+        "phrase": "prepares_state",
+        "count": 6
+      },
+      {
+        "phrase": "uniform_superposition",
+        "count": 4
+      },
+      {
+        "phrase": "arbitrary_state",
+        "count": 4
+      },
+      {
+        "phrase": "basis_state",
+        "count": 4
+      },
+      {
+        "phrase": "computational_basis",
+        "count": 4
+      },
+      {
+        "phrase": "state_amplitudes",
+        "count": 4
+      },
+      {
+        "phrase": "dicke_state",
+        "count": 4
+      },
+      {
+        "phrase": "data_preparation",
+        "count": 3
+      },
+      {
+        "phrase": "preparation_state",
+        "count": 3
+      }
+    ]
+  },
+  "Creating Entanglement": {
+    "concept_count": 4,
+    "keywords": [
+      "graph",
+      "state",
+      "prepare",
+      "preparation",
+      "ghz",
+      "bell",
+      "initializes",
+      "greenberger",
+      "horne",
+      "zeilinger",
+      "representing",
+      "variable"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "graph",
+        "score": 34.423
+      },
+      {
+        "token": "state",
+        "score": 29.84
+      },
+      {
+        "token": "prepare",
+        "score": 13.746
+      },
+      {
+        "token": "preparation",
+        "score": 10.997
+      },
+      {
+        "token": "ghz",
+        "score": 10.327
+      },
+      {
+        "token": "bell",
+        "score": 10.327
+      },
+      {
+        "token": "initializes",
+        "score": 6.074
+      },
+      {
+        "token": "greenberger",
+        "score": 3.442
+      },
+      {
+        "token": "horne",
+        "score": 3.442
+      },
+      {
+        "token": "zeilinger",
+        "score": 3.442
+      },
+      {
+        "token": "representing",
+        "score": 2.526
+      },
+      {
+        "token": "variable",
+        "score": 2.526
+      }
+    ],
+    "bigrams": [
+      "graph_state",
+      "state_graph",
+      "state_preparation",
+      "preparation_prepare",
+      "ghz_state",
+      "state_initializes"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "graph_state",
+        "count": 6
+      },
+      {
+        "phrase": "state_graph",
+        "count": 2
+      },
+      {
+        "phrase": "state_preparation",
+        "count": 2
+      },
+      {
+        "phrase": "preparation_prepare",
+        "count": 2
+      },
+      {
+        "phrase": "ghz_state",
+        "count": 2
+      },
+      {
+        "phrase": "state_initializes",
+        "count": 2
+      }
+    ]
+  },
+  "Grover": {
+    "concept_count": 4,
+    "keywords": [
+      "grover",
+      "search",
+      "amplifiers",
+      "amplitude",
+      "diffusion"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "grover",
+        "score": 54.984
+      },
+      {
+        "token": "search",
+        "score": 13.769
+      },
+      {
+        "token": "amplifiers",
+        "score": 6.074
+      },
+      {
+        "token": "amplitude",
+        "score": 4.379
+      },
+      {
+        "token": "diffusion",
+        "score": 3.442
+      }
+    ],
+    "bigrams": [
+      "grover_search"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "grover_search",
+        "count": 3
+      }
+    ]
+  },
+  "Hamiltonian Simulation": {
+    "concept_count": 10,
+    "keywords": [
+      "trotter",
+      "evolution",
+      "time",
+      "hamiltonian",
+      "commuting",
+      "suzuki",
+      "pauli",
+      "approx",
+      "qubitization",
+      "qrte",
+      "trotterized",
+      "qdrift"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "trotter",
+        "score": 51.635
+      },
+      {
+        "token": "evolution",
+        "score": 46.736
+      },
+      {
+        "token": "time",
+        "score": 27.492
+      },
+      {
+        "token": "hamiltonian",
+        "score": 24.743
+      },
+      {
+        "token": "commuting",
+        "score": 17.212
+      },
+      {
+        "token": "suzuki",
+        "score": 17.212
+      },
+      {
+        "token": "pauli",
+        "score": 14.392
+      },
+      {
+        "token": "approx",
+        "score": 13.769
+      },
+      {
+        "token": "qubitization",
+        "score": 13.769
+      },
+      {
+        "token": "qrte",
+        "score": 12.148
+      },
+      {
+        "token": "trotterized",
+        "score": 10.327
+      },
+      {
+        "token": "qdrift",
+        "score": 10.327
+      }
+    ],
+    "bigrams": [
+      "time_evolution",
+      "suzuki_trotter",
+      "trotter_product",
+      "evolution_hamiltonian",
+      "pauli_evolution",
+      "evolution_time",
+      "approx_time",
+      "hamiltonian_expressed",
+      "commuting_evolution",
+      "approximation_exponential",
+      "exponential_hamiltonian",
+      "representing_suzuki"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "time_evolution",
+        "count": 6
+      },
+      {
+        "phrase": "suzuki_trotter",
+        "count": 4
+      },
+      {
+        "phrase": "trotter_product",
+        "count": 3
+      },
+      {
+        "phrase": "evolution_hamiltonian",
+        "count": 2
+      },
+      {
+        "phrase": "pauli_evolution",
+        "count": 2
+      },
+      {
+        "phrase": "evolution_time",
+        "count": 2
+      },
+      {
+        "phrase": "approx_time",
+        "count": 2
+      },
+      {
+        "phrase": "hamiltonian_expressed",
+        "count": 2
+      },
+      {
+        "phrase": "commuting_evolution",
+        "count": 2
+      },
+      {
+        "phrase": "approximation_exponential",
+        "count": 2
+      },
+      {
+        "phrase": "exponential_hamiltonian",
+        "count": 2
+      },
+      {
+        "phrase": "representing_suzuki",
+        "count": 2
+      }
+    ]
+  },
+  "Variational Quantum Algorithm (VQA)": {
+    "concept_count": 42,
+    "keywords": [
+      "variational",
+      "time",
+      "machine",
+      "learning",
+      "principle",
+      "gradients",
+      "real",
+      "evolvers",
+      "imaginary",
+      "local",
+      "ansatz",
+      "var"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "variational",
+        "score": 161.668
+      },
+      {
+        "token": "time",
+        "score": 129.212
+      },
+      {
+        "token": "machine",
+        "score": 121.874
+      },
+      {
+        "token": "learning",
+        "score": 121.874
+      },
+      {
+        "token": "principle",
+        "score": 92.943
+      },
+      {
+        "token": "gradients",
+        "score": 79.174
+      },
+      {
+        "token": "real",
+        "score": 75.922
+      },
+      {
+        "token": "evolvers",
+        "score": 72.885
+      },
+      {
+        "token": "imaginary",
+        "score": 68.847
+      },
+      {
+        "token": "local",
+        "score": 67.968
+      },
+      {
+        "token": "ansatz",
+        "score": 42.943
+      },
+      {
+        "token": "var",
+        "score": 41.308
+      }
+    ],
+    "bigrams": [
+      "machine_learning",
+      "learning_machine",
+      "time_evolvers",
+      "variational_principle",
+      "time_evolution",
+      "evolvers_variational",
+      "learning_gradients",
+      "imaginary_time",
+      "real_time",
+      "variational_principles",
+      "principle_imaginary",
+      "principle_real"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "machine_learning",
+        "count": 26
+      },
+      {
+        "phrase": "learning_machine",
+        "count": 13
+      },
+      {
+        "phrase": "time_evolvers",
+        "count": 12
+      },
+      {
+        "phrase": "variational_principle",
+        "count": 11
+      },
+      {
+        "phrase": "time_evolution",
+        "count": 8
+      },
+      {
+        "phrase": "evolvers_variational",
+        "count": 8
+      },
+      {
+        "phrase": "learning_gradients",
+        "count": 8
+      },
+      {
+        "phrase": "imaginary_time",
+        "count": 6
+      },
+      {
+        "phrase": "real_time",
+        "count": 6
+      },
+      {
+        "phrase": "variational_principles",
+        "count": 5
+      },
+      {
+        "phrase": "principle_imaginary",
+        "count": 5
+      },
+      {
+        "phrase": "principle_real",
+        "count": 5
+      }
+    ]
+  },
+  "Quantum Approximate Optimization Algorithm (QAOA)": {
+    "concept_count": 7,
+    "keywords": [
+      "qaoa",
+      "penalty",
+      "mixer",
+      "cost",
+      "ansatz",
+      "qaoaembedding",
+      "embeddings",
+      "embedding",
+      "minimum",
+      "eigensolvers",
+      "local",
+      "custom"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "qaoa",
+        "score": 100.217
+      },
+      {
+        "token": "penalty",
+        "score": 33.406
+      },
+      {
+        "token": "mixer",
+        "score": 17.212
+      },
+      {
+        "token": "cost",
+        "score": 13.769
+      },
+      {
+        "token": "ansatz",
+        "score": 12.63
+      },
+      {
+        "token": "qaoaembedding",
+        "score": 6.885
+      },
+      {
+        "token": "embeddings",
+        "score": 6.074
+      },
+      {
+        "token": "embedding",
+        "score": 6.074
+      },
+      {
+        "token": "minimum",
+        "score": 6.074
+      },
+      {
+        "token": "eigensolvers",
+        "score": 5.498
+      },
+      {
+        "token": "local",
+        "score": 4.687
+      },
+      {
+        "token": "custom",
+        "score": 3.442
+      }
+    ],
+    "bigrams": [
+      "qaoa_penalty",
+      "penalty_qaoa",
+      "qaoa_ansatz",
+      "qaoa_mixer"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "qaoa_penalty",
+        "count": 5
+      },
+      {
+        "phrase": "penalty_qaoa",
+        "count": 5
+      },
+      {
+        "phrase": "qaoa_ansatz",
+        "count": 3
+      },
+      {
+        "phrase": "qaoa_mixer",
+        "count": 2
+      }
+    ]
+  },
+  "Quantum Phase Estimation (QPE)": {
+    "concept_count": 10,
+    "keywords": [
+      "phase",
+      "estimation",
+      "qpe",
+      "estimators",
+      "sequence",
+      "estimator",
+      "scale",
+      "controlled",
+      "hamiltonian",
+      "flexible",
+      "iterative",
+      "unitary"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "phase",
+        "score": 88.41
+      },
+      {
+        "token": "estimation",
+        "score": 78.959
+      },
+      {
+        "token": "qpe",
+        "score": 48.193
+      },
+      {
+        "token": "estimators",
+        "score": 30.369
+      },
+      {
+        "token": "sequence",
+        "score": 12.63
+      },
+      {
+        "token": "estimator",
+        "score": 12.63
+      },
+      {
+        "token": "scale",
+        "score": 12.148
+      },
+      {
+        "token": "controlled",
+        "score": 11.719
+      },
+      {
+        "token": "hamiltonian",
+        "score": 10.997
+      },
+      {
+        "token": "flexible",
+        "score": 10.327
+      },
+      {
+        "token": "iterative",
+        "score": 9.111
+      },
+      {
+        "token": "unitary",
+        "score": 7.578
+      }
+    ],
+    "bigrams": [
+      "phase_estimation",
+      "estimation_phase",
+      "phase_estimators",
+      "estimation_qpe",
+      "estimators_phase",
+      "phase_estimator",
+      "controlled_sequence",
+      "sequence_controlled",
+      "qpe_estimates",
+      "estimates_phase",
+      "phase_eigenvalue",
+      "eigenvalue_associated"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "phase_estimation",
+        "count": 16
+      },
+      {
+        "phrase": "estimation_phase",
+        "count": 5
+      },
+      {
+        "phrase": "phase_estimators",
+        "count": 5
+      },
+      {
+        "phrase": "estimation_qpe",
+        "count": 4
+      },
+      {
+        "phrase": "estimators_phase",
+        "count": 3
+      },
+      {
+        "phrase": "phase_estimator",
+        "count": 3
+      },
+      {
+        "phrase": "controlled_sequence",
+        "count": 2
+      },
+      {
+        "phrase": "sequence_controlled",
+        "count": 2
+      },
+      {
+        "phrase": "qpe_estimates",
+        "count": 2
+      },
+      {
+        "phrase": "estimates_phase",
+        "count": 2
+      },
+      {
+        "phrase": "phase_eigenvalue",
+        "count": 2
+      },
+      {
+        "phrase": "eigenvalue_associated",
+        "count": 2
+      }
+    ]
+  },
+  "Quantum Neural Network (QNN)": {
+    "concept_count": 13,
+    "keywords": [
+      "neural",
+      "machine",
+      "learning",
+      "qnn",
+      "tensornetworks",
+      "effective",
+      "dimension",
+      "mera",
+      "ttn",
+      "mps",
+      "net",
+      "broadcasts"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "neural",
+        "score": 89.501
+      },
+      {
+        "token": "machine",
+        "score": 84.374
+      },
+      {
+        "token": "learning",
+        "score": 84.374
+      },
+      {
+        "token": "qnn",
+        "score": 24.096
+      },
+      {
+        "token": "tensornetworks",
+        "score": 20.654
+      },
+      {
+        "token": "effective",
+        "score": 20.654
+      },
+      {
+        "token": "dimension",
+        "score": 20.654
+      },
+      {
+        "token": "mera",
+        "score": 17.212
+      },
+      {
+        "token": "ttn",
+        "score": 17.212
+      },
+      {
+        "token": "mps",
+        "score": 15.184
+      },
+      {
+        "token": "net",
+        "score": 13.769
+      },
+      {
+        "token": "broadcasts",
+        "score": 10.327
+      }
+    ],
+    "bigrams": [
+      "machine_learning",
+      "learning_machine",
+      "learning_neural",
+      "effective_dimension",
+      "broadcasts_across",
+      "across_wires",
+      "wires_following",
+      "neural_net",
+      "qnn_neural",
+      "dimension_neural",
+      "local_effective",
+      "scikit_learn"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "machine_learning",
+        "count": 18
+      },
+      {
+        "phrase": "learning_machine",
+        "count": 9
+      },
+      {
+        "phrase": "learning_neural",
+        "count": 5
+      },
+      {
+        "phrase": "effective_dimension",
+        "count": 4
+      },
+      {
+        "phrase": "broadcasts_across",
+        "count": 3
+      },
+      {
+        "phrase": "across_wires",
+        "count": 3
+      },
+      {
+        "phrase": "wires_following",
+        "count": 3
+      },
+      {
+        "phrase": "neural_net",
+        "count": 2
+      },
+      {
+        "phrase": "qnn_neural",
+        "count": 2
+      },
+      {
+        "phrase": "dimension_neural",
+        "count": 2
+      },
+      {
+        "phrase": "local_effective",
+        "count": 2
+      },
+      {
+        "phrase": "scikit_learn",
+        "count": 2
+      }
+    ]
+  },
+  "Variational Quantum Eigensolver (VQE)": {
+    "concept_count": 13,
+    "keywords": [
+      "vqe",
+      "minimum",
+      "particle",
+      "conserving",
+      "eigensolver",
+      "eigensolvers",
+      "uccsd",
+      "excitation",
+      "singles",
+      "doubles",
+      "fermionic",
+      "sampling"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "vqe",
+        "score": 65.405
+      },
+      {
+        "token": "minimum",
+        "score": 60.738
+      },
+      {
+        "token": "particle",
+        "score": 34.423
+      },
+      {
+        "token": "conserving",
+        "score": 34.423
+      },
+      {
+        "token": "eigensolver",
+        "score": 33.406
+      },
+      {
+        "token": "eigensolvers",
+        "score": 32.99
+      },
+      {
+        "token": "uccsd",
+        "score": 30.981
+      },
+      {
+        "token": "excitation",
+        "score": 30.369
+      },
+      {
+        "token": "singles",
+        "score": 27.539
+      },
+      {
+        "token": "doubles",
+        "score": 27.539
+      },
+      {
+        "token": "fermionic",
+        "score": 27.539
+      },
+      {
+        "token": "sampling",
+        "score": 27.332
+      }
+    ],
+    "bigrams": [
+      "particle_conserving",
+      "singles_doubles",
+      "minimum_eigensolvers",
+      "minimum_eigensolver",
+      "vqe_ansatz",
+      "chemistry_simulations",
+      "coupled_cluster",
+      "double_excitation",
+      "unitary_coupled",
+      "cluster_singles",
+      "doubles_uccsd",
+      "uccsd_ansatz"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "particle_conserving",
+        "count": 6
+      },
+      {
+        "phrase": "singles_doubles",
+        "count": 6
+      },
+      {
+        "phrase": "minimum_eigensolvers",
+        "count": 6
+      },
+      {
+        "phrase": "minimum_eigensolver",
+        "count": 5
+      },
+      {
+        "phrase": "vqe_ansatz",
+        "count": 4
+      },
+      {
+        "phrase": "chemistry_simulations",
+        "count": 4
+      },
+      {
+        "phrase": "coupled_cluster",
+        "count": 4
+      },
+      {
+        "phrase": "double_excitation",
+        "count": 3
+      },
+      {
+        "phrase": "unitary_coupled",
+        "count": 3
+      },
+      {
+        "phrase": "cluster_singles",
+        "count": 3
+      },
+      {
+        "phrase": "doubles_uccsd",
+        "count": 3
+      },
+      {
+        "phrase": "uccsd_ansatz",
+        "count": 3
+      }
+    ]
+  },
+  "Amplitude Amplification": {
+    "concept_count": 9,
+    "keywords": [
+      "amplification",
+      "amplitude",
+      "grover",
+      "reflection",
+      "state",
+      "amplifier",
+      "problem",
+      "amplifiers",
+      "zero",
+      "exact",
+      "reflect",
+      "reflects"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "amplification",
+        "score": 79.174
+      },
+      {
+        "token": "amplitude",
+        "score": 54.74
+      },
+      {
+        "token": "grover",
+        "score": 35.74
+      },
+      {
+        "token": "reflection",
+        "score": 17.212
+      },
+      {
+        "token": "state",
+        "score": 14.135
+      },
+      {
+        "token": "amplifier",
+        "score": 13.769
+      },
+      {
+        "token": "problem",
+        "score": 12.63
+      },
+      {
+        "token": "amplifiers",
+        "score": 12.148
+      },
+      {
+        "token": "zero",
+        "score": 9.111
+      },
+      {
+        "token": "exact",
+        "score": 7.031
+      },
+      {
+        "token": "reflect",
+        "score": 6.885
+      },
+      {
+        "token": "reflects",
+        "score": 6.885
+      }
+    ],
+    "bigrams": [
+      "amplitude_amplification",
+      "amplification_amplitude",
+      "amplification_problem",
+      "amplification_exact",
+      "reflects_state",
+      "amplitude_amplifiers",
+      "problem_amplification",
+      "amplitude_amplifier"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "amplitude_amplification",
+        "count": 10
+      },
+      {
+        "phrase": "amplification_amplitude",
+        "count": 4
+      },
+      {
+        "phrase": "amplification_problem",
+        "count": 3
+      },
+      {
+        "phrase": "amplification_exact",
+        "count": 2
+      },
+      {
+        "phrase": "reflects_state",
+        "count": 2
+      },
+      {
+        "phrase": "amplitude_amplifiers",
+        "count": 2
+      },
+      {
+        "phrase": "problem_amplification",
+        "count": 2
+      },
+      {
+        "phrase": "amplitude_amplifier",
+        "count": 2
+      }
+    ]
+  },
+  "Linear Combination of Unitaries": {
+    "concept_count": 14,
+    "keywords": [
+      "qsvt",
+      "lcu",
+      "gqsp",
+      "projector",
+      "block",
+      "unitary",
+      "controlled",
+      "phase",
+      "fable",
+      "singular",
+      "prep",
+      "encoding"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "qsvt",
+        "score": 127.367
+      },
+      {
+        "token": "lcu",
+        "score": 51.635
+      },
+      {
+        "token": "gqsp",
+        "score": 27.539
+      },
+      {
+        "token": "projector",
+        "score": 27.539
+      },
+      {
+        "token": "block",
+        "score": 21.258
+      },
+      {
+        "token": "unitary",
+        "score": 20.208
+      },
+      {
+        "token": "controlled",
+        "score": 18.75
+      },
+      {
+        "token": "phase",
+        "score": 18.504
+      },
+      {
+        "token": "fable",
+        "score": 13.769
+      },
+      {
+        "token": "singular",
+        "score": 13.769
+      },
+      {
+        "token": "prep",
+        "score": 12.148
+      },
+      {
+        "token": "encoding",
+        "score": 11.719
+      }
+    ],
+    "bigrams": [
+      "block_encoding",
+      "projector_controlled",
+      "linear_combination",
+      "combination_unitaries",
+      "controlled_phase",
+      "qsvt_lcu",
+      "gqsp_generalized",
+      "generalized_signal",
+      "signal_processing",
+      "processing_gqsp",
+      "unitaries_lcu",
+      "prepares_superposition"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "block_encoding",
+        "count": 5
+      },
+      {
+        "phrase": "projector_controlled",
+        "count": 5
+      },
+      {
+        "phrase": "linear_combination",
+        "count": 4
+      },
+      {
+        "phrase": "combination_unitaries",
+        "count": 3
+      },
+      {
+        "phrase": "controlled_phase",
+        "count": 3
+      },
+      {
+        "phrase": "qsvt_lcu",
+        "count": 3
+      },
+      {
+        "phrase": "gqsp_generalized",
+        "count": 2
+      },
+      {
+        "phrase": "generalized_signal",
+        "count": 2
+      },
+      {
+        "phrase": "signal_processing",
+        "count": 2
+      },
+      {
+        "phrase": "processing_gqsp",
+        "count": 2
+      },
+      {
+        "phrase": "unitaries_lcu",
+        "count": 2
+      },
+      {
+        "phrase": "prepares_superposition",
+        "count": 2
+      }
+    ]
+  },
+  "SWAP Test": {
+    "concept_count": 11,
+    "keywords": [
+      "machine",
+      "learning",
+      "fidelity",
+      "hilbert",
+      "schmidt",
+      "kernel",
+      "uncompute",
+      "test",
+      "fidelities",
+      "state",
+      "qsvc",
+      "kernels"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "machine",
+        "score": 58.593
+      },
+      {
+        "token": "learning",
+        "score": 58.593
+      },
+      {
+        "token": "fidelity",
+        "score": 48.59
+      },
+      {
+        "token": "hilbert",
+        "score": 41.308
+      },
+      {
+        "token": "schmidt",
+        "score": 41.308
+      },
+      {
+        "token": "kernel",
+        "score": 33.406
+      },
+      {
+        "token": "uncompute",
+        "score": 30.981
+      },
+      {
+        "token": "test",
+        "score": 27.539
+      },
+      {
+        "token": "fidelities",
+        "score": 27.539
+      },
+      {
+        "token": "state",
+        "score": 26.699
+      },
+      {
+        "token": "qsvc",
+        "score": 13.769
+      },
+      {
+        "token": "kernels",
+        "score": 12.148
+      }
+    ],
+    "bigrams": [
+      "machine_learning",
+      "hilbert_schmidt",
+      "learning_machine",
+      "state_fidelities",
+      "schmidt_hilbert",
+      "schmidt_local",
+      "local_hilbert",
+      "state_fidelity",
+      "feature_map",
+      "schmidt_test",
+      "swap_test",
+      "fidelity_states"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "machine_learning",
+        "count": 13
+      },
+      {
+        "phrase": "hilbert_schmidt",
+        "count": 8
+      },
+      {
+        "phrase": "learning_machine",
+        "count": 6
+      },
+      {
+        "phrase": "state_fidelities",
+        "count": 4
+      },
+      {
+        "phrase": "schmidt_hilbert",
+        "count": 3
+      },
+      {
+        "phrase": "schmidt_local",
+        "count": 3
+      },
+      {
+        "phrase": "local_hilbert",
+        "count": 3
+      },
+      {
+        "phrase": "state_fidelity",
+        "count": 3
+      },
+      {
+        "phrase": "feature_map",
+        "count": 3
+      },
+      {
+        "phrase": "schmidt_test",
+        "count": 2
+      },
+      {
+        "phrase": "swap_test",
+        "count": 2
+      },
+      {
+        "phrase": "fidelity_states",
+        "count": 2
+      }
+    ]
+  },
+  "Domain Specific Application": {
+    "concept_count": 2,
+    "keywords": [
+      "interferometer",
+      "bayesian",
+      "inference",
+      "machine",
+      "learning",
+      "beamsplitters",
+      "shifters",
+      "rejection",
+      "posterior",
+      "probabilities",
+      "sampling",
+      "encoding"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "interferometer",
+        "score": 17.212
+      },
+      {
+        "token": "bayesian",
+        "score": 13.769
+      },
+      {
+        "token": "inference",
+        "score": 10.327
+      },
+      {
+        "token": "machine",
+        "score": 9.375
+      },
+      {
+        "token": "learning",
+        "score": 9.375
+      },
+      {
+        "token": "beamsplitters",
+        "score": 3.442
+      },
+      {
+        "token": "shifters",
+        "score": 3.442
+      },
+      {
+        "token": "rejection",
+        "score": 3.442
+      },
+      {
+        "token": "posterior",
+        "score": 3.442
+      },
+      {
+        "token": "probabilities",
+        "score": 3.442
+      },
+      {
+        "token": "sampling",
+        "score": 3.037
+      },
+      {
+        "token": "encoding",
+        "score": 2.344
+      }
+    ],
+    "bigrams": [
+      "machine_learning"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "machine_learning",
+        "count": 2
+      }
+    ]
+  },
+  "Quantum Amplitude Estimation": {
+    "concept_count": 8,
+    "keywords": [
+      "amplitude",
+      "estimation",
+      "estimators",
+      "problem",
+      "faster",
+      "maximum",
+      "likelihood",
+      "estimator",
+      "iterative",
+      "qmc",
+      "monte",
+      "carlo"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "amplitude",
+        "score": 74.446
+      },
+      {
+        "token": "estimation",
+        "score": 72.885
+      },
+      {
+        "token": "estimators",
+        "score": 36.443
+      },
+      {
+        "token": "problem",
+        "score": 12.63
+      },
+      {
+        "token": "faster",
+        "score": 10.327
+      },
+      {
+        "token": "maximum",
+        "score": 10.327
+      },
+      {
+        "token": "likelihood",
+        "score": 10.327
+      },
+      {
+        "token": "estimator",
+        "score": 10.104
+      },
+      {
+        "token": "iterative",
+        "score": 9.111
+      },
+      {
+        "token": "qmc",
+        "score": 6.885
+      },
+      {
+        "token": "monte",
+        "score": 6.885
+      },
+      {
+        "token": "carlo",
+        "score": 6.885
+      }
+    ],
+    "bigrams": [
+      "amplitude_estimation",
+      "amplitude_estimators",
+      "estimation_problem",
+      "estimation_amplitude",
+      "estimators_amplitude",
+      "amplitude_estimator",
+      "estimator_amplitude",
+      "problem_estimation",
+      "faster_amplitude",
+      "iterative_amplitude",
+      "maximum_likelihood",
+      "likelihood_amplitude"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "amplitude_estimation",
+        "count": 12
+      },
+      {
+        "phrase": "amplitude_estimators",
+        "count": 6
+      },
+      {
+        "phrase": "estimation_problem",
+        "count": 3
+      },
+      {
+        "phrase": "estimation_amplitude",
+        "count": 2
+      },
+      {
+        "phrase": "estimators_amplitude",
+        "count": 2
+      },
+      {
+        "phrase": "amplitude_estimator",
+        "count": 2
+      },
+      {
+        "phrase": "estimator_amplitude",
+        "count": 2
+      },
+      {
+        "phrase": "problem_estimation",
+        "count": 2
+      },
+      {
+        "phrase": "faster_amplitude",
+        "count": 2
+      },
+      {
+        "phrase": "iterative_amplitude",
+        "count": 2
+      },
+      {
+        "phrase": "maximum_likelihood",
+        "count": 2
+      },
+      {
+        "phrase": "likelihood_amplitude",
+        "count": 2
+      }
+    ]
+  },
+  "Dynamic Circuit": {
+    "concept_count": 2,
+    "keywords": [
+      "multiplexer",
+      "multiplexed",
+      "control",
+      "wires",
+      "state"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "multiplexer",
+        "score": 3.442
+      },
+      {
+        "token": "multiplexed",
+        "score": 3.037
+      },
+      {
+        "token": "control",
+        "score": 2.526
+      },
+      {
+        "token": "wires",
+        "score": 2.19
+      },
+      {
+        "token": "state",
+        "score": 1.571
+      }
+    ],
+    "bigrams": [],
+    "bigrams_with_count": []
+  },
+  "Function Table": {
+    "concept_count": 1,
+    "keywords": [
+      "lookup",
+      "table",
+      "span",
+      "numbers",
+      "classical"
+    ],
+    "keywords_with_score": [
+      {
+        "token": "lookup",
+        "score": 13.769
+      },
+      {
+        "token": "table",
+        "score": 13.769
+      },
+      {
+        "token": "span",
+        "score": 6.885
+      },
+      {
+        "token": "numbers",
+        "score": 3.442
+      },
+      {
+        "token": "classical",
+        "score": 2.344
+      }
+    ],
+    "bigrams": [
+      "lookup_table"
+    ],
+    "bigrams_with_count": [
+      {
+        "phrase": "lookup_table",
+        "count": 2
+      }
+    ]
+  }
+}

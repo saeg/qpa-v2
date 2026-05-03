@@ -1,0 +1,384 @@
+file_path;concept_name;pattern;match_type;matched_text;similarity_score;first_line
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;/pennylane/pennylane.templates.subroutines.fable.FABLE;Linear Combination of Unitaries;title;BlockEncoding class 101: Block encoding, LCU, resource estimation In classical computer science, we often perform operations directly on matrices, suc...;0.7566;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;pattern:Linear Combination of Unitaries;Linear Combination of Unitaries;pattern_desc;!/usr/bin/env python coding: utf-8 BlockEncoding class 101: Block encoding, LCU, resource estimation In classical computer science, we often perform o...;0.7355;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;exact, problem, state, zero;0.2000;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;arbitrary, checking, pauli, unitary;0.1667;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;prepare, state, variable;0.1667;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;data, embedding, encodes, features, learning, pauli;0.2500;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Domain Specific Application;Domain Specific Application;keyword_comment;encoding, learning, sampling;0.2308;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Dynamic Circuit;Dynamic Circuit;keyword_comment;control, mid-circuit measurement, state;0.6000;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;evolution, hamiltonian, pauli, suzuki, time, trotter;0.2500;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Initialization;Initialization;keyword_comment;basis, prepare, prepares, state, superposition;0.2083;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block, controlled, encoding, lcu, phase, prep, qsp, quantum signal processing, u;0.3750;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Oracle;Oracle;keyword_comment;bit, flip, flips, linear, phase, problem, sign, solve;0.4211;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;estimation, maximum, problem;0.1250;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;arithmetic, exponentiation, modular, number, pauli, place;0.2500;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;implementing, inner, logic, number, product, random;0.2857;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, estimation, hamiltonian, phase, scale, sequence, unitary;0.2917;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;hilbert, learning, state;0.1250;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;learning, real, time;0.1250;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_name:Oracle;Oracle;keyword_name;bit_length;1.0000;159
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_name:Domain Specific Application;Domain Specific Application;keyword_name;BlockEncoding;1.0000;167
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;BlockEncoding;1.0000;167
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;prepare;1.0000;342
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_name:Initialization;Initialization;keyword_name;prepare;1.0000;342
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;caller:Linear Combination of Unitaries;Linear Combination of Unitaries;caller;operand_prep() calls prepare();1.0000;417
+documentation/source/general/tutorial/BE_tutorial/BE_vol1.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;run_arithmetic;1.0000;516
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;exact, problem, reflection, state, zero;0.2500;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Basis Change;Basis Change;keyword_comment;basis, cosine, discrete, sine, transform;0.2083;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;arbitrary, diagonal, generalized, multi-control, unitary;0.2083;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;preparation, prepare, representing, state, variable;0.2778;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;angle, embedding, encodes, features, learning, machine;0.2500;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Domain Specific Application;Domain Specific Application;keyword_comment;encoding, learning, machine;0.2308;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;approx, evolution, hamiltonian, qubitization, time;0.2083;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Initialization;Initialization;keyword_comment;amplitudes, basis, initial state, preparation, prepare, sparse, state, superposi;0.3750;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block, controlled, encoding, gqsp, lcu, phase, prep, projector, qsp, qsvt, quant;0.5417;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Oracle;Oracle;keyword_comment;bit, linear, oracle, phase, problem, solve;0.3158;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;estimation, iterative, problem;0.1250;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;cost, custom, embedding, minimum;0.2500;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;modular, number, rotations;0.1250;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;logic, number, product;0.1429;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Quantum Neural Network (QNN);Quantum Neural Network (QNN);keyword_comment;dimension, learning, machine;0.1250;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, estimation, hamiltonian, iterative, phase, qpe, quantum phase estima;0.4167;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;hilbert, learning, machine, state;0.1667;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;learning, machine, real, time;0.1667;0
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;/pennylane/pennylane.templates.subroutines.qubitization.Qubitization;Hamiltonian Simulation;name;qubitization;1.0000;63
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;qubitization;1.0000;63
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;operand_prep;1.0000;139
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;cycle_graph;1.0000;199
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;caller:Linear Combination of Unitaries;Linear Combination of Unitaries;caller;operand_prep() calls QuantumVariable();1.0000;208
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;ground_state_energy;1.0000;227
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;ground_state_energy;1.0000;227
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:SWAP Test;SWAP Test;keyword_name;ground_state_energy;1.0000;227
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Initialization;Initialization;keyword_name;prepare;1.0000;308
+documentation/source/general/tutorial/BE_tutorial/BE_vol2.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;create_ising_hamiltonian;1.0000;663
+documentation/source/general/tutorial/BigInteger.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;arithmetic, number, qft;0.1250;0
+documentation/source/general/tutorial/BigInteger.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;estimation, qpe, scale, sequence;0.1667;0
+documentation/source/general/tutorial/BigInteger.py;kw_name:Quantum Logical Operators;Quantum Logical Operators;keyword_name;xor_bi;1.0000;137
+documentation/source/general/tutorial/BigInteger.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;158
+documentation/source/general/tutorial/BigInteger.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;QFT;1.0000;161
+documentation/source/general/tutorial/BigInteger.py;caller:Oracle;Oracle;caller;estimate_shor_resources() calls shor_ops_kernel();1.0000;224
+documentation/source/general/tutorial/BigInteger.py;caller:Quantum Arithmetic;Quantum Arithmetic;caller;estimate_shor_resources() calls shor_ops_kernel();1.0000;224
+documentation/source/general/tutorial/BigInteger.py;caller:Quantum Logical Operators;Quantum Logical Operators;caller;estimate_shor_resources() calls shor_ops_kernel();1.0000;224
+documentation/source/general/tutorial/BigInteger.py;caller:Dynamic Circuit;Dynamic Circuit;caller;shor_ops_kernel() calls control();1.0000;254
+documentation/source/general/tutorial/BigInteger.py;caller:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);caller;shor_ops_kernel() calls control();1.0000;254
+documentation/source/general/tutorial/BigInteger.py;caller:SWAP Test;SWAP Test;caller;shor_ops_kernel() calls control();1.0000;254
+documentation/source/general/tutorial/BigInteger.py;kw_name:SWAP Test;SWAP Test;keyword_name;shor_ops_kernel;1.0000;292
+documentation/source/general/tutorial/BigInteger.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;time;1.0000;300
+documentation/source/general/tutorial/BigInteger.py;kw_name:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_name;time;1.0000;300
+documentation/source/general/tutorial/CD.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;exact, problem, state;0.1500;0
+documentation/source/general/tutorial/CD.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;evolution, hamiltonian, pauli, quantum simulation, time;0.2083;0
+documentation/source/general/tutorial/CD.py;kw_comment:Initialization;Initialization;keyword_comment;basis, prepare, state, uniform;0.1667;0
+documentation/source/general/tutorial/CD.py;kw_comment:Oracle;Oracle;keyword_comment;phase, problem, solve;0.1579;0
+documentation/source/general/tutorial/CD.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;cost, local, minimum;0.1875;0
+documentation/source/general/tutorial/CD.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;number, random, vectors;0.1429;0
+documentation/source/general/tutorial/CD.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;imaginary, local, real, time;0.1667;0
+documentation/source/general/tutorial/CD.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;DCQOProblem;1.0000;191
+documentation/source/general/tutorial/CD.py;kw_name:Oracle;Oracle;keyword_name;DCQOProblem;1.0000;191
+documentation/source/general/tutorial/CD.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;DCQOProblem;1.0000;191
+documentation/source/general/tutorial/CD.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;QuantumVariable;1.0000;209
+documentation/source/general/tutorial/FT_compilation.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;angle, feature, pauli;0.1250;0
+documentation/source/general/tutorial/FT_compilation.py;kw_comment:Dynamic Circuit;Dynamic Circuit;keyword_comment;classically controlled, control, mid-circuit measurement, state;0.8000;0
+documentation/source/general/tutorial/FT_compilation.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;approx, hamiltonian, pauli, time;0.1667;0
+documentation/source/general/tutorial/FT_compilation.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;adder, adders, arithmetic, modular, pauli, place, qft, rotations;0.3333;0
+documentation/source/general/tutorial/FT_compilation.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;implementing, logical, temporary, toffoli;0.1905;0
+documentation/source/general/tutorial/FT_compilation.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, hamiltonian, phase, scale;0.1667;0
+documentation/source/general/tutorial/FT_compilation.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;QuantumVariable;1.0000;27
+documentation/source/general/tutorial/FT_compilation.py;kw_name:SWAP Test;SWAP Test;keyword_name;uncompute;1.0000;153
+documentation/source/general/tutorial/FT_compilation.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;206
+documentation/source/general/tutorial/FT_compilation.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;281
+documentation/source/general/tutorial/FT_compilation.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;281
+documentation/source/general/tutorial/FT_compilation.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;281
+documentation/source/general/tutorial/FT_compilation.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;281
+documentation/source/general/tutorial/FT_compilation.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;QFT;1.0000;281
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;amplitude, exact, reflection, state, zero;0.2500;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;arbitrary, generalized, pauli, unitary;0.1667;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;graph, preparation, prepare, state, variable;0.2778;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;amplitude, embedding, encodes, features, pauli;0.2083;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;approx, hamiltonian, pauli, qubitization;0.1667;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Initialization;Initialization;keyword_comment;basis, initial state, preparation, prepare, prepares, state;0.2500;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block, encoding, gqsp, lcu, phase, prep, qsp, quantum signal processing, unitary;0.3750;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;amplitude, estimation, maximum;0.1250;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;estimation, hamiltonian, phase, quantum phase estimation, scale, sequence, unita;0.2917;0
+documentation/source/general/tutorial/GQSP_filtering.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;fidelities, fidelity, hilbert, state;0.1667;0
+documentation/source/general/tutorial/GQSP_filtering.py;caller:Creating Entanglement;Creating Entanglement;caller;generate_1D_chain_graph() calls Graph();1.0000;65
+documentation/source/general/tutorial/GQSP_filtering.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;generate_1D_chain_graph;1.0000;73
+documentation/source/general/tutorial/GQSP_filtering.py;caller:Linear Combination of Unitaries;Linear Combination of Unitaries;caller;psi_prep() calls QuantumVariable();1.0000;88
+documentation/source/general/tutorial/GQSP_filtering.py;kw_name:Oracle;Oracle;keyword_name;bit_length;1.0000;340
+documentation/source/general/tutorial/GQSP_filtering.py;/pennylane/pennylane.templates.subroutines.reflection.Reflection;Amplitude Amplification;name;reflection;1.0000;369
+documentation/source/general/tutorial/GQSP_filtering.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;reflection;1.0000;369
+documentation/source/general/tutorial/GQSP_filtering.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;psi_prep;1.0000;376
+documentation/source/general/tutorial/GQSP_filtering.py;/classiq/open_library.functions.qsvt.gqsp;Linear Combination of Unitaries;name;GQSP;1.0000;379
+documentation/source/general/tutorial/GQSP_filtering.py;/pennylane/pennylane.templates.subroutines.gqsp.GQSP;Linear Combination of Unitaries;name;GQSP;1.0000;379
+documentation/source/general/tutorial/H2.py;pattern:Hamiltonian Simulation;Hamiltonian Simulation;pattern_desc;!/usr/bin/env python coding: utf-8 Simulating the dynamics of the \$H_2\$ molecule $$ \def\CC{\bf C} \def\QQ{\bf Q} \def\RR{\bf R} \def\ZZ{\bf Z} \def...;0.6599;0
+documentation/source/general/tutorial/H2.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;amplitude, exact, state;0.1500;0
+documentation/source/general/tutorial/H2.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;initializes, representing, state;0.1667;0
+documentation/source/general/tutorial/H2.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;amplitude, data, embedding, pauli;0.1667;0
+documentation/source/general/tutorial/H2.py;kw_comment:Function Table;Function Table;keyword_comment;classical, numbers, span;0.5000;0
+documentation/source/general/tutorial/H2.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;hamiltonian, pauli, time;0.1250;0
+documentation/source/general/tutorial/H2.py;kw_comment:Initialization;Initialization;keyword_comment;basis, initializes, state, superposition;0.1667;0
+documentation/source/general/tutorial/H2.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;principle, real, time;0.1250;0
+documentation/source/general/tutorial/H2.py;kw_comment:Variational Quantum Eigensolver (VQE);Variational Quantum Eigensolver (VQE);keyword_comment;fermionic, particle, second quantization;0.1250;0
+documentation/source/general/tutorial/H2.py;caller:Amplitude Amplification;Amplitude Amplification;caller;state_prep() calls QuantumVariable();1.0000;225
+documentation/source/general/tutorial/H2.py;caller:Creating Entanglement;Creating Entanglement;caller;state_prep() calls QuantumVariable();1.0000;225
+documentation/source/general/tutorial/H2.py;caller:Dynamic Circuit;Dynamic Circuit;caller;state_prep() calls QuantumVariable();1.0000;225
+documentation/source/general/tutorial/H2.py;caller:Initialization;Initialization;caller;state_prep() calls QuantumVariable();1.0000;225
+documentation/source/general/tutorial/H2.py;caller:Linear Combination of Unitaries;Linear Combination of Unitaries;caller;state_prep() calls QuantumVariable();1.0000;225
+documentation/source/general/tutorial/H2.py;caller:SWAP Test;SWAP Test;caller;state_prep() calls QuantumVariable();1.0000;225
+documentation/source/general/tutorial/H2.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;state_prep;1.0000;242
+documentation/source/general/tutorial/H2.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;state_prep;1.0000;242
+documentation/source/general/tutorial/H2.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;state_prep;1.0000;242
+documentation/source/general/tutorial/H2.py;kw_name:Initialization;Initialization;keyword_name;state_prep;1.0000;242
+documentation/source/general/tutorial/H2.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;state_prep;1.0000;242
+documentation/source/general/tutorial/H2.py;kw_name:SWAP Test;SWAP Test;keyword_name;state_prep;1.0000;242
+documentation/source/general/tutorial/HHL.py;pattern:Linear Combination of Unitaries;Linear Combination of Unitaries;pattern_desc;!/usr/bin/env python coding: utf-8 Solving linear system problems with HHL The Harrow-Hassidim-Lloyd (HHL) quantum algorithm offers an exponential spe...;0.6882;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;oblivious amplitude amplification, problem, state, zero;0.2000;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;preparation, prepare, state, variable;0.2222;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;amplitude, feature, features, learning, machine, pauli;0.2500;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Domain Specific Application;Domain Specific Application;keyword_comment;encoding, learning, machine, probabilities, sampling;0.3846;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;evolution, hamiltonian, pauli, time;0.1667;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Initialization;Initialization;keyword_comment;amplitudes, preparation, prepare, prepares, sparse, state, superposition, unifor;0.3333;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;controlled, encoding, phase, unitary;0.1667;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Oracle;Oracle;keyword_comment;linear, phase, problem, solve;0.2105;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;amplitude, estimation, faster, problem;0.1667;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;arithmetic, number, pauli, place;0.1667;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;boolean, number, random;0.1429;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Quantum Neural Network (QNN);Quantum Neural Network (QNN);keyword_comment;dimension, learning, machine;0.1250;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, hamiltonian, qpe, quantum phase estimation, unitary;0.2083;0
+documentation/source/general/tutorial/HHL.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;learning, machine, state, uncompute;0.1667;0
+documentation/source/general/tutorial/HHL.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;learning, local, machine, real, time;0.2083;0
+documentation/source/general/tutorial/HHL.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;dicke_state;1.0000;91
+documentation/source/general/tutorial/HHL.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;dicke_state;1.0000;91
+documentation/source/general/tutorial/HHL.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;dicke_state;1.0000;91
+documentation/source/general/tutorial/HHL.py;kw_name:Initialization;Initialization;keyword_name;dicke_state;1.0000;91
+documentation/source/general/tutorial/HHL.py;kw_name:SWAP Test;SWAP Test;keyword_name;dicke_state;1.0000;91
+documentation/source/general/tutorial/HHL.py;caller:Domain Specific Application;Domain Specific Application;caller;HHL_encoding() calls prepare();1.0000;125
+documentation/source/general/tutorial/HHL.py;caller:Linear Combination of Unitaries;Linear Combination of Unitaries;caller;HHL_encoding() calls prepare();1.0000;125
+documentation/source/general/tutorial/HHL.py;/classiq/open_library.functions.qpe.qpe;Quantum Phase Estimation (QPE);name;QPE;1.0000;132
+documentation/source/general/tutorial/HHL.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;QPE;1.0000;132
+documentation/source/general/tutorial/HHL.py;kw_name:Domain Specific Application;Domain Specific Application;keyword_name;HHL_encoding;1.0000;175
+documentation/source/general/tutorial/HHL.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;HHL_encoding;1.0000;175
+documentation/source/general/tutorial/HHL.py;kw_name:Circuit Construction Utility;Circuit Construction Utility;keyword_name;to_pauli;1.0000;205
+documentation/source/general/tutorial/HHL.py;kw_name:Data Encoding;Data Encoding;keyword_name;to_pauli;1.0000;205
+documentation/source/general/tutorial/HHL.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;to_pauli;1.0000;205
+documentation/source/general/tutorial/HHL.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;to_pauli;1.0000;205
+documentation/source/general/tutorial/Jasp.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;ghz, state, variable;0.1667;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;data, embedding, encodes, feature, features, learning, machine;0.2917;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Domain Specific Application;Domain Specific Application;keyword_comment;learning, machine, sampling;0.2308;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Initialization;Initialization;keyword_comment;state, superposition, uniform;0.1250;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Oracle;Oracle;keyword_comment;bit, linear, problem;0.1579;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;adder, modular, place;0.1250;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;boolean, logic, product, random, temporary;0.2381;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Quantum Neural Network (QNN);Quantum Neural Network (QNN);keyword_comment;learning, machine, neural;0.1250;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;learning, machine, state, uncompute;0.1667;0
+documentation/source/general/tutorial/Jasp.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;learning, machine, principle, real, time;0.2083;0
+documentation/source/general/tutorial/Jasp.py;/qiskit/qiskit.circuit.library.arithmetic.multipliers.rg_qft_multiplier.RGQFTMultiplier;Quantum Arithmetic;name;RGQFTMultiplier;1.0000;29
+documentation/source/general/tutorial/Jasp.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;RGQFTMultiplier;1.0000;29
+documentation/source/general/tutorial/Jasp.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;time;1.0000;187
+documentation/source/general/tutorial/Jasp.py;kw_name:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_name;time;1.0000;187
+documentation/source/general/tutorial/Jasp.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;DiGraph;1.0000;253
+documentation/source/general/tutorial/Jasp.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;345
+documentation/source/general/tutorial/Jasp.py;kw_name:Quantum Logical Operators;Quantum Logical Operators;keyword_name;boolean_simulation;1.0000;483
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;graph, prepare, representing, state;0.2222;0
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_comment:Initialization;Initialization;keyword_comment;prepare, state, superposition, uniform;0.1667;0
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;ansatz, cost, custom, mixer, qaoa;0.3125;0
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_name:Quantum Logical Operators;Quantum Logical Operators;keyword_name;extract_boolean_digit;1.0000;68
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;Graph;1.0000;104
+documentation/source/general/tutorial/JaspQAOAtutorial.py;caller:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);caller;create_ansatz() calls create_cost_operator();1.0000;152
+documentation/source/general/tutorial/JaspQAOAtutorial.py;caller:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);caller;create_ansatz() calls create_cost_operator();1.0000;152
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;create_cost_operator;1.0000;154
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;number_of_nodes;1.0000;157
+documentation/source/general/tutorial/JaspQAOAtutorial.py;kw_name:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_name;create_ansatz;1.0000;180
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;exact, grover, problem, state, zero;0.2500;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;arbitrary, multi-control, unitary;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;preparation, prepare, state;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Hamiltonian Simulation;Hamiltonian Simulation;keyword_comment;evolution, hamiltonian, time;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Initialization;Initialization;keyword_comment;basis, initial state, preparation, prepare, prepares, state, superposition;0.2917;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;controlled, encoding, phase, singular, unitary;0.2083;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Oracle;Oracle;keyword_comment;bit, grover, oracle, phase, problem;0.2632;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;cost, maxcut qaoa, mixer, qaoa;0.2500;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;number, product, vectors;0.1429;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, flexible, hamiltonian, phase, sequence, unitary;0.2500;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;principle, real, time;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;QuantumVariable;1.0000;131
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;prep_psi;1.0000;133
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;caller:Linear Combination of Unitaries;Linear Combination of Unitaries;caller;inv_prep_psi() calls prep_psi();1.0000;143
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;constrained_mixer;1.0000;168
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;QAOAProblem;1.0000;210
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Oracle;Oracle;keyword_name;QAOAProblem;1.0000;210
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;QAOAProblem;1.0000;210
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;316
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Hamiltonian Simulation;Hamiltonian Simulation;keyword_name;hamiltonian_evolution;1.0000;317
+documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;hamiltonian_evolution;1.0000;317
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;/qiskit-algorithms/qiskit_algorithms.minimum_eigensolvers.qaoa.QAOA;Quantum Approximate Optimization Algorithm (QAOA);title;MaxCut QAOA Implementation Welcome to our Quantum Approximate Optimization Algorithm (QAOA) implementation tutorial for the MaxCut problem! This tutor...;0.8202;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;checking, unitary, volume;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Initialization;Initialization;keyword_comment;initial state, prepares, state, superposition;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block, controlled, phase, unitary;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Oracle;Oracle;keyword_comment;phase, problem, solve;0.1579;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;iterative, maximum, problem;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;cost, maxcut qaoa, mixer, qaoa, quantum approximate optimization;0.3125;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, iterative, phase, unitary;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;Graph;1.0000;25
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;number_of_nodes;1.0000;28
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Quantum Logical Operators;Quantum Logical Operators;keyword_name;number_of_nodes;1.0000;28
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;apply_cost_operator;1.0000;78
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;QAOAProblem;1.0000;226
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Oracle;Oracle;keyword_name;QAOAProblem;1.0000;226
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;QAOAProblem;1.0000;226
+documentation/source/general/tutorial/QAOAtutorial/MaxCut.py;kw_name:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_name;var;1.0000;292
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;graph, prepare, state;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_comment:Initialization;Initialization;keyword_comment;initial state, prepare, state, superposition;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block, controlled, encoding, phase;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_comment:Oracle;Oracle;keyword_comment;phase, problem, solve;0.1579;0
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;cost, custom, maxcut qaoa, mixer, qaoa;0.3125;0
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;Graph;1.0000;94
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;apply_phase_if_eq;1.0000;193
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;apply_phase_if_eq;1.0000;193
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;caller:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);caller;apply_XY_mixer() calls XY_mixer();1.0000;210
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;QAOAProblem;1.0000;239
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Oracle;Oracle;keyword_name;QAOAProblem;1.0000;239
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;QAOAProblem;1.0000;239
+documentation/source/general/tutorial/QAOAtutorial/MkCS.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;QAOAProblem;1.0000;239
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;grover, problem, state;0.1500;0
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;preparation, prepare, representing, state;0.2222;0
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_comment:Initialization;Initialization;keyword_comment;dicke, dicke_state, preparation, prepare, state, superposition;0.2500;0
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_comment:Oracle;Oracle;keyword_comment;grover, problem, solve;0.1579;0
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;ansatz, cost, mixer, qaoa;0.2500;0
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;caller:Amplitude Amplification;Amplitude Amplification;caller;state_prep() calls control();1.0000;100
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;caller:Creating Entanglement;Creating Entanglement;caller;state_prep() calls control();1.0000;100
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;caller:Dynamic Circuit;Dynamic Circuit;caller;state_prep() calls control();1.0000;100
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;caller:Initialization;Initialization;caller;state_prep() calls control();1.0000;100
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;caller:Linear Combination of Unitaries;Linear Combination of Unitaries;caller;state_prep() calls control();1.0000;100
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;caller:SWAP Test;SWAP Test;caller;state_prep() calls control();1.0000;100
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;123
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Initialization;Initialization;keyword_name;dicke_state;1.0000;141
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:SWAP Test;SWAP Test;keyword_name;dicke_state;1.0000;141
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;portfolio_cost_operator;1.0000;269
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;QuantumVariable;1.0000;283
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;QAOAProblem;1.0000;287
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Oracle;Oracle;keyword_name;QAOAProblem;1.0000;287
+documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;QAOAProblem;1.0000;287
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;problem, state, zero;0.1500;0
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;diagonal, pauli, unitary;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_comment:Initialization;Initialization;keyword_comment;basis, state, superposition, uniform;0.1667;0
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block, phase, unitary;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_comment:Oracle;Oracle;keyword_comment;phase, problem, solve;0.1579;0
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;ansatz, cost, qaoa;0.1875;0
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;hamiltonian, phase, unitary;0.1250;0
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;caller:Amplitude Amplification;Amplitude Amplification;caller;QUBO_problem() calls QAOAProblem();1.0000;163
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;caller:Oracle;Oracle;caller;QUBO_problem() calls QAOAProblem();1.0000;163
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;caller:Quantum Amplitude Estimation;Quantum Amplitude Estimation;caller;QUBO_problem() calls QAOAProblem();1.0000;163
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;QAOAProblem;1.0000;167
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;QuantumVariable;1.0000;208
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;QUBO_problem;1.0000;210
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_name:Oracle;Oracle;keyword_name;QUBO_problem;1.0000;210
+documentation/source/general/tutorial/QAOAtutorial/QUBO.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;QUBO_problem;1.0000;210
+documentation/source/general/tutorial/QIROtutorial.py;/qiskit-algorithms/qiskit_algorithms.minimum_eigensolvers.qaoa.QAOA;Quantum Approximate Optimization Algorithm (QAOA);title;Quantum-Informed Recursive Optimization This tutorial will give you an overview of problem specific implementations for solving optimization problems ...;0.9210;0
+documentation/source/general/tutorial/QIROtutorial.py;pattern:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);pattern_desc;!/usr/bin/env python coding: utf-8 Quantum-Informed Recursive Optimization This tutorial will give you an overview of problem specific implementations...;0.6670;0
+documentation/source/general/tutorial/QIROtutorial.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;exact, problem, state;0.1500;0
+documentation/source/general/tutorial/QIROtutorial.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;graph, representing, state;0.1667;0
+documentation/source/general/tutorial/QIROtutorial.py;kw_comment:Oracle;Oracle;keyword_comment;problem, sign, solve;0.1579;0
+documentation/source/general/tutorial/QIROtutorial.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;cost, local, mixer, qaoa, quantum approximate optimization;0.3125;0
+documentation/source/general/tutorial/QIROtutorial.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;erdos_renyi_graph;1.0000;229
+documentation/source/general/tutorial/QIROtutorial.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;number_of_nodes;1.0000;230
+documentation/source/general/tutorial/QIROtutorial.py;kw_name:Quantum Logical Operators;Quantum Logical Operators;keyword_name;number_of_nodes;1.0000;230
+documentation/source/general/tutorial/QIROtutorial.py;kw_name:Amplitude Amplification;Amplitude Amplification;keyword_name;QIROProblem;1.0000;239
+documentation/source/general/tutorial/QIROtutorial.py;kw_name:Oracle;Oracle;keyword_name;QIROProblem;1.0000;239
+documentation/source/general/tutorial/QIROtutorial.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;QIROProblem;1.0000;239
+documentation/source/general/tutorial/QIROtutorial.py;kw_name:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_name;create_max_indep_set_cl_cost_function;1.0000;266
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;amplification, amplitude, amplitude_amplification, state;0.2000;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;arbitrary, generalized, unitary;0.1250;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;prepare, representing, state, variable;0.2222;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Initialization;Initialization;keyword_comment;prepare, state, superposition, uniform;0.1667;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;amplitude, carlo, estimation, iqae, iterative, monte, qae;0.2917;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;number, place, qft;0.1250;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;estimation, iterative, unitary;0.1250;0
+documentation/source/general/tutorial/QMCItutorial.py;kw_name:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_name;IQAE;1.0000;147
+documentation/source/general/tutorial/Shor.py;pattern:Quantum Arithmetic;Quantum Arithmetic;pattern_desc;!/usr/bin/env python coding: utf-8 Factoring integers using Shor's Algorithm In the realm of quantum computing, where classical limitations are challe...;0.6553;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Basis Change;Basis Change;keyword_comment;fourier, qft, quantum fourier transform, transform;0.1667;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Initialization;Initialization;keyword_comment;prepare, state, superposition;0.1250;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Oracle;Oracle;keyword_comment;bit, hidden, phase, problem;0.2105;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;estimation, faster, problem;0.1250;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;adder, arithmetic, modular, number, place, qft;0.2500;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;number, product, random;0.1429;0
+documentation/source/general/tutorial/Shor.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, estimation, phase, qpe, quantum phase estimation;0.2083;0
+documentation/source/general/tutorial/Shor.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;159
+documentation/source/general/tutorial/Shor.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;171
+documentation/source/general/tutorial/Shor.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;171
+documentation/source/general/tutorial/Shor.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;171
+documentation/source/general/tutorial/Shor.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;171
+documentation/source/general/tutorial/Shor.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;QFT;1.0000;171
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;grover, problem, reflect, reflection, state, zero;0.3000;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Basis Change;Basis Change;keyword_comment;change, discrete, transform;0.1250;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;graph, representing, state, variable;0.2222;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;data, feature, features;0.1250;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Grover;Grover;keyword_comment;diffusion, grover, search;0.5000;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Initialization;Initialization;keyword_comment;amplitudes, state, superposition;0.1250;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;controlled, encoding, phase;0.1250;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Oracle;Oracle;keyword_comment;grover, oracle, phase, predicate, problem, sign;0.3158;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;estimation, maximum, problem;0.1250;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;logic, number, product, quantum and, quantum or;0.2381;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, estimation, phase, qpe, quantum phase estimation;0.2083;0
+documentation/source/general/tutorial/Sudoku.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;state, test, uncompute;0.1250;0
+documentation/source/general/tutorial/Sudoku.py;caller:Amplitude Amplification;Amplitude Amplification;caller;sudoku_to_graph() calls Graph();1.0000;251
+documentation/source/general/tutorial/Sudoku.py;caller:Creating Entanglement;Creating Entanglement;caller;sudoku_to_graph() calls Graph();1.0000;251
+documentation/source/general/tutorial/Sudoku.py;caller:Function Table;Function Table;caller;sudoku_to_graph() calls Graph();1.0000;251
+documentation/source/general/tutorial/Sudoku.py;caller:Oracle;Oracle;caller;sudoku_to_graph() calls Graph();1.0000;251
+documentation/source/general/tutorial/Sudoku.py;caller:Quantum Amplitude Estimation;Quantum Amplitude Estimation;caller;sudoku_to_graph() calls Graph();1.0000;251
+documentation/source/general/tutorial/Sudoku.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;Graph;1.0000;264
+documentation/source/general/tutorial/Sudoku.py;kw_name:Data Encoding;Data Encoding;keyword_name;get_edge_data;1.0000;349
+documentation/source/general/tutorial/Sudoku.py;caller:Dynamic Circuit;Dynamic Circuit;caller;eval_cq_checks() calls control();1.0000;601
+documentation/source/general/tutorial/Sudoku.py;caller:Initialization;Initialization;caller;eval_cq_checks() calls control();1.0000;601
+documentation/source/general/tutorial/Sudoku.py;caller:SWAP Test;SWAP Test;caller;eval_cq_checks() calls control();1.0000;601
+documentation/source/general/tutorial/Sudoku.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;623
+documentation/source/general/tutorial/Sudoku.py;kw_name:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_name;check_singular_sudoku_assignment;1.0000;727
+documentation/source/general/tutorial/Sudoku.py;/qiskit/qiskit.circuit.library.phase_estimation.PhaseEstimation;Quantum Phase Estimation (QPE);name;estimate_phase;0.8563;805
+documentation/source/general/tutorial/Sudoku.py;/qiskit-algorithms/qiskit_algorithms.phase_estimators.phase_estimation.PhaseEstimation;Quantum Phase Estimation (QPE);name;estimate_phase;0.8563;805
+documentation/source/general/tutorial/Sudoku.py;/qiskit-algorithms/qiskit_algorithms.phase_estimators.phase_estimator.PhaseEstimator;Quantum Phase Estimation (QPE);name;estimate_phase;0.8571;805
+documentation/source/general/tutorial/Sudoku.py;kw_name:Oracle;Oracle;keyword_name;estimate_phase;1.0000;805
+documentation/source/general/tutorial/Sudoku.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;estimate_phase;1.0000;805
+documentation/source/general/tutorial/TSP.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;grover, problem, state;0.1500;0
+documentation/source/general/tutorial/TSP.py;kw_comment:Circuit Construction Utility;Circuit Construction Utility;keyword_comment;checking, diagonal, permutation;0.1250;0
+documentation/source/general/tutorial/TSP.py;kw_comment:Initialization;Initialization;keyword_comment;basis, state, superposition, uniform;0.1667;0
+documentation/source/general/tutorial/TSP.py;kw_comment:Oracle;Oracle;keyword_comment;bit, flip, grover, oracle, phase, problem;0.3158;0
+documentation/source/general/tutorial/TSP.py;kw_comment:Quantum Approximate Optimization Algorithm (QAOA);Quantum Approximate Optimization Algorithm (QAOA);keyword_comment;local, minimum, qaoa;0.1875;0
+documentation/source/general/tutorial/TSP.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;phase, qpe, quantum phase estimation;0.1250;0
+documentation/source/general/tutorial/TSP.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;state, test, uncompute;0.1250;0
+documentation/source/general/tutorial/TSP.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;local, principle, time;0.1250;0
+documentation/source/general/tutorial/TSP.py;caller:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);caller;qpe_calc_perm_travel_distance() calls QPE();1.0000;181
+documentation/source/general/tutorial/TSP.py;/classiq/open_library.functions.qpe.qpe;Quantum Phase Estimation (QPE);name;QPE;1.0000;183
+documentation/source/general/tutorial/TSP.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;qpe_calc_perm_travel_distance;1.0000;203
+documentation/source/general/tutorial/TSP.py;kw_name:SWAP Test;SWAP Test;keyword_name;uncompute;1.0000;230
+documentation/source/general/tutorial/tutorial.py;pattern:Amplitude Amplification;Amplitude Amplification;pattern_desc;!/usr/bin/env python coding: utf-8 Getting familiar with Qrisp Congratulations, you made it to your first Qrisp tutorial! This tutorial is designed to...;0.6870;0
+documentation/source/general/tutorial/tutorial.py;pattern:Grover;Grover;pattern_desc;!/usr/bin/env python coding: utf-8 Getting familiar with Qrisp Congratulations, you made it to your first Qrisp tutorial! This tutorial is designed to...;0.6839;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Amplitude Amplification;Amplitude Amplification;keyword_comment;amplitude, grover, problem, state;0.2000;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Basis Change;Basis Change;keyword_comment;basis, qft, quantum fourier transform;0.1250;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;prepare, state, variable;0.1667;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Grover;Grover;keyword_comment;amplitude, diffusion, grover, search;0.6667;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Initialization;Initialization;keyword_comment;basis, prepare, state, superposition, uniform;0.2083;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Linear Combination of Unitaries;Linear Combination of Unitaries;keyword_comment;block, controlled, phase, unitary;0.1667;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Oracle;Oracle;keyword_comment;grover, oracle, phase, problem, solve;0.2632;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Quantum Amplitude Estimation;Quantum Amplitude Estimation;keyword_comment;amplitude, estimation, problem;0.1250;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Quantum Arithmetic;Quantum Arithmetic;keyword_comment;arithmetic, number, qft;0.1250;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_comment;controlled, estimation, phase, qpe, quantum phase estimation, unitary;0.2500;0
+documentation/source/general/tutorial/tutorial.py;kw_comment:SWAP Test;SWAP Test;keyword_comment;state, test, uncompute;0.1250;0
+documentation/source/general/tutorial/tutorial.py;kw_name:Creating Entanglement;Creating Entanglement;keyword_name;QuantumVariable;1.0000;21
+documentation/source/general/tutorial/tutorial.py;kw_name:Oracle;Oracle;keyword_name;sqrt_oracle;1.0000;183
+documentation/source/general/tutorial/tutorial.py;caller:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);caller;QPE() calls QFT();1.0000;245
+documentation/source/general/tutorial/tutorial.py;kw_name:Dynamic Circuit;Dynamic Circuit;keyword_name;control;1.0000;252
+documentation/source/general/tutorial/tutorial.py;/classiq/open_library.functions.qft_functions.qft;Basis Change;name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;/pennylane/pennylane.templates.subroutines.qft.QFT;Basis Change;name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;/qiskit/qiskit.circuit.library.basis_change.qft.QFT;Basis Change;name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;kw_name:Basis Change;Basis Change;keyword_name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;kw_name:Quantum Arithmetic;Quantum Arithmetic;keyword_name;QFT;1.0000;256
+documentation/source/general/tutorial/tutorial.py;/classiq/open_library.functions.qpe.qpe;Quantum Phase Estimation (QPE);name;QPE;1.0000;286
+documentation/source/general/tutorial/tutorial.py;kw_name:Quantum Phase Estimation (QPE);Quantum Phase Estimation (QPE);keyword_name;QPE;1.0000;286
+src/qrisp/examples/jasp_demo.py;kw_comment:Creating Entanglement;Creating Entanglement;keyword_comment;ghz, state, variable;0.1667;0
+src/qrisp/examples/jasp_demo.py;kw_comment:Data Encoding;Data Encoding;keyword_comment;data, encodes, feature, features;0.1667;0
+src/qrisp/examples/jasp_demo.py;kw_comment:Initialization;Initialization;keyword_comment;state, superposition, uniform;0.1250;0
+src/qrisp/examples/jasp_demo.py;kw_comment:Quantum Logical Operators;Quantum Logical Operators;keyword_comment;boolean, logic, product, random;0.1905;0
+src/qrisp/examples/jasp_demo.py;kw_comment:Variational Quantum Algorithm (VQA);Variational Quantum Algorithm (VQA);keyword_comment;principle, real, time;0.1250;0

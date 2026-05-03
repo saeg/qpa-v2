@@ -1,0 +1,5 @@
+name,summary,pattern
+dynamic/qiskit-experiments/AnalysisResultTable,AnalysisResultTable: implementation of the Function Table pattern.,Function Table
+dynamic/qiskit-experiments/ScatterTable,ScatterTable: implementation of the Function Table pattern.,Function Table
+dynamic/qiskit-experiments/as_table_element,as_table_element: implementation of the Function Table pattern.,Function Table
+dynamic/qiskit-experiments/from_table_element,from_table_element: implementation of the Function Table pattern.,Function Table

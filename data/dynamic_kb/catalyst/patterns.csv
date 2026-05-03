@@ -1,0 +1,28 @@
+name,summary,pattern
+dynamic/catalyst/ConvertQecLogicalToQecPhysicalPass,ConvertQecLogicalToQecPhysicalPass: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/ConvertQuantumToQecLogicalPass,ConvertQuantumToQecLogicalPass: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/CustomOp,CustomOp: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/catalyst/LogicalCodeblockInitState,LogicalCodeblockInitState: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/LogicalCodeblockInitStateAttr,LogicalCodeblockInitStateAttr: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/LogicalCodeblockType,LogicalCodeblockType: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/LogicalHyperRegisterType,LogicalHyperRegisterType: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/LogicalInit,LogicalInit: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/LogicalInitKind,LogicalInitKind: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/PPRotationOp,PPRotationOp: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/catalyst/PauliXOp,PauliXOp: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/catalyst/PauliYOp,PauliYOp: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/catalyst/PauliZOp,PauliZOp: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/catalyst/PrepareStateOp,PrepareStateOp: implementation of the Initialization pattern.,Initialization
+dynamic/catalyst/SingleQubitLogicalGateOp,SingleQubitLogicalGateOp: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/dynamic_one_shot,dynamic_one_shot: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/catalyst/dynamic_one_shot_partial,dynamic_one_shot_partial: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/catalyst/get_graph_state_edges,get_graph_state_edges: implementation of the Creating Entanglement pattern.,Creating Entanglement
+dynamic/catalyst/get_logical_codeblock_type,get_logical_codeblock_type: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/get_logical_hyper_reg_type,get_logical_hyper_reg_type: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/catalyst/grover_loops,grover_loops: implementation of the Grover pattern.,Grover
+dynamic/catalyst/has_classical_outputs,has_classical_outputs: implementation of the Function Table pattern.,Function Table
+dynamic/catalyst/insert_dynamic_qubits,insert_dynamic_qubits: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/catalyst/is_dynamic_wires,is_dynamic_wires: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/catalyst/is_dynamically_allocated_wire,is_dynamically_allocated_wire: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/catalyst/oracle,oracle: implementation of the Oracle pattern.,Oracle
+dynamic/catalyst/to_ppr_setup_inputs,to_ppr_setup_inputs: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic

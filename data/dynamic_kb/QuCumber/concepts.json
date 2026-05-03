@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/QuCumber/NeuralStateBase",
+    "summary": "NeuralStateBase: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

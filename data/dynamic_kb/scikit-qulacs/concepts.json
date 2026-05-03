@@ -1,0 +1,62 @@
+[
+  {
+    "name": "/dynamic/scikit-qulacs/QKRR",
+    "summary": "QKRR: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/scikit-qulacs/QNNClassifier",
+    "summary": "QNNClassifier: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/scikit-qulacs/QNNGeneretor",
+    "summary": "QNNGeneretor: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/scikit-qulacs/QNNRegressor",
+    "summary": "QNNRegressor: implementation of the Quantum Neural Network (QNN) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/scikit-qulacs/QSVC",
+    "summary": "QSVC: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/scikit-qulacs/QSVR",
+    "summary": "QSVR: implementation of the SWAP Test pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

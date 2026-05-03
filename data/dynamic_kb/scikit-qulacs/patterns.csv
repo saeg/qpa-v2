@@ -1,0 +1,7 @@
+name,summary,pattern
+dynamic/scikit-qulacs/QKRR,QKRR: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/scikit-qulacs/QNNClassifier,QNNClassifier: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/scikit-qulacs/QNNGeneretor,QNNGeneretor: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/scikit-qulacs/QNNRegressor,QNNRegressor: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/scikit-qulacs/QSVC,QSVC: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/scikit-qulacs/QSVR,QSVR: implementation of the SWAP Test pattern.,SWAP Test

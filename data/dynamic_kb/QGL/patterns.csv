@@ -1,0 +1,4 @@
+name,summary,pattern
+dynamic/QGL/createTable,createTable: implementation of the Function Table pattern.,Function Table
+dynamic/QGL/map_logical_to_physical,map_logical_to_physical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/QGL/new_logical_channel,new_logical_channel: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

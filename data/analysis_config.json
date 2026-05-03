@@ -1,0 +1,44 @@
+{
+  "_comment": "Toggle each matching channel on/off and tune its threshold. Re-run 'just run_main' after editing. Disabled channels are skipped entirely.",
+  "channels": {
+    "name": {
+      "enabled": true,
+      "threshold": 0.88,
+      "description": "Cosine similarity between the embedding of an extracted function call name and KB concept short names."
+    },
+    "summary": {
+      "enabled": true,
+      "threshold": 0.78,
+      "description": "Cosine similarity between the file comment block embedding and KB concept docstring summaries."
+    },
+    "title": {
+      "enabled": true,
+      "threshold": 0.76,
+      "description": "Cosine similarity between the notebook title (first comment heading) and KB concept summaries."
+    },
+    "pattern_desc": {
+      "enabled": true,
+      "threshold": 0.8,
+      "description": "Cosine similarity between the file comment block and the full pattern intent+context+solution text."
+    },
+    "defined_doc": {
+      "enabled": true,
+      "threshold": 0.85,
+      "description": "Cosine similarity between concatenated docstrings of classes/functions DEFINED in the file (not just called) and KB concept summaries. Targets library-style files where call sites use generic primitives but the implementing class docstring describes the algorithm."
+    },
+    "internal_keywords": {
+      "enabled": true,
+      "threshold": 0.78,
+      "description": "Each KB concept carries a string of composed (snake_case/CamelCase) tokens harvested from its method bodies (parameter names, return-type annotations, local variable names) after stopword filtering. For every target call-site name we compute cosine similarity against each concept's keyword vector. Skipped for concepts that have no internal_keywords."
+    },
+    "internal_comments": {
+      "enabled": true,
+      "threshold": 0.75,
+      "description": "Each KB concept carries the inline `#` comments found inside its method bodies (NOT the docstring). The target file's comment block is compared against each concept's comment vector. Skipped for concepts that have no internal_comments."
+    }
+  },
+  "keyword_veto": {
+    "enabled": true,
+    "description": "Post-match veto: drop matches from semantic text channels (summary, title, defined_doc, pattern_desc) when no exclusive keyword for the matched pattern appears anywhere in the file text. Exclusive keywords are auto-generated from KB concept text by scripts/extract_pattern_keywords.py — words that appear in at most 2 patterns, making them discriminating rather than generic."
+  }
+}

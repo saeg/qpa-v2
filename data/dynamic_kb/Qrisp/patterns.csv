@@ -1,0 +1,47 @@
+name,summary,pattern
+dynamic/Qrisp/BlockEncoding,BlockEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qrisp/DynamicQubitArray,DynamicQubitArray: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/Qrisp/GQET,GQET: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/GQSP,GQSP: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/GidneyLogicalAND,GidneyLogicalAND: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qrisp/QAE,QAE: implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+dynamic/Qrisp/QAOABenchmark,QAOABenchmark: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/Qrisp/QAOAProblem,QAOAProblem: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/Qrisp/QET,QET: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/QFT,QFT: implementation of the Basis Change pattern.,Basis Change
+dynamic/Qrisp/QPE,QPE: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qrisp/RX_mixer,RX_mixer: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/Qrisp/RY_mixer,RY_mixer: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/Qrisp/TruthTable,TruthTable: implementation of the Function Table pattern.,Function Table
+dynamic/Qrisp/VQEBenchmark,VQEBenchmark: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/Qrisp/VQEProblem,VQEProblem: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/Qrisp/XY_mixer,XY_mixer: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/Qrisp/amplitude_amplification,amplitude_amplification: implementation of the Amplitude Amplification pattern.,Amplitude Amplification
+dynamic/Qrisp/app_phase_polynomial,app_phase_polynomial: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qrisp/app_sb_phase_polynomial,app_sb_phase_polynomial: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qrisp/change_of_basis,change_of_basis: implementation of the Basis Change pattern.,Basis Change
+dynamic/Qrisp/cnot_count,cnot_count: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/Qrisp/construct_change_of_basis,construct_change_of_basis: implementation of the Basis Change pattern.,Basis Change
+dynamic/Qrisp/create_dynamic,create_dynamic: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/Qrisp/dicke_state,dicke_state: implementation of the Initialization pattern.,Initialization
+dynamic/Qrisp/estimate_phase,estimate_phase: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qrisp/extract_post_processing,extract_post_processing: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/from_lcu,from_lcu: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/grover_mixer,grover_mixer: implementation of the Grover pattern.,Grover
+dynamic/Qrisp/grover_operator,grover_operator: implementation of the Grover pattern.,Grover
+dynamic/Qrisp/grovers_alg,grovers_alg: implementation of the Grover pattern.,Grover
+dynamic/Qrisp/hamiltonian_simulation,hamiltonian_simulation: implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+dynamic/Qrisp/inv,inv: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/inversion,inversion: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/logical_OR,logical_OR: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qrisp/mcx,mcx: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/Qrisp/oracle_func,oracle_func: implementation of the Oracle pattern.,Oracle
+dynamic/Qrisp/oracle_function,oracle_function: implementation of the Oracle pattern.,Oracle
+dynamic/Qrisp/pauli_block_encoding,pauli_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qrisp/poly,poly: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qrisp/print_rank_table,print_rank_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qrisp/quantum_counting,quantum_counting: implementation of the Grover pattern.,Grover
+dynamic/Qrisp/quantum_step,quantum_step: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qrisp/solve_QUBO,solve_QUBO: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/Qrisp/sub_table,sub_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qrisp/swapaxes,swapaxes: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility

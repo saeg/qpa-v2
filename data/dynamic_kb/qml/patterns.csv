@@ -1,0 +1,50 @@
+name,summary,pattern
+dynamic/qml/FRQI_encoding,FRQI_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qml/HHL_encoding,HHL_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qml/MCRQI_encoding,MCRQI_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qml/Oracle,Oracle: implementation of the Oracle pattern.,Oracle
+dynamic/qml/QPE,QPE: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/qml/RY_layer,RY_layer: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/U_rotations,U_rotations: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/qml/VQE_run,VQE_run: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qml/circuit_VQE,circuit_VQE: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qml/circuit_evals_variational,circuit_evals_variational: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/circuit_qpe,circuit_qpe: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/qml/clifford_tableau,clifford_tableau: implementation of the Function Table pattern.,Function Table
+dynamic/qml/compute_logical_ops,compute_logical_ops: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qml/data_encoding,data_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qml/data_encoding_pairs,data_encoding_pairs: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qml/dense_layer,dense_layer: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qml/encoding,encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qml/equivariant_encoding,equivariant_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qml/expval_A_variational,expval_A_variational: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/filter_tables,filter_tables: implementation of the Function Table pattern.,Function Table
+dynamic/qml/ground_state_solution_map_variational,ground_state_solution_map_variational: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/groundstate_expval_variational,groundstate_expval_variational: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/grover_circuit,grover_circuit: implementation of the Grover pattern.,Grover
+dynamic/qml/logical_error,logical_error: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qml/logical_operators_consistency,logical_operators_consistency: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qml/make_markdown_table,make_markdown_table: implementation of the Function Table pattern.,Function Table
+dynamic/qml/num_grover_iterations,num_grover_iterations: implementation of the Grover pattern.,Grover
+dynamic/qml/oracle,oracle: implementation of the Oracle pattern.,Oracle
+dynamic/qml/prepare_dicke_state,prepare_dicke_state: implementation of the Initialization pattern.,Initialization
+dynamic/qml/prepare_magic_state,prepare_magic_state: implementation of the Initialization pattern.,Initialization
+dynamic/qml/qaoa,qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_circuit,qaoa_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_cost,qaoa_cost: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_expval,qaoa_expval: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_from_graph,qaoa_from_graph: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_layer,qaoa_layer: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_maxcut,qaoa_maxcut: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_template,qaoa_template: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qaoa_training,qaoa_training: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qml/qcircuit,qcircuit: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/quantum_model,quantum_model: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/quantum_net,quantum_net: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/quantum_neural_network,quantum_neural_network: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/qml/rand_circuit,rand_circuit: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/qml/run_qpe,run_qpe: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/qml/tableau_to_pauli_group,tableau_to_pauli_group: implementation of the Function Table pattern.,Function Table
+dynamic/qml/tableau_to_pauli_rep,tableau_to_pauli_rep: implementation of the Function Table pattern.,Function Table
+dynamic/qml/variational_block,variational_block: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qml/variational_classifier,variational_classifier: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)

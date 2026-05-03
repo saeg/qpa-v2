@@ -1,0 +1,23 @@
+File Name,Pattern Match,Artifact
+qiskit-algorithms/docs/tutorials/01_algorithms_introduction.py,Variational Quantum Eigensolver (VQE),VQE
+qiskit-algorithms/docs/tutorials/01_algorithms_introduction.py,Variational Quantum Algorithm (VQA),VQE
+qiskit-algorithms/docs/tutorials/01_algorithms_introduction.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA
+qiskit-algorithms/docs/tutorials/01_algorithms_introduction.py,Grover,Grover
+qiskit-algorithms/docs/tutorials/02_vqe_advanced_options.py,Variational Quantum Eigensolver (VQE),VQE
+qiskit-algorithms/docs/tutorials/02_vqe_advanced_options.py,Variational Quantum Algorithm (VQA),VQE
+qiskit-algorithms/docs/tutorials/03_vqe_simulation_with_noise.py,Variational Quantum Eigensolver (VQE),VQE
+qiskit-algorithms/docs/tutorials/03_vqe_simulation_with_noise.py,Variational Quantum Algorithm (VQA),VQE
+qiskit-algorithms/docs/tutorials/04_vqd.py,Variational Quantum Algorithm (VQA),VQD
+qiskit-algorithms/docs/tutorials/05_qaoa.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA
+qiskit-algorithms/docs/tutorials/05_qaoa.py,Variational Quantum Algorithm (VQA),QAOA
+qiskit-algorithms/docs/tutorials/06_grover.py,Grover,Grover
+qiskit-algorithms/docs/tutorials/06_grover.py,Amplitude Amplification,Grover
+qiskit-algorithms/docs/tutorials/06_grover.py,Oracle,PhaseOracle
+qiskit-algorithms/docs/tutorials/07_grover_examples.py,Grover,Grover
+qiskit-algorithms/docs/tutorials/07_grover_examples.py,Amplitude Amplification,Grover
+qiskit-algorithms/docs/tutorials/10_pvqd.py,Variational Quantum Algorithm (VQA),pVQD
+qiskit-algorithms/docs/tutorials/11_VarQTE.py,Variational Quantum Algorithm (VQA),VarQTE
+qiskit-algorithms/docs/tutorials/11_VarQTE.py,Hamiltonian Simulation,VarQTE
+qiskit-algorithms/docs/tutorials/12_gradients_framework.py,Variational Quantum Algorithm (VQA),GradientFramework
+qiskit-algorithms/docs/tutorials/13_trotterQRTE.py,Hamiltonian Simulation,TrotterQRTE
+qiskit-algorithms/docs/tutorials/13_trotterQRTE.py,Variational Quantum Algorithm (VQA),QRTE

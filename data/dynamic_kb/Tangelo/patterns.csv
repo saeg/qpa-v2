@@ -1,0 +1,18 @@
+name,summary,pattern
+dynamic/Tangelo/IterativeQPEControl,IterativeQPEControl: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Tangelo/IterativeQPESolver,IterativeQPESolver: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Tangelo/QPESolver,QPESolver: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Tangelo/SA_VQESolver,SA_VQESolver: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/Tangelo/VQESolver,VQESolver: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/Tangelo/VariationalCircuitAnsatz,VariationalCircuitAnsatz: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/Tangelo/append_qft_rotations_gates,append_qft_rotations_gates: implementation of the Basis Change pattern.,Basis Change
+dynamic/Tangelo/entangler_circuit,entangler_circuit: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/Tangelo/fix_variational_parameters,fix_variational_parameters: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/Tangelo/get_qft_circuit,get_qft_circuit: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Tangelo/get_qsp_hamiltonian_simulation_circuit,get_qsp_hamiltonian_simulation_circuit: implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+dynamic/Tangelo/get_qsp_hamiltonian_simulation_qubit_list,get_qsp_hamiltonian_simulation_qubit_list: implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+dynamic/Tangelo/get_resources,get_resources: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/Tangelo/is_variational,is_variational: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/Tangelo/merge_rotations,merge_rotations: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Tangelo/sign_flip,sign_flip: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/Tangelo/translate_tableau,translate_tableau: implementation of the Function Table pattern.,Function Table

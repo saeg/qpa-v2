@@ -1,0 +1,24 @@
+name,summary,pattern
+dynamic/ProjectQ/BoundedQubitMapper,BoundedQubitMapper: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/ProjectQ/ControlFunctionOracle,ControlFunctionOracle: implementation of the Oracle pattern.,Oracle
+dynamic/ProjectQ/FlipBits,FlipBits: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/ProjectQ/LogicalQubitIDTag,LogicalQubitIDTag: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/ProjectQ/MatrixGate,MatrixGate: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/ProjectQ/MultiplyQuantumGate,MultiplyQuantumGate: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/ProjectQ/PermutationOracle,PermutationOracle: implementation of the Oracle pattern.,Oracle
+dynamic/ProjectQ/PhaseOracle,PhaseOracle: implementation of the Oracle pattern.,Oracle
+dynamic/ProjectQ/QFTGate,QFTGate: implementation of the Basis Change pattern.,Basis Change
+dynamic/ProjectQ/QPE,QPE: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/ProjectQ/StatePreparation,StatePreparation: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/ProjectQ/add_logical_id,add_logical_id: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/ProjectQ/complex_oracle,complex_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/ProjectQ/func_oracle,func_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/ProjectQ/mul_by_constant_modN,mul_by_constant_modN: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/ProjectQ/simple_oracle,simple_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/ProjectQ/test_error_no_logical_id_tag,test_error_no_logical_id_tag: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/ProjectQ/test_logical_id_tags_allocate_and_deallocate,test_logical_id_tags_allocate_and_deallocate: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/ProjectQ/test_logical_qubit_id_tag,test_logical_qubit_id_tag: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/ProjectQ/test_qpe_str,test_qpe_str: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/ProjectQ/test_simple_grover,test_simple_grover: implementation of the Grover pattern.,Grover
+dynamic/ProjectQ/test_simulator_arithmetic,test_simulator_arithmetic: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/ProjectQ/test_simulator_convert_logical_to_mapped_qubits,test_simulator_convert_logical_to_mapped_qubits: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

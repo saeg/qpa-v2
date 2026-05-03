@@ -1,0 +1,7 @@
+name,summary,pattern
+dynamic/tqec/ChangeControlledGateBasisPass,ChangeControlledGateBasisPass: implementation of the Basis Change pattern.,Basis Change
+dynamic/tqec/ChangeMeasurementBasisPass,ChangeMeasurementBasisPass: implementation of the Basis Change pattern.,Basis Change
+dynamic/tqec/ChangeResetBasisPass,ChangeResetBasisPass: implementation of the Basis Change pattern.,Basis Change
+dynamic/tqec/get_logical_error_rate_per_shot,get_logical_error_rate_per_shot: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/tqec/get_spatial_y_hadamard_rpng_descriptions,get_spatial_y_hadamard_rpng_descriptions: implementation of the Basis Change pattern.,Basis Change
+dynamic/tqec/steane_encoding,steane_encoding: implementation of the Data Encoding pattern.,Data Encoding

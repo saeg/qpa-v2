@@ -1,0 +1,77 @@
+name,summary,pattern
+qrisp.IQAE,IQAE: Qrisp implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+qrisp.IQPE,IQPE: Qrisp implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+qrisp.LCU,LCU: Qrisp implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+qrisp.PauliGate,PauliGate: Qrisp implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+qrisp.Permutation,Permutation: Qrisp implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+qrisp.PhaseEstimation,PhaseEstimation: Qrisp implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+qrisp.QAE,QAE: Qrisp implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+qrisp.QAOAProblem,QAOAProblem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.QFT,QFT: Qrisp implementation of the Basis Change pattern.,Basis Change
+qrisp.QFT_inner,QFT_inner: Qrisp implementation of the Basis Change pattern.,Basis Change
+qrisp.QPE,QPE: Qrisp implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+qrisp.QUBO_obj,QUBO_obj: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.QUBO_problem,QUBO_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.QuantumColor,QuantumColor: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.StatePreparation,StatePreparation: Qrisp implementation of the Initialization pattern.,Initialization
+qrisp.VQEProblem,VQEProblem: Qrisp implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+qrisp.amplitude_amplification,amplitude_amplification: Qrisp implementation of the Amplitude Amplification pattern.,Amplitude Amplification
+qrisp.apply_phase_if_eq,apply_phase_if_eq: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.bessel_multiplication,bessel_multiplication: Qrisp implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+qrisp.compute_Li,compute_Li: Qrisp implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+qrisp.compute_thetas,compute_thetas: Qrisp implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+qrisp.create_QUBO_cl_cost_function,create_QUBO_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_QUBO_cost_operator,create_QUBO_cost_operator: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_coloring_cl_cost_function,create_coloring_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_coloring_operator,create_coloring_operator: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_cut_computer,create_cut_computer: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_e3lin2_cl_cost_function,create_e3lin2_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_e3lin2_cost_operator,create_e3lin2_cost_operator: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_max_clique_cl_cost_function,create_max_clique_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_max_indep_set_cl_cost_function,create_max_indep_set_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_max_indep_set_mixer,create_max_indep_set_mixer: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_maxcut_cl_cost_function,create_maxcut_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_maxcut_cost_operator,create_maxcut_cost_operator: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_maxcut_sample_array_post_processor,create_maxcut_sample_array_post_processor: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_maxsat_cl_cost_function,create_maxsat_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_maxsat_cost_operator,create_maxsat_cost_operator: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_maxsat_cost_polynomials,create_maxsat_cost_polynomials: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_min_set_cover_cl_cost_function,create_min_set_cover_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.create_min_set_cover_mixer,create_min_set_cover_mixer: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.diagonal,diagonal: Qrisp implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+qrisp.dicke_state,dicke_state: Qrisp implementation of the Initialization pattern.,Initialization
+qrisp.diffuser,diffuser: Qrisp implementation of the Grover pattern.,Grover
+qrisp.e3lin2_problem,e3lin2_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.extract_boolean_digit,extract_boolean_digit: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.graph_coloring_problem,graph_coloring_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.grovers_alg,grovers_alg: Qrisp implementation of the Grover pattern.,Grover
+qrisp.hamiltonian_simulation,hamiltonian_simulation: Qrisp implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+qrisp.initial_state_mkcs,initial_state_mkcs: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.inner_LCU,inner_LCU: Qrisp implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+qrisp.jasp_qft,jasp_qft: Qrisp implementation of the Basis Change pattern.,Basis Change
+qrisp.max_clique_problem,max_clique_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.max_indep_set_init_function,max_indep_set_init_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.max_indep_set_problem,max_indep_set_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.max_set_packing_problem,max_set_packing_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.maxcut_energy,maxcut_energy: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.maxcut_obj,maxcut_obj: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.maxcut_obj_jitted,maxcut_obj_jitted: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.maxcut_problem,maxcut_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.maxsat_problem,maxsat_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.min_set_cover_init_function,min_set_cover_init_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.min_set_cover_problem,min_set_cover_problem: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.mkcs_obj,mkcs_obj: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.parity,parity: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.permutations,permutations: Qrisp implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+qrisp.portfolio_cl_cost_function,portfolio_cl_cost_function: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.portfolio_cost_operator,portfolio_cost_operator: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.portfolio_init,portfolio_init: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.prepare,prepare: Qrisp implementation of the Initialization pattern.,Initialization
+qrisp.prepare_qswitch,prepare_qswitch: Qrisp implementation of the Initialization pattern.,Initialization
+qrisp.quantum_step,quantum_step: Qrisp implementation of the Quantum Amplitude Estimation pattern.,Quantum Amplitude Estimation
+qrisp.qubitization,qubitization: Qrisp implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+qrisp.reflection,reflection: Qrisp implementation of the Amplitude Amplification pattern.,Amplitude Amplification
+qrisp.solve_QUBO,solve_QUBO: Qrisp implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+qrisp.split_cycle_shift,split_cycle_shift: Qrisp implementation of the Initialization pattern.,Initialization
+qrisp.tag_state,tag_state: Qrisp implementation of the Grover pattern.,Grover
+qrisp.view_LCU,view_LCU: Qrisp implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries

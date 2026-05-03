@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/qiskit-addon-sqd/diagonalize_fermionic_hamiltonian",
+    "summary": "diagonalize_fermionic_hamiltonian: implementation of the Quantum Phase Estimation (QPE) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

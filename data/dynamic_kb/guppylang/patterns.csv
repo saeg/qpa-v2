@@ -1,0 +1,4 @@
+name,summary,pattern
+dynamic/guppylang/DynamicIterator,DynamicIterator: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/guppylang/StringTable,StringTable: implementation of the Function Table pattern.,Function Table
+dynamic/guppylang/random_int_bounded,random_int_bounded: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

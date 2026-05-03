@@ -1,0 +1,574 @@
+[
+  {
+    "name": "Amplitude Amplification",
+    "intent": "Boost the probability amplitude of a target subspace by iteratively applying an oracle and a reflection operator, achieving a quadratic speedup over classical random search.",
+    "aliases": [
+      "amplitude amplification",
+      "oblivious amplitude amplification",
+      "fixed-point amplitude amplification"
+    ],
+    "context": "Used as a subroutine inside quantum algorithms wherever a marked subspace exists and its probability must be boosted before measurement. Generalises Grover's search.",
+    "forces": "Requires an oracle that marks the target subspace. Optimal number of iterations depends on the initial success probability. Over-rotating reduces success rate.",
+    "solution": "Alternate between the phase-flip oracle and the Grover diffusion operator (reflection about the initial state). Repeat O(1/sqrt(p)) times for initial success probability p.",
+    "results": "Amplifies the probability of measuring a marked state from p to near 1 using O(1/sqrt(p)) oracle calls \u2014 quadratic improvement over O(1/p) classical repetitions.",
+    "keywords": [
+      "amplitude_amplification",
+      "grover_operator",
+      "diffuser",
+      "oblivious",
+      "reflect_about",
+      "good_state",
+      "bad_state"
+    ]
+  },
+  {
+    "name": "Basis Change",
+    "intent": "Transform a quantum register from one orthonormal basis to another, most commonly via the Quantum Fourier Transform (QFT), enabling algorithms that are natural in the Fourier or other transformed bases.",
+    "aliases": [
+      "basis rotation",
+      "basis transformation",
+      "change of basis",
+      "QFT",
+      "quantum Fourier transform",
+      "Hadamard transform",
+      "Walsh-Hadamard transform"
+    ],
+    "context": "Applied before phase-estimation, Shor's algorithm, quantum signal processing, or any computation that is sparse or efficient in a transformed basis.",
+    "forces": "The inverse transform must be applied after the computation to return to the computational basis. Approximations (AQFT) trade circuit depth for fidelity.",
+    "solution": "Apply a sequence of Hadamard gates and controlled-phase rotations (or their generalisation). For the QFT: H gates, controlled-Rk gates, and final SWAP network.",
+    "results": "Moves the problem into a basis where the target operation is efficient; often reduces circuit depth by exploiting periodicity or sparsity.",
+    "keywords": [
+      "qft",
+      "iqft",
+      "fourier_transform",
+      "hadamard_transform",
+      "aqft",
+      "walsh_hadamard",
+      "basis_rotation"
+    ]
+  },
+  {
+    "name": "Circuit Construction Utility",
+    "intent": "Provide reusable, low-level circuit primitives that act as building blocks without expressing a standalone quantum algorithm \u2014 permutations, gate broadcast, multi-target gates, and structural helpers.",
+    "aliases": [
+      "utility gate",
+      "circuit helper",
+      "permutation",
+      "multi-control",
+      "gate broadcast"
+    ],
+    "context": "Used inside higher-level patterns to handle structural or connectivity concerns: qubit ordering, multi-qubit gate decompositions, uniform gate application.",
+    "forces": "These components have no algorithmic meaning on their own; they serve layout, connectivity, or composition needs.",
+    "solution": "Implement permutation networks, multi-controlled decompositions, or gate-broadcast loops as standalone composable units.",
+    "results": "Reduces boilerplate and improves circuit readability without adding algorithmic complexity.",
+    "keywords": [
+      "permutation",
+      "isometry",
+      "mcmt",
+      "linear_function",
+      "diagonal_gate",
+      "mcg_up_diagonal",
+      "apply_to_all"
+    ]
+  },
+  {
+    "name": "Creating Entanglement",
+    "intent": "Generate quantum correlations between two or more qubits that cannot be described by independent single-qubit states, producing Bell states, GHZ states, or graph states.",
+    "aliases": [
+      "entanglement generation",
+      "bell state",
+      "ghz state",
+      "graph state",
+      "entangled state",
+      "epr pair"
+    ],
+    "context": "Required for quantum teleportation, superdense coding, quantum key distribution, error-correction encoding, and as the starting resource in many variational algorithms.",
+    "forces": "Entanglement must be created using two-qubit gates (CNOT, CZ, iSWAP). Noise degrades entanglement fidelity rapidly on real hardware.",
+    "solution": "Apply a Hadamard gate to one qubit followed by a chain of CNOT gates. For graph states: apply H to every qubit then CZ along each edge in the adjacency matrix.",
+    "results": "Produces maximally entangled multi-qubit states that serve as quantum communication resources or circuit initial states.",
+    "keywords": [
+      "bell_state",
+      "ghz_state",
+      "epr",
+      "bipartite_entanglement",
+      "teleportation",
+      "graph_state",
+      "entanglement"
+    ]
+  },
+  {
+    "name": "Data Encoding",
+    "intent": "Map classical data into a quantum state so that quantum algorithms can process it \u2014 via amplitude encoding, angle encoding, basis encoding, or feature maps.",
+    "aliases": [
+      "quantum encoding",
+      "feature encoding",
+      "amplitude encoding",
+      "angle encoding",
+      "basis encoding",
+      "data loading",
+      "quantum embedding",
+      "feature map"
+    ],
+    "context": "First step in quantum machine learning pipelines where classical data must be represented as quantum amplitudes or rotation angles before processing.",
+    "forces": "Amplitude encoding requires O(2^n) classical operations to prepare. Angle encoding is hardware-efficient but shallower in expressivity. Choice affects circuit depth and expressive power.",
+    "solution": "For amplitude encoding: use state preparation routines to load feature vectors into amplitudes. For angle encoding: map each feature to a single-qubit rotation angle. Feature maps add non-linearity via entangling layers.",
+    "results": "Classical data is accessible to quantum circuits; the quality of encoding determines the expressivity and trainability of downstream QML models.",
+    "keywords": [
+      "feature_map",
+      "amplitude_encoding",
+      "angle_encoding",
+      "basis_encoding",
+      "iqp_embedding",
+      "data_embedding",
+      "quantum_embedding"
+    ]
+  },
+  {
+    "name": "Domain Specific Application",
+    "intent": "Encapsulate an end-to-end quantum algorithm or subroutine that is specialised for a particular application domain and does not reduce to a simpler named pattern.",
+    "aliases": [
+      "quantum application",
+      "domain algorithm",
+      "quantum simulation",
+      "quantum finance",
+      "photonic circuit"
+    ],
+    "context": "Used when a component is too specialised (e.g., quantum Monte Carlo, interferometers, quantum chemistry post-processing) to belong to a general reusable pattern.",
+    "forces": "Not easily generalised; tightly coupled to a specific problem domain.",
+    "solution": "Implement the domain-specific subroutine as a self-contained module with clearly labelled inputs and outputs.",
+    "results": "Solves a concrete problem but contributes limited reuse value outside its domain.",
+    "keywords": [
+      "interferometer",
+      "photonic",
+      "quantum_monte_carlo",
+      "quantum_finance",
+      "beamsplitter",
+      "quantum_walk",
+      "quantum_anneal"
+    ]
+  },
+  {
+    "name": "Dynamic Circuit",
+    "intent": "Perform mid-circuit measurement and use the classical outcome to condition subsequent quantum operations, enabling adaptive circuits and real-time feedback.",
+    "aliases": [
+      "adaptive circuit",
+      "mid-circuit measurement",
+      "conditional gate",
+      "classically controlled",
+      "feedforward",
+      "multiplexer",
+      "select operation"
+    ],
+    "context": "Quantum error correction, measurement-based quantum computation, variational algorithms with adaptive ansatze, and selective gate application based on quantum state.",
+    "forces": "Requires real-time classical processing between quantum operations; supported hardware is limited.",
+    "solution": "Measure ancilla qubits during circuit execution; use classical if/else or switch logic to select the next gate operation.",
+    "results": "Reduces circuit depth in error correction; enables algorithms that adapt to measurement outcomes without resetting the quantum state.",
+    "keywords": [
+      "mid_circuit",
+      "feedforward",
+      "adaptive_circuit",
+      "classically_controlled",
+      "reset_gate",
+      "dynamic_circuit",
+      "real_time_feedback"
+    ]
+  },
+  {
+    "name": "Function Table",
+    "intent": "Implement a classical function f(x) as a quantum lookup table (oracle), storing the output in a target register for all inputs in superposition simultaneously.",
+    "aliases": [
+      "lookup table",
+      "function oracle",
+      "classical function oracle",
+      "quantum lookup",
+      "span program"
+    ],
+    "context": "Used in Grover-based search, arithmetic oracles, and QRAM-style access where a classical function must be evaluated coherently on a superposition of inputs.",
+    "forces": "Circuit size scales with the function's truth table. Requires ancilla qubits for uncomputation to preserve reversibility.",
+    "solution": "Encode f(x) as a sequence of Toffoli and NOT gates or via QROM. Apply function coherently, use result, then uncompute.",
+    "results": "Enables coherent evaluation of arbitrary classical functions inside quantum algorithms, at the cost of circuit depth proportional to the function complexity.",
+    "keywords": [
+      "lookup_table",
+      "qrom",
+      "qrom_synthesis",
+      "span_program",
+      "truth_table",
+      "classical_oracle",
+      "rom_synthesis"
+    ]
+  },
+  {
+    "name": "Grover",
+    "intent": "Search an unstructured database of N items for a marked entry using O(sqrt(N)) quantum oracle queries, achieving a quadratic speedup over classical exhaustive search.",
+    "aliases": [
+      "grover search",
+      "grover's algorithm",
+      "quantum search algorithm",
+      "grover operator",
+      "grover diffuser",
+      "inversion about mean"
+    ],
+    "context": "Unstructured search, satisfiability problems, finding graph properties, inverting black-box functions.",
+    "forces": "Requires an oracle (phase flip on marked states). Number of iterations must be close to (pi/4) * sqrt(N) to avoid over-rotation. Multiple solutions reduce required iterations.",
+    "solution": "Prepare equal superposition, apply the Grover iterate (oracle followed by diffusion operator) approximately sqrt(N/M) times for M marked items.",
+    "results": "Finds a marked item with high probability using O(sqrt(N/M)) oracle queries. Generalisable to amplitude amplification for non-uniform initial distributions.",
+    "keywords": [
+      "grover",
+      "grover_search",
+      "grover_operator",
+      "diffuser",
+      "diffusion_operator",
+      "phase_oracle",
+      "mark_solution",
+      "inversion_about_mean"
+    ]
+  },
+  {
+    "name": "Hamiltonian Simulation",
+    "intent": "Implement the time-evolution operator exp(-iHt) for a given Hamiltonian H on a quantum computer, enabling simulation of quantum physical systems.",
+    "aliases": [
+      "hamiltonian evolution",
+      "time evolution",
+      "trotter",
+      "suzuki-trotter",
+      "product formula",
+      "quantum simulation",
+      "real time evolution",
+      "imaginary time evolution"
+    ],
+    "context": "Quantum chemistry, condensed matter physics, quantum field theory simulation, quantum thermodynamics.",
+    "forces": "Trotterisation introduces approximation error that scales with step size. Higher-order formulas reduce error at the cost of more gates. LCU and qubitization offer better asymptotic complexity.",
+    "solution": "Decompose H = sum(H_k). Apply exp(-iH_k t) in sequence (Trotter). Alternatively, use LCU-based methods or qubitization for better gate complexity.",
+    "results": "Simulates quantum dynamics to precision epsilon using poly(n, 1/epsilon, t) gates \u2014 exponentially more efficient than classical methods for many-body systems.",
+    "keywords": [
+      "trotter",
+      "trotterize",
+      "suzuki_trotter",
+      "time_evolution",
+      "trotter_product",
+      "hamiltonian_simulation",
+      "trotterization"
+    ]
+  },
+  {
+    "name": "Initialization",
+    "intent": "Prepare a quantum register in a specific initial state (beyond |0...0>) required as the starting point for a quantum algorithm.",
+    "aliases": [
+      "state preparation",
+      "state init",
+      "initial state",
+      "prepare state",
+      "amplitude preparation",
+      "superposition preparation"
+    ],
+    "context": "Every quantum algorithm that requires a non-trivial starting state \u2014 VQE initial guesses, QAOA uniform superposition, QML feature state preparation.",
+    "forces": "Arbitrary state preparation requires O(2^n) gates in the worst case. Structured states (uniform superposition, Dicke, GHZ) have efficient O(n) or O(n^2) circuits.",
+    "solution": "Use M\u00f6tt\u00f6nen, Shende, or QROM-based state preparation circuits. For uniform superposition: Hadamard on all qubits.",
+    "results": "Quantum register is loaded with a desired initial distribution; quality of preparation directly affects algorithm performance.",
+    "keywords": [
+      "state_preparation",
+      "state_prep",
+      "initialize_state",
+      "prepare_state",
+      "mottonen",
+      "dicke_state",
+      "uniform_superposition"
+    ]
+  },
+  {
+    "name": "Linear Combination of Unitaries",
+    "intent": "Implement a non-unitary operator A = sum(alpha_k * U_k) inside a larger unitary via PREPARE and SELECT oracles, enabling Hamiltonian simulation, QSVT, and quantum linear systems.",
+    "aliases": [
+      "lcu",
+      "block encoding",
+      "block-encoding",
+      "select prepare",
+      "prepselprep",
+      "qsvt",
+      "quantum signal processing",
+      "qsp",
+      "gqsp",
+      "singular value transformation"
+    ],
+    "context": "Hamiltonian simulation with LCU, quantum linear systems (HHL), quantum principal component analysis, quantum singular value transformation.",
+    "forces": "Requires ancilla qubits proportional to log(number of terms). Introduces a factor of lambda = sum(|alpha_k|) in query complexity.",
+    "solution": "PREPARE oracle loads sqrt(alpha_k/lambda) into ancilla; SELECT oracle applies U_k conditioned on ancilla; reflect on ancilla to complete block encoding.",
+    "results": "Block-encodes A with normalisation lambda. Enables poly(log n) query algorithms for linear algebra and Hamiltonian dynamics.",
+    "keywords": [
+      "lcu",
+      "block_encoding",
+      "qsvt",
+      "prepselprep",
+      "select_oracle",
+      "prepare_oracle",
+      "quantum_signal_processing",
+      "singular_value_transformation"
+    ]
+  },
+  {
+    "name": "Oracle",
+    "intent": "Mark a set of target states with a phase flip or bit flip so that an amplitude amplification or search algorithm can distinguish them from non-target states.",
+    "aliases": [
+      "phase oracle",
+      "bit flip oracle",
+      "phase kickback",
+      "marking oracle",
+      "boolean oracle",
+      "predicate oracle"
+    ],
+    "context": "Used inside Grover's search, amplitude amplification, quantum walks, and constraint satisfaction problems to identify solutions.",
+    "forces": "Must be reversible. Phase oracle applies -1 phase to marked states. Bit-flip oracle flips an ancilla bit. Uncomputation must restore ancilla qubits.",
+    "solution": "Implement predicate as a reversible Boolean circuit (Toffoli + NOT). For phase oracle: apply Z or controlled phase to the ancilla after the predicate.",
+    "results": "Marks solutions so amplitude amplification can amplify them. Efficiency depends on circuit depth of the predicate function.",
+    "keywords": [
+      "phase_oracle",
+      "phase_kickback",
+      "oracle_circuit",
+      "flip_sign",
+      "mark_states",
+      "predicate_circuit",
+      "bit_flip_oracle"
+    ]
+  },
+  {
+    "name": "Quantum Amplitude Estimation",
+    "intent": "Estimate the probability a = |<chi|Psi>|^2 of measuring a target state, achieving a quadratic speedup over classical Monte Carlo sampling.",
+    "aliases": [
+      "qae",
+      "amplitude estimation",
+      "iterative qae",
+      "iqae",
+      "maximum likelihood ae",
+      "mlae",
+      "faster ae",
+      "monte carlo estimation"
+    ],
+    "context": "Quantum finance (option pricing, risk analysis), Monte Carlo integration, quantum simulation post-processing.",
+    "forces": "Canonical QAE uses QPE and requires many ancilla qubits. Iterative variants (IQAE, MLAE) remove QPE at the cost of more repetitions.",
+    "solution": "Apply QPE to the Grover operator Q = -A S_0 A\u2020 S_chi. The phase is related to a = sin^2(theta). Read out theta from the QPE ancilla.",
+    "results": "Estimates a to epsilon precision using O(1/epsilon) quantum samples vs O(1/epsilon^2) classical, giving a quadratic speedup.",
+    "keywords": [
+      "qae",
+      "iqae",
+      "mlae",
+      "amplitude_estimation",
+      "quantum_monte_carlo_estimation",
+      "faster_amplitude_estimation"
+    ]
+  },
+  {
+    "name": "Quantum Approximate Optimization Algorithm (QAOA)",
+    "intent": "Solve combinatorial optimization problems by alternating between a problem-specific cost Hamiltonian and a mixing Hamiltonian, with parameters optimised classically.",
+    "aliases": [
+      "qaoa",
+      "quantum approximate optimization",
+      "maxcut qaoa",
+      "portfolio optimization qaoa",
+      "cost hamiltonian",
+      "mixer",
+      "qaoa ansatz",
+      "qaoa layer"
+    ],
+    "context": "MaxCut, graph colouring, satisfiability, portfolio optimisation, routing problems \u2014 any combinatorial problem expressible as an Ising Hamiltonian.",
+    "forces": "Solution quality improves with more layers p but circuit depth grows. Parameter landscape can be barren; good initialisation matters.",
+    "solution": "Initialise in uniform superposition; alternate exp(-i*gamma*H_C) and exp(-i*beta*H_B) for p layers; measure and classically optimise gamma and beta.",
+    "results": "Finds approximate solutions to NP-hard optimisation problems with provable approximation ratios at sufficient depth.",
+    "keywords": [
+      "qaoa",
+      "qaoa_layer",
+      "cost_hamiltonian",
+      "mixer_hamiltonian",
+      "maxcut",
+      "qaoa_circuit",
+      "qaoa_ansatz",
+      "qaoa_depth"
+    ]
+  },
+  {
+    "name": "Quantum Arithmetic",
+    "intent": "Perform reversible arithmetic operations \u2014 addition, multiplication, modular exponentiation, comparison \u2014 on values encoded in quantum registers.",
+    "aliases": [
+      "quantum adder",
+      "modular addition",
+      "quantum multiplier",
+      "modular multiplication",
+      "ripple carry",
+      "qft adder",
+      "modular exponentiation",
+      "integer comparison"
+    ],
+    "context": "Used in Shor's algorithm (modular exponentiation), quantum walks, amplitude estimation subroutines, and any algorithm requiring classical arithmetic inside a superposition.",
+    "forces": "Reversibility requires no information is discarded (must carry forward or uncompute intermediate results). Circuit depth scales with register width.",
+    "solution": "Implement adder (ripple-carry or QFT-based), multiplier (cumulative adders), and modular reduction circuits using Toffoli and CNOT gates.",
+    "results": "Performs classical arithmetic coherently inside a quantum algorithm, enabling polynomial speedups in number-theoretic problems.",
+    "keywords": [
+      "quantum_adder",
+      "modular_adder",
+      "ripple_carry",
+      "qft_adder",
+      "quantum_multiplier",
+      "modular_exponentiation",
+      "quantum_comparator"
+    ]
+  },
+  {
+    "name": "Quantum Logical Operators",
+    "intent": "Implement reversible classical logic gates (AND, OR, XOR, NOT, inner product) on qubit registers, forming boolean circuits inside quantum algorithms.",
+    "aliases": [
+      "toffoli",
+      "ccx",
+      "quantum and",
+      "quantum or",
+      "quantum xor",
+      "boolean circuit",
+      "reversible logic",
+      "inner product"
+    ],
+    "context": "Used inside oracles, arithmetic circuits, and error-correction gadgets where classical boolean logic must be executed reversibly on qubits.",
+    "forces": "Reversibility requires ancilla qubits for intermediate results; uncomputation must restore ancilla to |0>.",
+    "solution": "Implement AND via Toffoli gate; OR via De Morgan's law with NOTs and Toffoli; XOR via CNOT; chain them for composite logic.",
+    "results": "Enables classical boolean functions to be executed coherently inside quantum circuits.",
+    "keywords": [
+      "toffoli",
+      "ccx",
+      "ccnot",
+      "quantum_and",
+      "quantum_or",
+      "quantum_xor",
+      "bitwise_xor",
+      "inner_product_mod2"
+    ]
+  },
+  {
+    "name": "Quantum Neural Network (QNN)",
+    "intent": "Use a parameterised quantum circuit as a trainable model for supervised or unsupervised learning, analogous to a classical neural network layer.",
+    "aliases": [
+      "qnn",
+      "variational classifier",
+      "quantum classifier",
+      "quantum regressor",
+      "quantum layer",
+      "hybrid neural network",
+      "torch connector",
+      "quantum kernel"
+    ],
+    "context": "Quantum machine learning for classification, regression, generative modelling; hybrid quantum-classical neural network architectures.",
+    "forces": "Barren plateau problem causes gradients to vanish exponentially in circuit width. Expressibility and entanglement capacity must be balanced.",
+    "solution": "Compose a data encoding layer (feature map) with a trainable ansatz layer; optimise parameters via gradient descent or gradient-free methods.",
+    "results": "A quantum model that can represent some function classes efficiently; benefit over classical NNs remains an active research question.",
+    "keywords": [
+      "qnn",
+      "quantum_neural_network",
+      "variational_classifier",
+      "torch_connector",
+      "sampler_qnn",
+      "estimator_qnn",
+      "quantum_layer"
+    ]
+  },
+  {
+    "name": "Quantum Phase Estimation (QPE)",
+    "intent": "Estimate the eigenvalue (phase) of a unitary operator U for a given eigenstate |psi>, to precision 1/2^t using t ancilla qubits.",
+    "aliases": [
+      "qpe",
+      "phase estimation",
+      "quantum phase estimation",
+      "iterative phase estimation",
+      "ipe",
+      "hamiltonian phase estimation",
+      "eigenvalue estimation"
+    ],
+    "context": "Used in Shor's algorithm, quantum chemistry (energy eigenvalues), quantum linear systems (HHL), amplitude estimation, and quantum simulation.",
+    "forces": "Precision requires exponentially many ancilla qubits. Iterative QPE uses fewer qubits at the cost of more repetitions. Requires coherent controlled-U^k.",
+    "solution": "Apply H to t ancilla qubits; apply controlled-U^(2^k) for k=0,...,t-1; apply inverse QFT to ancilla; measure to read out the phase.",
+    "results": "Estimates eigenvalue e^(2pi*i*phi) to t bits of precision using O(t) ancilla qubits and O(2^t) controlled-U operations.",
+    "keywords": [
+      "qpe",
+      "phase_estimation",
+      "eigenvalue_estimation",
+      "iterative_phase_estimation",
+      "hamiltonian_phase_estimation",
+      "controlled_unitary_power"
+    ]
+  },
+  {
+    "name": "SWAP Test",
+    "intent": "Estimate the overlap (inner product) between two quantum states |phi> and |psi> by measuring the probability of a control qubit using the Hadamard test or compute-uncompute method.",
+    "aliases": [
+      "swap test",
+      "hadamard test",
+      "compute uncompute",
+      "fidelity estimation",
+      "state overlap",
+      "kernel estimation",
+      "quantum kernel"
+    ],
+    "context": "Quantum machine learning (kernel methods, SVM), quantum fingerprinting, entanglement detection, VQA convergence monitoring.",
+    "forces": "Requires an ancilla qubit and a controlled-SWAP gate. Compute-uncompute variant avoids controlled-SWAP but doubles circuit depth.",
+    "solution": "Apply H to ancilla, apply cSWAP (or controlled-U\u2020U), apply H to ancilla, measure: P(0) = (1 + |<phi|psi>|^2) / 2.",
+    "results": "Estimates |<phi|psi>|^2 to epsilon precision using O(1/epsilon^2) repetitions. Used as the quantum kernel in QML applications.",
+    "keywords": [
+      "swap_test",
+      "hadamard_test",
+      "compute_uncompute",
+      "fidelity_estimation",
+      "quantum_kernel",
+      "state_overlap",
+      "kernel_matrix"
+    ]
+  },
+  {
+    "name": "Variational Quantum Algorithm (VQA)",
+    "intent": "Optimise the parameters of a parameterised quantum circuit (ansatz) using a classical outer-loop optimiser to minimise an expectation value cost function.",
+    "aliases": [
+      "vqa",
+      "variational algorithm",
+      "parameterised circuit",
+      "ansatz",
+      "hybrid quantum classical",
+      "variational principle",
+      "variational circuit"
+    ],
+    "context": "Near-term quantum algorithms for chemistry, optimisation, and machine learning where fault-tolerant resources are unavailable.",
+    "forces": "Barren plateaus cause exponentially small gradients. Hardware noise introduces bias. Classical optimiser may get stuck in local minima.",
+    "solution": "Define a cost function C(theta) as an expectation value of an observable. Use a parameterised ansatz and a classical optimiser (gradient or gradient-free) to minimise C(theta).",
+    "results": "Finds approximate solutions on near-term hardware without deep fault-tolerant circuits. Performance depends heavily on ansatz expressibility.",
+    "keywords": [
+      "ansatz",
+      "parameterized_circuit",
+      "parameter_shift",
+      "vqa",
+      "hybrid_quantum_classical",
+      "variational_form"
+    ]
+  },
+  {
+    "name": "Variational Quantum Eigensolver (VQE)",
+    "intent": "Find the ground-state energy of a molecular or physical Hamiltonian by variationally minimising the energy expectation value of a parameterised ansatz circuit.",
+    "aliases": [
+      "vqe",
+      "variational eigensolver",
+      "uccsd",
+      "uccd",
+      "k-upccgsd",
+      "adapt-vqe",
+      "chemistry ansatz",
+      "coupled cluster",
+      "hartree-fock",
+      "second quantization"
+    ],
+    "context": "Quantum chemistry, materials science, condensed matter physics \u2014 computing ground state energies and molecular properties on near-term quantum hardware.",
+    "forces": "Ansatz expressibility vs circuit depth tradeoff. Chemistry-motivated ansatze (UCCSD) are accurate but deep; hardware-efficient ansatze are shallow but less expressive.",
+    "solution": "Prepare a chemistry-motivated ansatz (UCCSD, hardware-efficient); measure Pauli expectation values of the second-quantised Hamiltonian; classically minimise energy.",
+    "results": "Approximates ground-state energy to chemical accuracy (1 kcal/mol) for small molecules on near-term hardware using fewer qubits than QPE-based approaches.",
+    "keywords": [
+      "vqe",
+      "uccsd",
+      "coupled_cluster",
+      "hartree_fock",
+      "second_quantization",
+      "adapt_vqe",
+      "quantum_chemistry"
+    ]
+  }
+]

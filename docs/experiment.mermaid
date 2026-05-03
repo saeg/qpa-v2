@@ -1,0 +1,53 @@
+%%{init: {'flowchart': {'nodeSpacing': 15, 'rankSpacing': 40, 'curve': 'basis'}, 'themeVariables': {'fontSize': '10px'}}}%%
+
+graph LR
+%% External Sources
+    EXT1[<strong>PlanQK Pattern Atlas</strong>]
+    EXT2[<strong>GitHub API</strong>]
+
+%% Main Process Flow
+    subgraph DA["Data Acquisition"]
+        A[<strong>1. Download Patterns</strong>]
+        B[<strong>2. Discover Projects</strong>]
+    end
+
+%% Intermediate Data
+    A1[<strong>Pattern Definitions</strong>]
+    B1[<strong>Project List</strong>]
+
+%% Processing Stages
+    subgraph PCP["Project Processing"]
+        C[<strong>3. Extract Notebooks</strong>]
+        D[<strong>4. Convert Notebooks</strong>]
+        E[<strong>5. Extract Concepts</strong>]
+        F[<strong>6. Manual Classification</strong>]
+    end
+
+%% Analysis and Reporting
+    subgraph AR["Analysis & Reporting"]
+        G[<strong>7. Run Analysis</strong>]
+        H[<strong>8. Generate Report</strong>]
+    end
+
+%% Final Outputs
+    H1[<strong>MD Report</strong>]
+    H2[<strong>CSV Tables</strong>]
+    H3[<strong>Exp. Data</strong>]
+
+%% Define Connections
+    EXT1 --> A --> A1 --> F
+    EXT2 --> B --> B1
+    B1 --> C --> D --> G
+    B1 --> E --> F
+    F --> G --> H
+    H --> H1 & H2 & H3
+
+%% Styling
+    classDef external fill:white,color:black,stroke:black,stroke-width:1.5px,font-size:9px
+    classDef process fill:white,color:black,stroke:black,stroke-width:1.5px,font-size:9px
+    classDef data fill:white,color:black,stroke:black,stroke-width:1px,stroke-dasharray: 3 3,font-size:8px
+
+%% Apply styles
+    class EXT1,EXT2 external
+    class A,B,C,D,E,F,G,H process
+    class A1,B1,H1,H2,H3 data

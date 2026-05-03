@@ -1,0 +1,1476 @@
+[
+  {
+    "rank": 1,
+    "full_name": "Qiskit/qiskit",
+    "stargazers_count": 7327,
+    "contributors_count": 466,
+    "forks_count": 2864,
+    "pushed_at": "2026-05-02T05:03:01+00:00",
+    "description": "Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and primitives.",
+    "html_url": "https://github.com/Qiskit/qiskit",
+    "topics": [
+      "c",
+      "python",
+      "qiskit",
+      "quantum",
+      "quantum-circuit",
+      "quantum-computing",
+      "quantum-programming-language",
+      "rust",
+      "sdk"
+    ]
+  },
+  {
+    "rank": 2,
+    "full_name": "quantumlib/Cirq",
+    "stargazers_count": 4948,
+    "contributors_count": 256,
+    "forks_count": 1211,
+    "pushed_at": "2026-05-02T00:44:17+00:00",
+    "description": "Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits.",
+    "html_url": "https://github.com/quantumlib/Cirq",
+    "topics": [
+      "algorithms",
+      "api",
+      "cirq",
+      "google",
+      "google-quantum",
+      "nisq",
+      "python",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-circuit",
+      "quantum-circuit-simulator",
+      "quantum-computer-simulator",
+      "quantum-computing",
+      "quantum-development-kit",
+      "quantum-information",
+      "quantum-programming",
+      "quantum-programming-language",
+      "quantum-simulation",
+      "sdk",
+      "simulation"
+    ]
+  },
+  {
+    "rank": 3,
+    "full_name": "PennyLaneAI/pennylane",
+    "stargazers_count": 3184,
+    "contributors_count": 210,
+    "forks_count": 776,
+    "pushed_at": "2026-05-02T05:51:28+00:00",
+    "description": "PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry. Create meaningful quantum algorithms, from inspiration to implementation.",
+    "html_url": "https://github.com/PennyLaneAI/pennylane",
+    "topics": [
+      "autograd",
+      "automatic-differentiation",
+      "cirq",
+      "deep-learning",
+      "differentiable-computing",
+      "jax",
+      "machine-learning",
+      "neural-network",
+      "optimization",
+      "python",
+      "pytorch",
+      "qiskit",
+      "qml",
+      "quantum",
+      "quantum-chemistry",
+      "quantum-computing",
+      "quantum-machine-learning",
+      "tensorflow"
+    ]
+  },
+  {
+    "rank": 4,
+    "full_name": "tensorflow/quantum",
+    "stargazers_count": 2121,
+    "contributors_count": 41,
+    "forks_count": 651,
+    "pushed_at": "2026-04-18T04:36:48+00:00",
+    "description": "An open-source Python framework for hybrid quantum-classical machine learning.",
+    "html_url": "https://github.com/tensorflow/quantum",
+    "topics": [
+      "algorithms",
+      "api",
+      "cirq",
+      "google",
+      "google-quantum",
+      "machine-learning",
+      "machine-learning-algorithms",
+      "machine-learning-library",
+      "nisq",
+      "python",
+      "qml",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-computing",
+      "quantum-information",
+      "quantum-machine-learning",
+      "quantum-programming",
+      "quantum-simulation",
+      "sdk",
+      "tensorflow"
+    ]
+  },
+  {
+    "rank": 5,
+    "full_name": "qutip/qutip",
+    "stargazers_count": 2007,
+    "contributors_count": 186,
+    "forks_count": 755,
+    "pushed_at": "2026-04-28T12:38:40+00:00",
+    "description": "QuTiP: Quantum Toolbox in Python",
+    "html_url": "https://github.com/qutip/qutip",
+    "topics": [
+      "python",
+      "quantum",
+      "quantum-computing",
+      "quantum-information",
+      "quantum-mechanics",
+      "quantum-optics",
+      "quantum-toolbox",
+      "qutip",
+      "unitaryhack"
+    ]
+  },
+  {
+    "rank": 6,
+    "full_name": "quantumlib/OpenFermion",
+    "stargazers_count": 1684,
+    "contributors_count": 80,
+    "forks_count": 416,
+    "pushed_at": "2026-05-01T18:18:41+00:00",
+    "description": "Python package for compiling and analyzing quantum algorithms to simulate electronic structures.",
+    "html_url": "https://github.com/quantumlib/OpenFermion",
+    "topics": [
+      "algorithms",
+      "cirq",
+      "colab",
+      "electronic-structure",
+      "fermion",
+      "google-quantum",
+      "high-performance",
+      "jupyter-notebook",
+      "python",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-chemistry",
+      "quantum-circuit",
+      "quantum-computing",
+      "quantum-information",
+      "quantum-programming",
+      "quantum-programming-language",
+      "quantum-simulation",
+      "sdk",
+      "simulation"
+    ]
+  },
+  {
+    "rank": 7,
+    "full_name": "mit-han-lab/torchquantum",
+    "stargazers_count": 1625,
+    "contributors_count": 30,
+    "forks_count": 249,
+    "pushed_at": "2025-10-28T01:51:40+00:00",
+    "description": "A PyTorch-based framework for Quantum Classical Simulation, Quantum Machine Learning, Quantum Neural Networks, Parameterized Quantum Circuits with support for easy deployments on real quantum computers.",
+    "html_url": "https://github.com/mit-han-lab/torchquantum",
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "ml-for-systems",
+      "neural-network",
+      "parameterized-quantum-circuit",
+      "pytorch",
+      "pytorch-quantum",
+      "quantum",
+      "quantum-computing",
+      "quantum-machine-learning",
+      "quantum-neural-network",
+      "quantum-simulation",
+      "system"
+    ]
+  },
+  {
+    "rank": 8,
+    "full_name": "rigetti/pyquil",
+    "stargazers_count": 1486,
+    "contributors_count": 96,
+    "forks_count": 354,
+    "pushed_at": "2026-04-29T14:44:51+00:00",
+    "description": "A Python library for quantum programming using Quil.",
+    "html_url": "https://github.com/rigetti/pyquil",
+    "topics": [
+      "forest",
+      "quantum-computing",
+      "quantum-programming",
+      "quil"
+    ]
+  },
+  {
+    "rank": 9,
+    "full_name": "openqasm/openqasm",
+    "stargazers_count": 1463,
+    "contributors_count": 76,
+    "forks_count": 357,
+    "pushed_at": "2026-03-05T13:08:20+00:00",
+    "description": "Quantum assembly language for extended quantum circuits",
+    "html_url": "https://github.com/openqasm/openqasm",
+    "topics": [
+      "openqasm",
+      "quantum-computing",
+      "quantum-information"
+    ]
+  },
+  {
+    "rank": 10,
+    "full_name": "qiskit-community/qiskit-machine-learning",
+    "stargazers_count": 1039,
+    "contributors_count": 81,
+    "forks_count": 437,
+    "pushed_at": "2026-04-08T09:24:32+00:00",
+    "description": "An open-source library built on Qiskit for quantum machine learning tasks at scale on quantum hardware and classical simulators",
+    "html_url": "https://github.com/qiskit-community/qiskit-machine-learning",
+    "topics": [
+      "machine-learning",
+      "qiskit",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 11,
+    "full_name": "ProjectQ-Framework/ProjectQ",
+    "stargazers_count": 971,
+    "contributors_count": 31,
+    "forks_count": 289,
+    "pushed_at": "2026-04-27T18:48:35+00:00",
+    "description": "ProjectQ: An open source software framework for quantum computing",
+    "html_url": "https://github.com/ProjectQ-Framework/ProjectQ",
+    "topics": [
+      "quantum-computing",
+      "quantum-programming-language"
+    ]
+  },
+  {
+    "rank": 12,
+    "full_name": "AgnostiqHQ/covalent",
+    "stargazers_count": 859,
+    "contributors_count": 44,
+    "forks_count": 110,
+    "pushed_at": "2026-04-27T17:04:50+00:00",
+    "description": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments.",
+    "html_url": "https://github.com/AgnostiqHQ/covalent",
+    "topics": [
+      "covalent",
+      "data-pipeline",
+      "data-science",
+      "deep-learning",
+      "hacktoberfest",
+      "hpc",
+      "hpc-applications",
+      "machine-learning",
+      "machinelearning",
+      "machinelearning-python",
+      "orchestration",
+      "parallelization",
+      "pipelines",
+      "python",
+      "quantum",
+      "quantum-computing",
+      "quantum-machine-learning",
+      "workflow",
+      "workflow-automation",
+      "workflow-management"
+    ]
+  },
+  {
+    "rank": 13,
+    "full_name": "jcmgray/quimb",
+    "stargazers_count": 633,
+    "contributors_count": 29,
+    "forks_count": 133,
+    "pushed_at": "2026-05-01T02:10:14+00:00",
+    "description": "A python library for quantum information and many-body calculations including tensor networks.",
+    "html_url": "https://github.com/jcmgray/quimb",
+    "topics": [
+      "dmrg",
+      "entanglement",
+      "mera",
+      "peps",
+      "physics",
+      "python",
+      "python3",
+      "quantum",
+      "quantum-circuit",
+      "quantum-circuit-simulator",
+      "quantum-computing",
+      "tebd",
+      "tensor-network",
+      "tensor-networks",
+      "tensors"
+    ]
+  },
+  {
+    "rank": 14,
+    "full_name": "dwavesystems/dwave-ocean-sdk",
+    "stargazers_count": 522,
+    "contributors_count": 21,
+    "forks_count": 184,
+    "pushed_at": "2026-04-29T18:51:26+00:00",
+    "description": "Installer for D-Wave's Ocean tools",
+    "html_url": "https://github.com/dwavesystems/dwave-ocean-sdk",
+    "topics": [
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 15,
+    "full_name": "unitaryfoundation/mitiq",
+    "stargazers_count": 429,
+    "contributors_count": 85,
+    "forks_count": 210,
+    "pushed_at": "2026-04-30T04:40:38+00:00",
+    "description": "Mitiq is an open source toolkit for implementing error mitigation techniques on most current intermediate-scale quantum computers.",
+    "html_url": "https://github.com/unitaryfoundation/mitiq",
+    "topics": [
+      "error-mitigation",
+      "quantum-computing",
+      "quantum-error-mitigation",
+      "quantum-programming"
+    ]
+  },
+  {
+    "rank": 16,
+    "full_name": "discopy/discopy",
+    "stargazers_count": 417,
+    "contributors_count": 22,
+    "forks_count": 73,
+    "pushed_at": "2026-02-26T08:00:05+00:00",
+    "description": "The Python toolkit for computing with string diagrams.",
+    "html_url": "https://github.com/discopy/discopy",
+    "topics": [
+      "category-theory",
+      "diagrams",
+      "nlp",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 17,
+    "full_name": "qiskit-community/qiskit-metal",
+    "stargazers_count": 392,
+    "contributors_count": 53,
+    "forks_count": 258,
+    "pushed_at": "2026-04-30T23:39:39+00:00",
+    "description": "Quantum Hardware Design. Open-source project for engineers and scientists to design superconducting quantum devices with ease. ",
+    "html_url": "https://github.com/qiskit-community/qiskit-metal",
+    "topics": [
+      "device",
+      "eda",
+      "gds",
+      "hamiltonian",
+      "quantum",
+      "quantum-computing",
+      "qubits",
+      "simulation-modeling",
+      "superconducting"
+    ]
+  },
+  {
+    "rank": 18,
+    "full_name": "blueqat/blueqatSDK",
+    "stargazers_count": 381,
+    "contributors_count": 11,
+    "forks_count": 57,
+    "pushed_at": "2025-05-13T11:11:34+00:00",
+    "description": "Quantum Computer Library for Everyone",
+    "html_url": "https://github.com/blueqat/blueqatSDK",
+    "topics": [
+      "python",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-computer-simulator",
+      "quantum-computing",
+      "quantum-information",
+      "quantum-programming-language"
+    ]
+  },
+  {
+    "rank": 19,
+    "full_name": "usnistgov/jarvis",
+    "stargazers_count": 380,
+    "contributors_count": 11,
+    "forks_count": 142,
+    "pushed_at": "2025-08-25T15:23:20+00:00",
+    "description": "About JARVIS-Tools: an open-source software package for data-driven atomistic materials design. Publications: https://scholar.google.com/citations?user=3w6ej94AAAAJ https://www.youtube.com/@dr_k_choudhary",
+    "html_url": "https://github.com/usnistgov/jarvis",
+    "topics": [
+      "ai",
+      "atomistic-simulations",
+      "dft",
+      "lammps",
+      "materials-informatics",
+      "md",
+      "mgi",
+      "pytorch",
+      "quantum-computing",
+      "scikit-learn",
+      "tensorflow",
+      "vasp"
+    ]
+  },
+  {
+    "rank": 20,
+    "full_name": "qiskit-community/qiskit-nature",
+    "stargazers_count": 380,
+    "contributors_count": 76,
+    "forks_count": 233,
+    "pushed_at": "2025-12-12T01:08:18+00:00",
+    "description": "Qiskit Nature is an open-source, quantum computing, framework for solving quantum mechanical natural science problems.",
+    "html_url": "https://github.com/qiskit-community/qiskit-nature",
+    "topics": [
+      "qiskit"
+    ]
+  },
+  {
+    "rank": 21,
+    "full_name": "amazon-braket/amazon-braket-sdk-python",
+    "stargazers_count": 364,
+    "contributors_count": 69,
+    "forks_count": 165,
+    "pushed_at": "2026-05-01T12:09:40+00:00",
+    "description": "A Python SDK for interacting with quantum devices on Amazon Braket",
+    "html_url": "https://github.com/amazon-braket/amazon-braket-sdk-python",
+    "topics": [
+      "amazon-braket",
+      "amazon-web-services",
+      "python",
+      "quantum",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 22,
+    "full_name": "tqec/tqec",
+    "stargazers_count": 359,
+    "contributors_count": 25,
+    "forks_count": 99,
+    "pushed_at": "2026-05-02T00:37:11+00:00",
+    "description": "Design automation software tools for Topological Quantum Error Correction",
+    "html_url": "https://github.com/tqec/tqec",
+    "topics": [
+      "quantum-computing",
+      "quantum-error-correction",
+      "surface-code"
+    ]
+  },
+  {
+    "rank": 23,
+    "full_name": "qiboteam/qibo",
+    "stargazers_count": 353,
+    "contributors_count": 58,
+    "forks_count": 91,
+    "pushed_at": "2026-05-01T12:53:16+00:00",
+    "description": "A full-stack framework for quantum computing.",
+    "html_url": "https://github.com/qiboteam/qibo",
+    "topics": [
+      "gpu",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-annealing",
+      "quantum-circuit",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 24,
+    "full_name": "tencent-quantum-lab/tensorcircuit",
+    "stargazers_count": 350,
+    "contributors_count": 27,
+    "forks_count": 94,
+    "pushed_at": "2025-10-22T08:56:47+00:00",
+    "description": "Tensor network based quantum software framework for the NISQ era",
+    "html_url": "https://github.com/tencent-quantum-lab/tensorcircuit",
+    "topics": [
+      "automatic-differentiation",
+      "jax",
+      "machine-learning",
+      "matrix-product-states",
+      "neural-network",
+      "nisq",
+      "open-quantum-systems",
+      "pytorch",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-circuit",
+      "quantum-computing",
+      "quantum-dynamics",
+      "quantum-error-mitigation",
+      "quantum-machine-learning",
+      "quantum-noise",
+      "quantum-simulation",
+      "tensor-network",
+      "tensorflow",
+      "variational-quantum-algorithms"
+    ]
+  },
+  {
+    "rank": 25,
+    "full_name": "quantumlib/Qualtran",
+    "stargazers_count": 337,
+    "contributors_count": 34,
+    "forks_count": 103,
+    "pushed_at": "2026-04-30T18:46:09+00:00",
+    "description": "Qᴜᴀʟᴛʀᴀɴ is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms.",
+    "html_url": "https://github.com/quantumlib/Qualtran",
+    "topics": [
+      "algorithms",
+      "api",
+      "cirq",
+      "conversion",
+      "google",
+      "google-quantum",
+      "python",
+      "python3",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-circuit",
+      "quantum-computing",
+      "quantum-information-science",
+      "quantum-programming",
+      "quantum-programming-language",
+      "quantum-simulation",
+      "research",
+      "resource-estimation",
+      "sdk"
+    ]
+  },
+  {
+    "rank": 26,
+    "full_name": "qiskit-community/qiskit-finance",
+    "stargazers_count": 314,
+    "contributors_count": 27,
+    "forks_count": 151,
+    "pushed_at": "2025-12-12T19:08:07+00:00",
+    "description": "Quantum Finance",
+    "html_url": "https://github.com/qiskit-community/qiskit-finance",
+    "topics": []
+  },
+  {
+    "rank": 27,
+    "full_name": "quantumlib/ReCirq",
+    "stargazers_count": 304,
+    "contributors_count": 41,
+    "forks_count": 129,
+    "pushed_at": "2026-04-29T18:00:10+00:00",
+    "description": "Python modules for quantum computing applications and experiments using Cirq. Research using Cirq!",
+    "html_url": "https://github.com/quantumlib/ReCirq",
+    "topics": [
+      "algorithms",
+      "cirq",
+      "games",
+      "google-quantum",
+      "nisq",
+      "optimization",
+      "python",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-circuit",
+      "quantum-circuits",
+      "quantum-computing",
+      "quantum-computing-research",
+      "quantum-information",
+      "quantum-information-science",
+      "quantum-programming",
+      "quantum-simulation",
+      "research",
+      "simulation"
+    ]
+  },
+  {
+    "rank": 28,
+    "full_name": "qiskit-community/qiskit-optimization",
+    "stargazers_count": 281,
+    "contributors_count": 62,
+    "forks_count": 148,
+    "pushed_at": "2026-04-01T05:54:16+00:00",
+    "description": "Quantum Optimization",
+    "html_url": "https://github.com/qiskit-community/qiskit-optimization",
+    "topics": [
+      "qiskit"
+    ]
+  },
+  {
+    "rank": 29,
+    "full_name": "vprusso/toqito",
+    "stargazers_count": 277,
+    "contributors_count": 68,
+    "forks_count": 149,
+    "pushed_at": "2026-04-27T11:36:36+00:00",
+    "description": "|toqito> (Theory of Quantum Information Toolkit) is a Python library for research in quantum information theory.",
+    "html_url": "https://github.com/vprusso/toqito",
+    "topics": [
+      "convex-optimization",
+      "linear",
+      "linear-algebra",
+      "matrix-analysis",
+      "nonlocal-game",
+      "physics",
+      "python",
+      "python-3",
+      "python3",
+      "quantum",
+      "quantum-computing",
+      "quantum-information",
+      "quantum-information-science",
+      "quantum-information-theory",
+      "quantum-physics",
+      "quantum-programming",
+      "quantum-programming-language",
+      "research",
+      "semidefinite-programming",
+      "unitaryhack"
+    ]
+  },
+  {
+    "rank": 30,
+    "full_name": "eclipse-qrisp/Qrisp",
+    "stargazers_count": 255,
+    "contributors_count": 27,
+    "forks_count": 73,
+    "pushed_at": "2026-05-01T19:00:38+00:00",
+    "description": "Qrisp - The next generation of quantum algorithm development",
+    "html_url": "https://github.com/eclipse-qrisp/Qrisp",
+    "topics": [
+      "quantum-algorithms",
+      "quantum-chemistry",
+      "quantum-computing",
+      "quantum-programming-language"
+    ]
+  },
+  {
+    "rank": 31,
+    "full_name": "open-quantum-safe/liboqs-python",
+    "stargazers_count": 231,
+    "contributors_count": 20,
+    "forks_count": 84,
+    "pushed_at": "2025-12-01T21:49:51+00:00",
+    "description": "Python 3 bindings for liboqs",
+    "html_url": "https://github.com/open-quantum-safe/liboqs-python",
+    "topics": [
+      "cryptography",
+      "post-quantum-cryptography",
+      "python",
+      "python3",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 32,
+    "full_name": "pasqal-io/Pulser",
+    "stargazers_count": 229,
+    "contributors_count": 47,
+    "forks_count": 74,
+    "pushed_at": "2026-04-29T09:07:49+00:00",
+    "description": "Library for pulse-level/analog control of neutral atom devices. Emulator with QuTiP.",
+    "html_url": "https://github.com/pasqal-io/Pulser",
+    "topics": [
+      "neutral-atom-devices",
+      "quantum-computing",
+      "quantum-simulation",
+      "unitaryhack"
+    ]
+  },
+  {
+    "rank": 33,
+    "full_name": "PennyLaneAI/catalyst",
+    "stargazers_count": 208,
+    "contributors_count": 60,
+    "forks_count": 71,
+    "pushed_at": "2026-05-02T04:43:48+00:00",
+    "description": "A JIT compiler for hybrid quantum programs in PennyLane",
+    "html_url": "https://github.com/PennyLaneAI/catalyst",
+    "topics": [
+      "autodiff",
+      "automatic-differentiation",
+      "jax",
+      "jit",
+      "llvm",
+      "mlir",
+      "pennylane",
+      "python",
+      "qir",
+      "quantum",
+      "quantum-compiler",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 34,
+    "full_name": "munich-quantum-toolkit/qecc",
+    "stargazers_count": 207,
+    "contributors_count": 17,
+    "forks_count": 32,
+    "pushed_at": "2026-05-02T00:54:53+00:00",
+    "description": "MQT QECC - Tools for Quantum Error Correcting Codes",
+    "html_url": "https://github.com/munich-quantum-toolkit/qecc",
+    "topics": [
+      "ldpc-codes",
+      "quantum-computing",
+      "quantum-error-correction",
+      "quantum-information-theory"
+    ]
+  },
+  {
+    "rank": 35,
+    "full_name": "zlatko-minev/pyEPR",
+    "stargazers_count": 202,
+    "contributors_count": 33,
+    "forks_count": 273,
+    "pushed_at": "2026-01-05T20:40:06+00:00",
+    "description": "Powerful, automated analysis and design of quantum microwave chips & devices [Energy-Participation Ratio and more]",
+    "html_url": "https://github.com/zlatko-minev/pyEPR",
+    "topics": [
+      "cqed",
+      "hfss",
+      "python",
+      "quantization",
+      "quantum",
+      "quantum-circuit",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 36,
+    "full_name": "Quandela/Perceval",
+    "stargazers_count": 201,
+    "contributors_count": 37,
+    "forks_count": 83,
+    "pushed_at": "2026-04-30T14:19:21+00:00",
+    "description": "An open source framework for programming photonic quantum computers",
+    "html_url": "https://github.com/Quandela/Perceval",
+    "topics": [
+      "physics-simulation",
+      "quantum",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 37,
+    "full_name": "iqm-finland/KQCircuits",
+    "stargazers_count": 191,
+    "contributors_count": 27,
+    "forks_count": 98,
+    "pushed_at": "2026-03-20T07:45:17+00:00",
+    "description": "KLayout Python library for integrated quantum circuit design.",
+    "html_url": "https://github.com/iqm-finland/KQCircuits",
+    "topics": [
+      "eda",
+      "gds",
+      "gds2",
+      "gdsii",
+      "klayout",
+      "quantum",
+      "quantum-computing",
+      "qubits",
+      "superconducting",
+      "superconducting-qubits",
+      "unitaryhack"
+    ]
+  },
+  {
+    "rank": 38,
+    "full_name": "qiskit-community/qiskit-experiments",
+    "stargazers_count": 190,
+    "contributors_count": 53,
+    "forks_count": 132,
+    "pushed_at": "2026-05-01T21:06:18+00:00",
+    "description": "Qiskit Experiments",
+    "html_url": "https://github.com/qiskit-community/qiskit-experiments",
+    "topics": [
+      "qiskit"
+    ]
+  },
+  {
+    "rank": 39,
+    "full_name": "PIQuIL/QuCumber",
+    "stargazers_count": 178,
+    "contributors_count": 13,
+    "forks_count": 33,
+    "pushed_at": "2026-04-30T21:08:58+00:00",
+    "description": "Neural Network Many-Body Wavefunction Reconstruction",
+    "html_url": "https://github.com/PIQuIL/QuCumber",
+    "topics": [
+      "machine-learning",
+      "quantum-computing",
+      "restricted-boltzmann-machine"
+    ]
+  },
+  {
+    "rank": 40,
+    "full_name": "Qiskit/ecosystem",
+    "stargazers_count": 150,
+    "contributors_count": 29,
+    "forks_count": 78,
+    "pushed_at": "2026-05-01T16:17:15+00:00",
+    "description": "The Qiskit ecosystem is a collection of tools created by researchers and developers who use Qiskit every day.",
+    "html_url": "https://github.com/Qiskit/ecosystem",
+    "topics": [
+      "ecosystem",
+      "qiskit",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 41,
+    "full_name": "sandbox-quantum/Tangelo",
+    "stargazers_count": 137,
+    "contributors_count": 14,
+    "forks_count": 39,
+    "pushed_at": "2026-01-07T16:22:52+00:00",
+    "description": "A python package for exploring end-to-end chemistry workflows on quantum computers and simulators.",
+    "html_url": "https://github.com/sandbox-quantum/Tangelo",
+    "topics": [
+      "chemistry",
+      "drug-design",
+      "drug-discovery",
+      "ft",
+      "nisq",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-chemistry",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 42,
+    "full_name": "oqtopus-team/oqtopus-cloud",
+    "stargazers_count": 132,
+    "contributors_count": 17,
+    "forks_count": 18,
+    "pushed_at": "2026-04-28T07:39:48+00:00",
+    "description": "Open Quantum Toolchain for OPerators & USers (OQTOPUS) is a project that provides the architecture of cloud quantum computers as an open-source software (OSS).",
+    "html_url": "https://github.com/oqtopus-team/oqtopus-cloud",
+    "topics": [
+      "quantum",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 43,
+    "full_name": "Quantinuum/guppylang",
+    "stargazers_count": 127,
+    "contributors_count": 30,
+    "forks_count": 32,
+    "pushed_at": "2026-05-01T16:45:26+00:00",
+    "description": "Pythonic quantum-classical programming language",
+    "html_url": "https://github.com/Quantinuum/guppylang",
+    "topics": [
+      "programming-language",
+      "python",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 44,
+    "full_name": "nikolasibalic/ARC-Alkali-Rydberg-Calculator",
+    "stargazers_count": 120,
+    "contributors_count": 20,
+    "forks_count": 113,
+    "pushed_at": "2026-04-14T02:35:11+00:00",
+    "description": "Object-oriented Python library for computation of properties of highly-excited Rydbeg states of alkali and divalent atoms.",
+    "html_url": "https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator",
+    "topics": [
+      "alkali-atoms",
+      "alkaline-earths",
+      "atomic-physics",
+      "atomic-sensors",
+      "divalent-atoms",
+      "electrometry",
+      "quantum-computing",
+      "quantum-optics",
+      "quantum-simulator",
+      "rydberg",
+      "rydberg-states",
+      "stark-effect"
+    ]
+  },
+  {
+    "rank": 45,
+    "full_name": "Infleqtion/client-superstaq",
+    "stargazers_count": 117,
+    "contributors_count": 36,
+    "forks_count": 23,
+    "pushed_at": "2026-05-01T23:39:40+00:00",
+    "description": "https://superstaq.readthedocs.io",
+    "html_url": "https://github.com/Infleqtion/client-superstaq",
+    "topics": [
+      "benchmark-framework",
+      "benchmark-suite",
+      "quantum-algorithms",
+      "quantum-computing",
+      "quantum-mechanics"
+    ]
+  },
+  {
+    "rank": 46,
+    "full_name": "munich-quantum-toolkit/bench",
+    "stargazers_count": 117,
+    "contributors_count": 22,
+    "forks_count": 32,
+    "pushed_at": "2026-05-02T07:29:44+00:00",
+    "description": "MQT Bench - An MQT Tool for Benchmarking Quantum Software Tools",
+    "html_url": "https://github.com/munich-quantum-toolkit/bench",
+    "topics": [
+      "benchmarking",
+      "performance-testing",
+      "quantum-circuits",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 47,
+    "full_name": "amazon-braket/amazon-braket-algorithm-library",
+    "stargazers_count": 115,
+    "contributors_count": 30,
+    "forks_count": 59,
+    "pushed_at": "2026-04-21T13:35:09+00:00",
+    "description": null,
+    "html_url": "https://github.com/amazon-braket/amazon-braket-algorithm-library",
+    "topics": []
+  },
+  {
+    "rank": 48,
+    "full_name": "Qiskit/qiskit-serverless",
+    "stargazers_count": 110,
+    "contributors_count": 33,
+    "forks_count": 50,
+    "pushed_at": "2026-05-01T20:05:45+00:00",
+    "description": "A programming model for leveraging quantum and classical resources",
+    "html_url": "https://github.com/Qiskit/qiskit-serverless",
+    "topics": [
+      "cloud",
+      "python",
+      "qiskit",
+      "qiskit-serverless",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 49,
+    "full_name": "qBraid/qBraid",
+    "stargazers_count": 109,
+    "contributors_count": 38,
+    "forks_count": 56,
+    "pushed_at": "2026-05-01T21:56:34+00:00",
+    "description": "A platform-agnostic quantum runtime framework",
+    "html_url": "https://github.com/qBraid/qBraid",
+    "topics": [
+      "openqasm",
+      "python",
+      "qbraid",
+      "qir",
+      "quantum",
+      "quantum-computing",
+      "runtime",
+      "rustworkx",
+      "transpiler"
+    ]
+  },
+  {
+    "rank": 50,
+    "full_name": "XanaduAI/thewalrus",
+    "stargazers_count": 109,
+    "contributors_count": 33,
+    "forks_count": 63,
+    "pushed_at": "2025-11-14T17:28:25+00:00",
+    "description": "A library for the calculation of hafnians, Hermite polynomials and Gaussian boson sampling.",
+    "html_url": "https://github.com/XanaduAI/thewalrus",
+    "topics": [
+      "algorithm",
+      "combinatorics",
+      "graphs",
+      "matrix",
+      "optimization",
+      "physics",
+      "quantum",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 51,
+    "full_name": "TeamGraphix/graphix",
+    "stargazers_count": 107,
+    "contributors_count": 25,
+    "forks_count": 48,
+    "pushed_at": "2026-04-30T15:50:40+00:00",
+    "description": "measurement-based quantum computing (MBQC) library",
+    "html_url": "https://github.com/TeamGraphix/graphix",
+    "topics": [
+      "graph-states",
+      "mbqc",
+      "quantum",
+      "quantum-computing",
+      "quantum-programming-language",
+      "unitaryhack"
+    ]
+  },
+  {
+    "rank": 52,
+    "full_name": "sQUlearn/squlearn",
+    "stargazers_count": 103,
+    "contributors_count": 13,
+    "forks_count": 26,
+    "pushed_at": "2026-04-07T10:19:20+00:00",
+    "description": "scikit-learn interface for quantum algorithms",
+    "html_url": "https://github.com/sQUlearn/squlearn",
+    "topics": [
+      "machine-learning",
+      "python",
+      "quantum",
+      "quantum-computing",
+      "quantum-machine-learning",
+      "scikit-learn"
+    ]
+  },
+  {
+    "rank": 53,
+    "full_name": "Qiskit/qiskit-addon-cutting",
+    "stargazers_count": 101,
+    "contributors_count": 18,
+    "forks_count": 38,
+    "pushed_at": "2026-05-01T21:20:10+00:00",
+    "description": "Reduce width and depth of quantum circuits by cutting gates and wires.",
+    "html_url": "https://github.com/Qiskit/qiskit-addon-cutting",
+    "topics": [
+      "circuit-cutting",
+      "circuit-knitting",
+      "python",
+      "qiskit",
+      "qiskit-addon",
+      "quantum-circuit",
+      "quantum-circuit-cutting",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 54,
+    "full_name": "XanaduAI/MrMustard",
+    "stargazers_count": 100,
+    "contributors_count": 26,
+    "forks_count": 33,
+    "pushed_at": "2026-04-21T17:56:36+00:00",
+    "description": "A differentiable bridge between phase space and Fock space",
+    "html_url": "https://github.com/XanaduAI/MrMustard",
+    "topics": [
+      "differentiable-programming",
+      "optimization",
+      "photonics",
+      "photonics-circuits",
+      "photonics-computing",
+      "photonicsindustry",
+      "quantum",
+      "quantum-circuits",
+      "quantum-computing",
+      "quantum-machine-learning",
+      "quantum-optics"
+    ]
+  },
+  {
+    "rank": 55,
+    "full_name": "dwavesystems/dwave-system",
+    "stargazers_count": 96,
+    "contributors_count": 20,
+    "forks_count": 65,
+    "pushed_at": "2026-03-04T17:33:37+00:00",
+    "description": "An API for easily incorporating the D-Wave system as a sampler, either directly or through Leap's cloud-based hybrid samplers",
+    "html_url": "https://github.com/dwavesystems/dwave-system",
+    "topics": [
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 56,
+    "full_name": "QuEraComputing/bloqade-analog",
+    "stargazers_count": 92,
+    "contributors_count": 16,
+    "forks_count": 21,
+    "pushed_at": "2026-04-30T18:51:45+00:00",
+    "description": "QuEra's Neutral Atom SDK for Analog QPUs",
+    "html_url": "https://github.com/QuEraComputing/bloqade-analog",
+    "topics": [
+      "python",
+      "quantum-computing",
+      "quantum-physics",
+      "quantum-simulation"
+    ]
+  },
+  {
+    "rank": 57,
+    "full_name": "quantumlib/OpenFermion-Psi4",
+    "stargazers_count": 89,
+    "contributors_count": 10,
+    "forks_count": 45,
+    "pushed_at": "2025-10-13T02:16:40+00:00",
+    "description": "OpenFermion plugin to interface with the electronic structure package Psi4.",
+    "html_url": "https://github.com/quantumlib/OpenFermion-Psi4",
+    "topics": [
+      "algorithms",
+      "cirq",
+      "colab",
+      "fermion",
+      "google-quantum",
+      "jupyter-notebook",
+      "python",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-chemistry",
+      "quantum-circuit",
+      "quantum-computing",
+      "quantum-information",
+      "quantum-programming",
+      "quantum-programming-language",
+      "quantum-simulation",
+      "sdk",
+      "simulation"
+    ]
+  },
+  {
+    "rank": 58,
+    "full_name": "pasqal-io/qadence",
+    "stargazers_count": 88,
+    "contributors_count": 29,
+    "forks_count": 21,
+    "pushed_at": "2025-12-08T14:23:38+00:00",
+    "description": "Digital-analog quantum programming interface",
+    "html_url": "https://github.com/pasqal-io/qadence",
+    "topics": [
+      "digital-analog-quantum-computing",
+      "jax",
+      "neutral-atom-devices",
+      "quantum-computing",
+      "quantum-machine-learning",
+      "torch",
+      "unitaryhack"
+    ]
+  },
+  {
+    "rank": 59,
+    "full_name": "Qiskit/qiskit-addon-sqd",
+    "stargazers_count": 86,
+    "contributors_count": 14,
+    "forks_count": 33,
+    "pushed_at": "2026-05-01T20:39:04+00:00",
+    "description": "Sample-based Quantum Diagonalization: Classically postprocess noisy quantum samples to yield more accurate eigenvalue estimations.",
+    "html_url": "https://github.com/Qiskit/qiskit-addon-sqd",
+    "topics": [
+      "computational-chemistry",
+      "hpc",
+      "python",
+      "qiskit-addon",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 60,
+    "full_name": "munich-quantum-toolkit/predictor",
+    "stargazers_count": 86,
+    "contributors_count": 12,
+    "forks_count": 22,
+    "pushed_at": "2026-05-02T07:31:38+00:00",
+    "description": "MQT Predictor - A Tool for Automatic Device Selection with Device-Specific Circuit Compilation for Quantum Computing",
+    "html_url": "https://github.com/munich-quantum-toolkit/predictor",
+    "topics": [
+      "quantum-circuit",
+      "quantum-compiler",
+      "reinforcement-learning",
+      "supervised-machine-learning"
+    ]
+  },
+  {
+    "rank": 61,
+    "full_name": "amazon-braket/qiskit-braket-provider",
+    "stargazers_count": 80,
+    "contributors_count": 41,
+    "forks_count": 60,
+    "pushed_at": "2026-04-30T13:39:17+00:00",
+    "description": "Qiskit-Braket provider to execute Qiskit programs on devices via Amazon Braket.",
+    "html_url": "https://github.com/amazon-braket/qiskit-braket-provider",
+    "topics": [
+      "amazon-braket",
+      "qiskit",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 62,
+    "full_name": "awslabs/quantum-computing-exploration-for-drug-discovery-on-aws",
+    "stargazers_count": 77,
+    "contributors_count": 11,
+    "forks_count": 35,
+    "pushed_at": "2026-04-30T18:49:01+00:00",
+    "description": "Deploy a solution to research on drug discovery problems using quantum computing and classical computing resources.",
+    "html_url": "https://github.com/awslabs/quantum-computing-exploration-for-drug-discovery-on-aws",
+    "topics": [
+      "amazon-braket",
+      "aws-braket",
+      "braket",
+      "drug-discovery",
+      "hyper-computing",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 63,
+    "full_name": "tensorcircuit/tensorcircuit-ng",
+    "stargazers_count": 71,
+    "contributors_count": 34,
+    "forks_count": 18,
+    "pushed_at": "2026-05-02T09:44:33+00:00",
+    "description": "The next-gen AI-native tensor-network-based quantum software framework",
+    "html_url": "https://github.com/tensorcircuit/tensorcircuit-ng",
+    "topics": [
+      "ai-agent",
+      "automatic-differentiation",
+      "distributed-training",
+      "gpu",
+      "jax",
+      "machine-learning",
+      "nisq",
+      "open-quantum-systems",
+      "pytorch",
+      "quantum-algorithm",
+      "quantum-circuit",
+      "quantum-computing",
+      "quantum-dynamics",
+      "quantum-error-correction",
+      "quantum-hardware",
+      "quantum-machine-learning",
+      "quantum-noise",
+      "quantum-simulation",
+      "tensor-network",
+      "tensorflow"
+    ]
+  },
+  {
+    "rank": 64,
+    "full_name": "errorcorrectionzoo/eczoo_data",
+    "stargazers_count": 71,
+    "contributors_count": 79,
+    "forks_count": 109,
+    "pushed_at": "2026-05-02T06:34:02+00:00",
+    "description": "Content of the Error Correction Zoo, stored in structured YAML format",
+    "html_url": "https://github.com/errorcorrectionzoo/eczoo_data",
+    "topics": [
+      "coding-theory",
+      "error-correcting-codes",
+      "error-correction",
+      "information-theory-and-coding",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 65,
+    "full_name": "quantumlib/OpenFermion-FQE",
+    "stargazers_count": 69,
+    "contributors_count": 11,
+    "forks_count": 27,
+    "pushed_at": "2025-10-13T02:15:58+00:00",
+    "description": "The Fermionic Quantum Emulator (FQE) is a fermionic simulation research tool specializing in quantum circuits emulating fermion dynamics.",
+    "html_url": "https://github.com/quantumlib/OpenFermion-FQE",
+    "topics": [
+      "algorihtms",
+      "cirq",
+      "colab",
+      "fermion",
+      "google-quantum",
+      "high-performance",
+      "jupyter-notebook",
+      "python",
+      "quantum",
+      "quantum-chemistry",
+      "quantum-chemistry-simulation",
+      "quantum-circuit",
+      "quantum-computing",
+      "quantum-information",
+      "quantum-programming-language",
+      "quantum-simulation",
+      "sdk",
+      "simulation"
+    ]
+  },
+  {
+    "rank": 66,
+    "full_name": "PennyLaneAI/pennylane-cirq",
+    "stargazers_count": 64,
+    "contributors_count": 29,
+    "forks_count": 21,
+    "pushed_at": "2026-03-25T13:40:38+00:00",
+    "description": "The PennyLane-Cirq plugin integrates Google's Cirq software library with with PennyLane's quantum machine learning capabilities. ",
+    "html_url": "https://github.com/PennyLaneAI/pennylane-cirq",
+    "topics": [
+      "cirq",
+      "differentiable-computing",
+      "jax",
+      "machine-learning",
+      "python",
+      "pytorch",
+      "qml",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-chemistry",
+      "quantum-computing",
+      "quantum-machine-learning",
+      "tensorflow"
+    ]
+  },
+  {
+    "rank": 67,
+    "full_name": "Budapest-Quantum-Computing-Group/piquasso",
+    "stargazers_count": 58,
+    "contributors_count": 17,
+    "forks_count": 27,
+    "pushed_at": "2026-04-30T05:29:52+00:00",
+    "description": "A Photonic Quantum Computer Simulator written in Python and C++.",
+    "html_url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso",
+    "topics": [
+      "hacktoberfest",
+      "quantum",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 68,
+    "full_name": "qiboteam/qibolab",
+    "stargazers_count": 58,
+    "contributors_count": 38,
+    "forks_count": 22,
+    "pushed_at": "2026-05-01T11:14:22+00:00",
+    "description": "Quantum hardware module and drivers for Qibo.",
+    "html_url": "https://github.com/qiboteam/qibolab",
+    "topics": [
+      "quantum-computing",
+      "quantum-control"
+    ]
+  },
+  {
+    "rank": 69,
+    "full_name": "Deltakit/deltakit",
+    "stargazers_count": 55,
+    "contributors_count": 16,
+    "forks_count": 21,
+    "pushed_at": "2026-04-23T16:39:41+00:00",
+    "description": "Riverlane's quantum error correction SDK",
+    "html_url": "https://github.com/Deltakit/deltakit",
+    "topics": [
+      "quantum-error-correction"
+    ]
+  },
+  {
+    "rank": 70,
+    "full_name": "pasqal-io/pyqtorch",
+    "stargazers_count": 47,
+    "contributors_count": 23,
+    "forks_count": 27,
+    "pushed_at": "2025-06-20T15:17:15+00:00",
+    "description": "PyTorch-based state vector and density matrix simulator",
+    "html_url": "https://github.com/pasqal-io/pyqtorch",
+    "topics": [
+      "quantum-machine-learning",
+      "torch"
+    ]
+  },
+  {
+    "rank": 71,
+    "full_name": "PennyLaneAI/pennylane-rigetti",
+    "stargazers_count": 45,
+    "contributors_count": 24,
+    "forks_count": 28,
+    "pushed_at": "2025-05-06T17:55:30+00:00",
+    "description": "This PennyLane plugin allows the Rigetti Forest QPUs, QVM, and wavefunction simulator to optimize quantum circuits.",
+    "html_url": "https://github.com/PennyLaneAI/pennylane-rigetti",
+    "topics": [
+      "automatic-differentiation",
+      "forest",
+      "machine-learning",
+      "optimization",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 72,
+    "full_name": "Qiskit/qiskit-addon-obp",
+    "stargazers_count": 44,
+    "contributors_count": 10,
+    "forks_count": 13,
+    "pushed_at": "2026-02-01T14:04:58+00:00",
+    "description": "Reducing depth of circuits with operator backpropagation",
+    "html_url": "https://github.com/Qiskit/qiskit-addon-obp",
+    "topics": [
+      "python",
+      "qiskit",
+      "qiskit-addon",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 73,
+    "full_name": "qclib/qclib",
+    "stargazers_count": 44,
+    "contributors_count": 11,
+    "forks_count": 28,
+    "pushed_at": "2026-04-07T20:14:09+00:00",
+    "description": "Qclib is a quantum computing library implemented using qiskit. The focus of qclib is on preparing quantum states, but it is not limited to that.",
+    "html_url": "https://github.com/qclib/qclib",
+    "topics": [
+      "python",
+      "quantum",
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 74,
+    "full_name": "qiboteam/qibocal",
+    "stargazers_count": 37,
+    "contributors_count": 31,
+    "forks_count": 8,
+    "pushed_at": "2026-04-30T11:50:05+00:00",
+    "description": "Quantum calibration, characterization and validation module for Qibo.",
+    "html_url": "https://github.com/qiboteam/qibocal",
+    "topics": [
+      "calibration",
+      "qcvv",
+      "quantum-computing",
+      "quantum-control"
+    ]
+  },
+  {
+    "rank": 75,
+    "full_name": "BBN-Q/QGL",
+    "stargazers_count": 33,
+    "contributors_count": 14,
+    "forks_count": 12,
+    "pushed_at": "2025-12-17T20:29:51+00:00",
+    "description": "Quantum Gate Language (QGL) is a domain specific language embedded in python for specifying quantum gate sequences.",
+    "html_url": "https://github.com/BBN-Q/QGL",
+    "topics": [
+      "quantum-computing"
+    ]
+  },
+  {
+    "rank": 76,
+    "full_name": "unitaryfoundation/metriq-gym",
+    "stargazers_count": 30,
+    "contributors_count": 17,
+    "forks_count": 15,
+    "pushed_at": "2026-04-26T16:41:51+00:00",
+    "description": "metriq-gym is a framework for implementing and running standard quantum benchmarks on different quantum devices by different providers",
+    "html_url": "https://github.com/unitaryfoundation/metriq-gym",
+    "topics": [
+      "benchmarking",
+      "quantum-benchmarks",
+      "quantum-computing"
+    ]
+  }
+]

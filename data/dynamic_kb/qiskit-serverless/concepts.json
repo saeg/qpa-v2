@@ -1,0 +1,22 @@
+[
+  {
+    "name": "/dynamic/qiskit-serverless/create_dynamic_dependencies_whitelist",
+    "summary": "create_dynamic_dependencies_whitelist: implementation of the Dynamic Circuit pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/dynamic/qiskit-serverless/remove_allauth_tables",
+    "summary": "remove_allauth_tables: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

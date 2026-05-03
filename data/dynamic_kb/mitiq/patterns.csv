@@ -1,0 +1,3 @@
+name,summary,pattern
+dynamic/mitiq/fidelity,fidelity: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/mitiq/measure_in,measure_in: implementation of the SWAP Test pattern.,SWAP Test

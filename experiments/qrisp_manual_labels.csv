@@ -1,0 +1,37 @@
+File Name,Pattern Match,Artifact
+Qrisp/documentation/source/general/tutorial/BE_tutorial/BE_vol1.py,Linear Combination of Unitaries,BlockEncoding
+Qrisp/documentation/source/general/tutorial/BE_tutorial/BE_vol2.py,Linear Combination of Unitaries,BlockEncoding
+Qrisp/documentation/source/general/tutorial/BigInteger.py,Quantum Arithmetic,BigInteger
+Qrisp/documentation/source/general/tutorial/BigInteger.py,Basis Change,QFT
+Qrisp/documentation/source/general/tutorial/BigInteger.py,Quantum Phase Estimation (QPE),shor_ops_kernel
+Qrisp/documentation/source/general/tutorial/CD.py,Quantum Approximate Optimization Algorithm (QAOA),ContinuousDriving
+Qrisp/documentation/source/general/tutorial/FT_compilation.py,Basis Change,QFT
+Qrisp/documentation/source/general/tutorial/GQSP_filtering.py,Linear Combination of Unitaries,GQSP
+Qrisp/documentation/source/general/tutorial/H2.py,Hamiltonian Simulation,trotterization
+Qrisp/documentation/source/general/tutorial/H2.py,Initialization,state_prep
+Qrisp/documentation/source/general/tutorial/HHL.py,Quantum Phase Estimation (QPE),QPE
+Qrisp/documentation/source/general/tutorial/HHL.py,Initialization,dicke_state
+Qrisp/documentation/source/general/tutorial/Jasp.py,Quantum Arithmetic,RGQFTMultiplier
+Qrisp/documentation/source/general/tutorial/JaspQAOAtutorial.py,Quantum Approximate Optimization Algorithm (QAOA),qaoa
+Qrisp/documentation/source/general/tutorial/JaspQAOAtutorial.py,Variational Quantum Algorithm (VQA),ansatz
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py,Grover,grovers_alg
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/ConstrainedMixers.py,Hamiltonian Simulation,hamiltonian_evolution
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/MaxCut.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/MkCS.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/PortfolioRebalancing.py,Initialization,dicke_state
+Qrisp/documentation/source/general/tutorial/QAOAtutorial/QUBO.py,Quantum Approximate Optimization Algorithm (QAOA),QAOA
+Qrisp/documentation/source/general/tutorial/QIROtutorial.py,Quantum Approximate Optimization Algorithm (QAOA),QIRO
+Qrisp/documentation/source/general/tutorial/QMCItutorial.py,Quantum Amplitude Estimation,IQAE
+Qrisp/documentation/source/general/tutorial/Shor.py,Basis Change,QFT
+Qrisp/documentation/source/general/tutorial/Shor.py,Quantum Phase Estimation (QPE),QPE
+Qrisp/documentation/source/general/tutorial/Sudoku.py,Quantum Phase Estimation (QPE),estimate_phase
+Qrisp/documentation/source/general/tutorial/Sudoku.py,Grover,grover_search
+Qrisp/documentation/source/general/tutorial/Sudoku.py,Amplitude Amplification,qstep_diffuser
+Qrisp/documentation/source/general/tutorial/TSP.py,Quantum Phase Estimation (QPE),QPE
+Qrisp/documentation/source/general/tutorial/TSP.py,Grover,grovers_alg
+Qrisp/documentation/source/general/tutorial/tutorial.py,Basis Change,QFT
+Qrisp/documentation/source/general/tutorial/tutorial.py,Quantum Phase Estimation (QPE),QPE
+Qrisp/documentation/source/general/tutorial/tutorial.py,Grover,grover_diffuser
+Qrisp/documentation/source/general/tutorial/tutorial.py,Amplitude Amplification,diffuser

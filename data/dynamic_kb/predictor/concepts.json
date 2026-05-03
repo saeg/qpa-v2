@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/predictor/Predictor",
+    "summary": "Predictor: implementation of the Variational Quantum Algorithm (VQA) pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

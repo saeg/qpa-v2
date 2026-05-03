@@ -1,0 +1,10 @@
+{
+  "notebook": "HHL",
+  "url": "https://raw.githubusercontent.com/eclipse-qrisp/Qrisp/main/documentation/source/general/tutorial/HHL.ipynb",
+  "expected_patterns": [
+    "Linear Combination of Unitaries"
+  ],
+  "raw_call_count": 0,
+  "quantum_call_count": 0,
+  "sequence": []
+}

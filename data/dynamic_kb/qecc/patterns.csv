@@ -1,0 +1,24 @@
+name,summary,pattern
+dynamic/qecc/StabilizerTableau,StabilizerTableau: implementation of the Function Table pattern.,Function Table
+dynamic/qecc/check_if_logical_error,check_if_logical_error: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/check_if_logical_x_error,check_if_logical_x_error: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/check_if_logical_z_error,check_if_logical_z_error: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/check_path_on_logical,check_path_on_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/check_path_on_logical_st,check_path_on_logical_st: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/compute_logical,compute_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/depth_optimal_encoding_circuit,depth_optimal_encoding_circuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qecc/dss_logical_error_rates,dss_logical_error_rates: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/gate_optimal_encoding_circuit,gate_optimal_encoding_circuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qecc/gen_pcm_and_logical,gen_pcm_and_logical: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/generate_max_parallel_circuit,generate_max_parallel_circuit: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qecc/get_logical_operator_basis,get_logical_operator_basis: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/get_logical_x,get_logical_x: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/get_logical_z,get_logical_z: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/get_logicals,get_logicals: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/gottesman_encoding_circuit,gottesman_encoding_circuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qecc/heuristic_encoding_circuit,heuristic_encoding_circuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qecc/logical_error_rate,logical_error_rate: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/mc_logical_error_rates,mc_logical_error_rates: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/secondary_logical_error_rate,secondary_logical_error_rate: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/x_logicals_as_pauli_strings,x_logicals_as_pauli_strings: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/qecc/z_logicals_as_pauli_strings,z_logicals_as_pauli_strings: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

@@ -1,0 +1,219 @@
+[
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.neural_networks.EstimatorQNN",
+    "summary": "A quantum neural network based on the Estimator primitive that computes expectation values of observables as outputs, supporting forward passes and gradient backpropagation for variational training.",
+    "docstring": "EstimatorQNN computes expectation values of a parameterized quantum circuit evaluated with an Estimator primitive. Inputs are encoded via a feature map part of the circuit; weights are the trainable parameters.",
+    "internal_keywords": "_default_precision _input_gradients _org_circuit _weight_params default_precision gradients input_gradients num_samples num_virtual_qubits weight_params weights_grad",
+    "internal_comments": "set gradient Prepare circuit-observable-parameter tuples (PUBs) For BaseEstimatorV2, run the estimator using PUBs and specified precision prepare parameters in the required format"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.neural_networks.SamplerQNN",
+    "summary": "A quantum neural network based on the Sampler primitive that maps circuit measurement probability distributions to output values via an interpret function, enabling classification and generative tasks.",
+    "docstring": "SamplerQNN samples from a parameterized quantum circuit and applies an interpret function to the resulting probability distribution.",
+    "internal_keywords": "SamplerPubResult SparseArray _input_gradients _org_circuit _weight_params counts_i input_gradients interpret num_samples num_virtual_qubits probs_i total_shots weight_params weights_grad",
+    "internal_comments": "Set primitive, provide default Set gradient derive target values to be used in computations This definition is required by mypy type: ignore Warn user that output_shape parameter will be ignored allocate handle spaced bit strings if any pylint: disable=invalid-name if looks like a binary string, treat as base-2 decimal string last resort SamplerV2: get per-parameter-set counts Prefer pub.data.get_counts(i); fall back to alternatives if not available. new API alternative field names some builds expose absolute fallback (aggregated; avoids crash but will degrade accuracy) normalize to probabilities keys -> ints, filter to valid range map through interpret and write ONLY row i pylint: disable=import-error get index for input or weights gradients interpret integer and construct key if key is an array-type, cast to hashable tuple store value for inputs or weights gradients we compute input gradients first pylint: disable=no-member prepare parameters in the required format type: ignore[arg-type] type: ignore[arg-type]"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.neural_networks.NeuralNetwork",
+    "summary": "Abstract base class for all quantum neural networks, defining the forward and backward interface for expectation-value and sampling-based QNNs.",
+    "docstring": "Base class for quantum neural networks in Qiskit Machine Learning.",
+    "internal_keywords": "SparseArray _input_gradients _num_weights input_grad_reshaped input_gradients new_weight_params num_samples num_weights original_shape weight_grad weight_grad_reshaped weight_params",
+    "internal_comments": "pylint: disable=too-many-positional-arguments output shape may be derived later, so check it only if it is not None there's a single value in the input. add an empty dimension for samples (batch dimension) flatten lower dimensions, keep num_inputs as a last dimension no input, no weights, just execute circuit once As the data (parameter values) for the primitive is ordered as inputs followed by weights we need to ensure that the parameters are ordered like this naturally too so the rewrites parameters to ensure this. \"inputs\" as a name comes before \"weights\" and within they are numerically ordered."
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.neural_networks.EffectiveDimension",
+    "summary": "Computes the global effective dimension of a quantum neural network as an information-geometric measure of the model's expressive power and trainability.",
+    "docstring": "EffectiveDimension evaluates the Fisher information matrix of a QNN to compute the effective dimension.",
+    "internal_keywords": "NeuralNetwork _input_samples _num_input_samples _num_weight_samples _weight_samples backward_pass dataset_size dets_div effective_dimensions effective_dims f_mod fisher_avg fisher_information fisher_trace forward_pass grad_vectors gradients input_samples logsum_axis model_outputs n_expanded normalized_fisher one_plus_fmod t_after_backward t_after_forward t_backward t_before_forward t_forward weight_samples",
+    "internal_comments": "Store arguments Setup things for weight and input samples via setters that deal with the union of types that can be passed so that the private vars above that have just been set with temp values of right types to establish typing, get the right values per what was passed. Note, the samples ones above had been set to None but this results in errors when checking using mypy 1.16.0 random sampling from uniform distribution to be sure we have an array random sampling from normal distribution to be sure we have an array post-processing in the case of EstimatorQNN output, to match the SamplerQNN output format add dimension to model outputs for broadcasting get grad-vectors (gradient_k/model_output_k) multiply by sqrt(model_output) so that the outer product cross term is correct after Einstein summation We clip to 0 and mask zero entries to avoid divide-by-zero warnings. compute the sum of matrices obtained from outer product of grad-vectors compute the trace with all normalized_fisher average the normalized_fisher over the num_input_samples to get the empirical normalized_fisher calculate normalized_normalized_fisher for all the empirical normalized_fisher expand dims for broadcasting calculate effective dimension for each data sample size out of normalized normalized_fisher take log. of the determinant because of overflow divide by 2 because of square root step 1: Monte Carlo sampling step 2: compute as many fisher info. matrices as (input, params) sets step 3: get normalized fisher info matrices step 4: compute eff. dim"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.neural_networks.LocalEffectiveDimension",
+    "summary": "Computes the local effective dimension of a quantum neural network around specific weight values, measuring model capacity at a given parameter point.",
+    "docstring": "LocalEffectiveDimension evaluates the effective dimension of a QNN at specified parameter values.",
+    "internal_keywords": "_num_weight_samples _weight_samples weight_samples",
+    "internal_comments": "override setter to enforce 1 set of parameters random sampling from uniform distribution there is a weird mypy error if we keep the same variable name, so there's 'weights' additional check to accept 1D arrays"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.classifiers.NeuralNetworkClassifier",
+    "summary": "A scikit-learn-compatible quantum classifier that wraps any NeuralNetwork and trains it via a loss function to perform binary or multi-class classification.",
+    "docstring": "NeuralNetworkClassifier takes a NeuralNetwork and trains it as a classifier using gradient-based optimization.",
+    "internal_keywords": "Minimizer NeuralNetwork ObjectiveFunction Optimizer OptimizerResult _num_classes _one_hot _target_encoder initial_point neural_network num_classes one_hot optimizer raise_on_failure sample_weight warm_start y_hat",
+    "internal_comments": "pylint: disable=too-many-positional-arguments encodes the target data if categorical For ensuring the number of classes matches those of the previous batch when training from a warm start. For user checking and validation. pylint: disable=invalid-name mypy definition Binary classification Multi-class classification Convert class indices to one-hot encoded format Assumes an activation function is applied within the forward method our math does not work with sparse arrays cast is required by mypy cast is required by mypy string data is assumed to be categorical OneHotEncoder expects data with shape (n_samples, n_features) but LabelEncoder expects shape (n_samples,) so set desired shape the model is being trained, fit first conversion to one hot of the labels is required the model is being trained, fit first"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.classifiers.VQC",
+    "summary": "A Variational Quantum Classifier that combines a feature map for data encoding and a parameterized ansatz circuit optimized to perform supervised classification.",
+    "docstring": "VQC encodes classical data into a quantum state via a feature map, then uses a variational ansatz whose parameters are optimized for classification.",
+    "internal_keywords": "Minimizer Optimizer OptimizerResult _feature_map feature_map initial_point interpret neural_network num_classes optimizer warm_start",
+    "internal_comments": "pylint: disable=too-many-positional-arguments change: BaseSampler is migrated to BaseSamplerV2 construct circuit instance check required by mypy (alternative to cast)"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.classifiers.QSVC",
+    "summary": "Quantum Support Vector Classifier that uses a quantum kernel (fidelity between feature-map-encoded states) as the kernel function for a classical SVM.",
+    "docstring": "QSVC extends scikit-learn SVC with a quantum kernel computed from the inner product of quantum feature-map states.",
+    "internal_keywords": "BaseKernel _quantum_kernel feature_map quantum_kernel",
+    "internal_comments": "if we don't delete, then this value clashes with our quantum kernel we override this method to be able to pretty print this instance"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.classifiers.PegasosQSVC",
+    "summary": "Quantum Support Vector Classifier based on the Pegasos online optimization algorithm, using a quantum kernel for stochastic gradient SVM training with improved scaling.",
+    "docstring": "PegasosQSVC implements the Pegasos algorithm for quantum kernel SVM, iteratively updating the model using sampled training points.",
+    "internal_keywords": "'PegasosQSVC' BaseKernel UNFITTED _kernel_offset _label_map _label_neg _label_pos _n_samples _quantum_kernel _x_train _y_train fit_status_ precomputed probabilities quantum_kernel random_seed sample_weight support_indices training x_supp",
+    "internal_comments": "pylint: disable=too-many-positional-arguments pylint: disable=invalid-name these are the parameters being fit and are needed for prediction added to all kernel values to include an implicit bias to the hyperplane for compatibility with the base SVC class. Set as unfitted. pylint: disable=invalid-name check whether the data have the right format reset the fit state the algorithm works with labels in {+1, -1} the training data are later needed for prediction empty dictionary to represent sparse array training loop for every step, a random index (determining a random datum) is fixed only way for a component of alpha to become non zero pylint: disable=invalid-name Sigmoid activation function non-zero indices corresponding to the support vectors for training support vectors for prediction evaluate kernel function only for the fixed datum and the support vectors map the training labels of the support vectors to {-1,1} weights for the support vectors this value corresponds to a sum of kernel values weighted by their labels and alphas quantum kernel is set, so we assume the kernel is not precomputed reset training status reset training status remove the kernel, a precomputed will re-create a new default quantum kernel reset training status"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.regressors.NeuralNetworkRegressor",
+    "summary": "A scikit-learn-compatible quantum regressor that wraps any NeuralNetwork and trains it to predict continuous-valued outputs.",
+    "docstring": "NeuralNetworkRegressor takes a NeuralNetwork and trains it as a regressor by minimizing a loss function.",
+    "internal_keywords": "ObjectiveFunction OptimizerResult sample_weight",
+    "internal_comments": "pylint: disable=invalid-name mypy definition pylint: disable=invalid-name"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.regressors.VQR",
+    "summary": "A Variational Quantum Regressor that uses a feature map and trainable ansatz circuit to fit continuous-valued target functions.",
+    "docstring": "VQR is the regression counterpart of VQC, using variational optimization of a quantum circuit to predict real-valued outputs.",
+    "internal_keywords": "Minimizer Optimizer _feature_map feature_map initial_point neural_network optimizer warm_start",
+    "internal_comments": "pylint: disable=too-many-positional-arguments construct circuit"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.regressors.QSVR",
+    "summary": "Quantum Support Vector Regressor that uses a quantum kernel function in a classical SVR framework for regression tasks.",
+    "docstring": "QSVR extends scikit-learn SVR with a quantum kernel computed from quantum feature-map state fidelities.",
+    "internal_keywords": "BaseKernel _quantum_kernel feature_map quantum_kernel",
+    "internal_comments": "if we don't delete, then this value clashes with our quantum kernel Important: when quantum_kernel == \"precomputed\" we intentionally store the string and configure SVR accordingly. we override this method to be able to pretty print this instance"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.kernels.FidelityQuantumKernel",
+    "summary": "Quantum kernel that computes the inner product between pairs of quantum states prepared by a feature map circuit, using the compute-uncompute (Hadamard test) method.",
+    "docstring": "FidelityQuantumKernel evaluates K(x,y) = |<phi(x)|phi(y)>|^2 using a StateFidelity primitive.",
+    "internal_keywords": "BaseStateFidelity KernelIndices _evaluate_duplicates chunk_left_parameters chunk_right_parameters end_idx enforce_psd eval_duplicates evaluate_duplicates feature_map fidelity is_symmetric kernel_entries kernel_matrix kernel_shape left_parameters max_circuits_per_job num_chunks num_features right_parameters start_idx symmetric x_vec y_vec",
+    "internal_comments": "determine if calculating self inner product fill in trivial entries and then update with fidelity values Check if it is trivial case, only identical samples type: ignore[arg-type] type: ignore[arg-type] Determine the number of chunks needed Determine the range of indices for this chunk Extract the parameters for this chunk Execute this chunk type: ignore[arg-type] type: ignore[arg-type] Extend the kernel_entries list with the results from this chunk pylint: disable=too-many-positional-arguments if we evaluate all combinations, then it is non-trivial if we are on the diagonal and we don't evaluate it, it is trivial if don't evaluate any duplicates otherwise evaluate"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.kernels.FidelityStatevectorKernel",
+    "summary": "Statevector-based quantum kernel that computes exact fidelities between feature-map-encoded states for kernel machine learning.",
+    "docstring": "FidelityStatevectorKernel computes quantum kernels exactly via statevector simulation without shot noise.",
+    "internal_keywords": "_auto_clear_cache _cache_size _enforce_psd _get_statevector _statevector_type auto_clear_cache cache_size enforce_psd feature_map fidelity is_symmetric kernel_matrix kernel_shape statevector_type x_svs x_vec y_svs y_vec",
+    "internal_comments": "Create the statevector cache at the instance level. Determine if calculating self inner product. lru_cache requires hashable function arguments. pylint: disable=no-member"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.kernels.TrainableFidelityQuantumKernel",
+    "summary": "A trainable quantum kernel whose feature map contains free parameters that are optimized to align the kernel with training labels, combining kernel methods with variational training.",
+    "docstring": "TrainableFidelityQuantumKernel extends FidelityQuantumKernel with trainable parameters in the feature map.",
+    "internal_keywords": "BaseStateFidelity KernelIndices _feature_parameters _num_features enforce_psd evaluate_duplicates feature_map fidelity new_x_vec new_y_vec training_parameters x_vec y_vec",
+    "internal_comments": "override the num of features defined in the base class"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.kernels.TrainableFidelityStatevectorKernel",
+    "summary": "Statevector-based trainable quantum kernel combining exact fidelity computation with variational optimization of feature map parameters.",
+    "docstring": "TrainableFidelityStatevectorKernel is a statevector-simulated trainable quantum kernel.",
+    "internal_keywords": "_feature_parameters _num_features auto_clear_cache cache_size enforce_psd feature_map is_symmetric new_x_vec new_y_vec statevector_type training_parameters x_vec y_vec",
+    "internal_comments": "Override the number of features defined in the base class."
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.kernels.algorithms.QuantumKernelTrainer",
+    "summary": "Trains a quantum kernel by optimizing its free parameters to maximize kernel-target alignment on labeled training data, using a variational optimizer.",
+    "docstring": "QuantumKernelTrainer optimizes the parameters of a TrainableFidelityQuantumKernel using a variational loss.",
+    "internal_keywords": "KernelLoss Minimizer Optimizer QuantumKernelTrainerResult TrainableKernel _initial_point _quantum_kernel initial_point loss_class loss_function loss_obj loss_str opt_results optimal_parameters optimal_point optimal_value optimizer optimizer_evals quantum_kernel string_to_loss_map",
+    "internal_comments": "Class fields call setter Loss setter Number of parameters to tune Randomly initialize the initial point if one was not passed type: ignore[assignment] Perform kernel optimization type: ignore[call-arg, arg-type] type: ignore[arg-type] Return kernel training results type: ignore[assignment] type: ignore[arg-type] Return the QuantumKernel in optimized state"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.circuit.library.qnn_circuit",
+    "summary": "Constructs a QNN circuit by composing a data-encoding feature map and a trainable ansatz, and returns the input and weight parameters separately.",
+    "docstring": "qnn_circuit produces a QuantumCircuit = feature_map + ansatz, with input parameters from the feature map and weight parameters from the ansatz.",
+    "internal_keywords": "feature_map",
+    "internal_comments": "Check if circuit is constructed with valid configuration and set properties accordingly."
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.circuit.library.RawFeatureVector",
+    "summary": "A parameterized circuit that directly encodes a feature vector into the amplitude vector of a quantum state via an Isometry, implementing amplitude encoding.",
+    "docstring": "RawFeatureVector encodes n-dimensional classical data into log2(n) qubits using amplitude encoding.",
+    "internal_keywords": "",
+    "internal_comments": ""
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.circuit.library.raw_feature_vector",
+    "summary": "Function form of RawFeatureVector: creates a parameterized amplitude encoding circuit for a classical feature vector.",
+    "docstring": "raw_feature_vector creates an amplitude-encoding circuit for a given feature dimension.",
+    "internal_keywords": "feature_dimension ordered_parameters placeholder",
+    "internal_comments": ""
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.connectors.TorchConnector",
+    "summary": "Bridges a Qiskit NeuralNetwork to PyTorch by wrapping it as a torch.nn.Module, enabling hybrid quantum-classical training with PyTorch optimizers and autograd.",
+    "docstring": "TorchConnector makes a QNN available as a PyTorch module for use in hybrid classical-quantum neural network architectures.",
+    "internal_keywords": "NeuralNetwork _neural_network initial_weights neural_network weight_param",
+    "internal_comments": "connector is sparse while the underlying neural network is not Register param. in graph following PyTorch naming convention If `weight_param` is assigned to `self._weights` after registration, it will not be re-registered, and we can keep the private var. name \"_weights\" for compatibility. The alternative, doing: `self._weights = TorchParam(Tensor(neural_network.num_weights))` would register the parameter with the name \"_weights\"."
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.ParamShiftEstimatorGradient",
+    "summary": "Computes gradients of expectation values with respect to circuit parameters using the parameter-shift rule for gradient-based variational optimization.",
+    "docstring": "ParamShiftEstimatorGradient applies the parameter shift rule to compute analytic gradients of expectation values.",
+    "internal_keywords": "SUPPORTED_GATES gradients job_circuits job_observables job_param_values param_shift_parameter_values partial_sum_n",
+    "internal_comments": "Make parameter values for the parameter shift rule. Combine inputs into a single job to reduce overhead. Determine how to run the estimator based on its version Run the single job with all circuits. Compute the gradients. Prepare circuit-observable-parameter tuples (PUBs) For BaseEstimatorV2, run the estimator using PUBs and specified precision Compute the gradients."
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.ParamShiftSamplerGradient",
+    "summary": "Computes gradients of sampler probability distributions with respect to circuit parameters using the parameter-shift rule.",
+    "docstring": "ParamShiftSamplerGradient applies the parameter shift rule to compute gradients of probability distributions.",
+    "internal_keywords": "SUPPORTED_GATES _len_quasi_dist bitstring_counts circ_params grad_dist gradients job_circuits job_param_values param_shift_parameter_values partial_sum_n probabilities total_shots",
+    "internal_comments": "Make parameter values for the parameter shift rule. Combine inputs into a single job to reduce overhead. Run the single job with all circuits. Compute the gradients. Required by PyLint: possibly-used-before-assignment Fallback to 'c' if 'meas' is not available. Normalize the counts to probabilities Convert to quasi-probabilities"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.LinCombEstimatorGradient",
+    "summary": "Computes expectation value gradients using the linear combination of unitaries method, an alternative to the parameter-shift rule for variational optimization.",
+    "docstring": "LinCombEstimatorGradient uses the linear combination method to compute analytic gradients.",
+    "internal_keywords": "DerivativeType SUPPORTED_GATES _derivative_type _lin_comb_cache derivative_type gradients job_circuits job_observables job_param_values lin_comb_circuits observable_1 observable_2 partial_sum_n",
+    "internal_comments": "type: ignore[attr-defined] pragma: no cover Prepare circuits for the gradient of the specified parameters. Cache the circuits for the linear combination of unitaries. We only cache the circuits for the specified parameters in the future. TODO: the uuid attribute of param_ doesn't match that of param_match TODO: causing the two objects to not be identical, even if all other attributes match Make the observable as :class:`~qiskit.quantum_info.SparsePauliOp` and add an ancillary operator to compute the gradient. If its derivative type is `DerivativeType.COMPLEX`, calculate the gradient of the real and imaginary parts separately. Combine inputs into a single job to reduce overhead. Prepare circuit-observable-parameter tuples (PUBs) Run the estimator using PUBs and specified precision Compute the gradients. this disable is needed as Pylint does not understand derivative_type is a property if it is only defined in the base class and the getter is in the child pylint: disable=comparison-with-callable type: ignore[assignment, unused-ignore]"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.LinCombSamplerGradient",
+    "summary": "Computes probability distribution gradients using the linear combination of unitaries method.",
+    "docstring": "LinCombSamplerGradient computes gradients of probability distributions via linear combination of unitaries.",
+    "internal_keywords": "SUPPORTED_GATES _len_quasi_dist _lin_comb_cache bitstring_counts circ_params grad_dist gradients job_circuits job_param_values lin_comb_circuits partial_sum_n probabilities total_shots",
+    "internal_comments": "pragma: no cover Prepare circuits for the gradient of the specified parameters. TODO: why is this not wrapped into another list level like it is done elsewhere? Cache the circuits for the linear combination of unitaries. We only cache the circuits for the specified parameters in the future. TODO: the uuid attribute of param_ doesn't match that of param_match TODO: causing the two objects to not be identical, even if all other attributes match Combine inputs into a single job to reduce overhead. Run the single job with all circuits. Compute the gradients. Normalize the counts to probabilities Convert to quasi-probabilities"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.SPSAEstimatorGradient",
+    "summary": "Estimates expectation value gradients using the Simultaneous Perturbation Stochastic Approximation method, a noise-robust alternative to parameter-shift for noisy hardware.",
+    "docstring": "SPSAEstimatorGradient uses the SPSA finite-difference method to estimate expectation value gradients.",
+    "internal_keywords": "_batch_size batch_gradients batch_size gradients job_circuits job_observables job_param_values partial_sum_n",
+    "internal_comments": "pylint: disable=too-many-positional-arguments pragma: no cover Indices of parameters to be differentiated. Make random perturbation vectors. Combine inputs into a single job to reduce overhead. Prepare circuit-observable-parameter tuples (PUBs) For BaseEstimatorV2, run the estimator using PUBs and specified precision Compute the gradients. Calculate the gradient for each batch. Note that (``diff`` / ``offset``) is the gradient since ``offset`` is a perturbation vector of 1s and -1s. Take the average of the batch gradients."
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.SPSASamplerGradient",
+    "summary": "Estimates probability distribution gradients using SPSA, useful for noise-robust variational optimization on quantum hardware.",
+    "docstring": "SPSASamplerGradient uses SPSA to estimate gradients of probability distributions.",
+    "internal_keywords": "_batch_size _bitstring_counts _circ_params _len_quasi_dist _total_shots batch_size dist_diff dist_diffs gradients job_circuits job_param_values partial_sum_n",
+    "internal_comments": "pylint: disable=too-many-positional-arguments pragma: no cover Indices of parameters to be differentiated. Combine inputs into a single job to reduce overhead. Run the single job with all circuits. Compute the gradients. Normalize the counts to probabilities Convert to quasi-probabilities"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.QFI",
+    "summary": "Computes the Quantum Fisher Information matrix of a parameterized quantum circuit, used to characterize the trainability and natural gradient of variational algorithms.",
+    "docstring": "QFI computes the quantum Fisher information matrix for a parameterized quantum circuit.",
+    "internal_keywords": "AlgorithmJob BaseQGT QFIResult derivative_type precision temp_derivative_type",
+    "internal_comments": "Allow a single circuit to be passed in. If parameters is None, we calculate the gradients of all parameters in each circuit. If parameters is not None, we calculate the gradients of the specified parameters. None in parameters means that the gradients of all parameters in the corresponding circuit are calculated. May still be None Set the derivative type to real"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.gradients.LinCombQGT",
+    "summary": "Computes the Quantum Geometric Tensor using the linear combination of unitaries method, providing curvature information for Riemannian optimization of variational circuits.",
+    "docstring": "LinCombQGT computes the quantum geometric tensor which generalizes the QFI.",
+    "internal_keywords": "DerivativeType QGTResult SUPPORTED_GATES _lin_comb_qgt_circuit_cache derivative_type has_transformed_precision lin_comb_qgt_circuits observable_1 observable_2 partial_sum_n phase_fix phase_fix_job phase_fix_obs phase_fixes precision qgt_circuits",
+    "internal_comments": "Prepare circuits for the gradient of the specified parameters. Compute the first term in the QGT generate the all of the circuits for the first term in the QGT and cache them. Only the circuit related to specified parameters will be executed. In the future, we can generate the specified circuits on demand. Run the single job with all circuits. Compute the second term in the QGT if phase fix is enabled. Compute the phase fix Select the real or imaginary part of the phase fix if needed Compute the QGT type: ignore Compute the first term in the QGT Add the conjugate of the upper triangle to the lower triangle Subtract the phase fix from the QGT type: ignore"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.algorithms.inference.QBayesian",
+    "summary": "Quantum Bayesian inference algorithm that encodes a Bayesian network as a quantum circuit and uses rejection sampling or direct querying to compute posterior probabilities.",
+    "docstring": "QBayesian implements quantum-accelerated inference on probabilistic graphical models encoded as quantum circuits.",
+    "internal_keywords": "best_inter best_qc best_qc_meas bin_str bit_counts e_meas e_samples evidence evidence_qubits f_samples format_res get_counts good_states grover_op join_data meas_e measurement_ecr measurement_qcr num_evd num_virtual_qubits qc_grover qc_measure query_indices_rev query_qubits query_qubits_sorted query_string threshold var_idx_sorted",
+    "internal_comments": "Discrete quantum Bayesian network Test valid input Initialize parameter Label of register mapped to its qubit Label of register mapped to its qubit index bottom up in significance Distribution of samples from rejection sampling True if rejection sampling converged after limit Evidence to reversed qubit index sorted by index Binary format of good states Get good states Get statevector by transform good states w.r.t its index to 1 and o/w to 0 Default 1) Prefer robust, register-agnostic access (no try/except: guards only) 2) Fallback: first available register deterministically dict-like (fast + deterministic) object-like container (deterministic by sorted dir) number of measured classical bits in this circuit instance decimal string Create circuit Apply Grover operator 2^k times Add quantum circuit for measuring Create a classical register with the size of the evidence Map the evidence qubits to the classical bits and measure them Run the circuit with the Grover operator and measurements Go through reverse binary that matches order of qubits Assign to every evidence qubit if it is measured with high probability (th) 1 o/w 0 If evidence is empty Create circuit Measure Run circuit Get Grover operator if evidence not empty Amplitude amplification If the measurement of the evidence qubits matches the evidence stop Increment power Create circuit with 2^k times Grover operator Test number of Create a classical register with the size of the evidence Map the query qubits to the classical bits and measure them Measure query variables and return their count Run circuit Build default string with evidence Retrieve valid samples Replace placeholder q with query variables from samples Get sorted indices of query qubits Get probability of query"
+  },
+  {
+    "name": "/qiskit_machine_learning/qiskit_machine_learning.state_fidelities.ComputeUncompute",
+    "summary": "Computes the fidelity between two quantum states by preparing the first state, applying the inverse of the second, and measuring the probability of the zero state (compute-uncompute method).",
+    "docstring": "ComputeUncompute implements the Hadamard test / compute-uncompute circuit to estimate state fidelity.",
+    "internal_keywords": "AlgorithmJob PrimitiveJob SamplerPubResult StateFidelityResult _len_quasi_dist _post_process_v2 bitstring_counts circuit_1 circuit_2 circuits_1 circuits_2 fidelities fidelity local_opts num_virtual_qubits probabilities probability_distribution quasi_dists quasi_probs raw_fidelities sampler_job total_shots values_1 values_2",
+    "internal_comments": "The priority of run options is as follows: options in `evaluate` method > fidelity's default options > primitive's default options. Normalize the counts to probabilities Convert to quasi-probabilities Check whether the bit representing the current qubit is 0"
+  }
+]

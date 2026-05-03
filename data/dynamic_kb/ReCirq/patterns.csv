@@ -1,0 +1,31 @@
+name,summary,pattern
+dynamic/ReCirq/BasisChangeGate,BasisChangeGate: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/CZLayerBasisChangeStageGate,CZLayerBasisChangeStageGate: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/GSGate,GSGate: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/ReCirq/SKModelQAOASpec,SKModelQAOASpec: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/as_basis_change_gate,as_basis_change_gate: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/basis_change_matrix,basis_change_matrix: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/exact_qaoa_values_on_grid,exact_qaoa_values_on_grid: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/generate_qnd_pauli_circuit,generate_qnd_pauli_circuit: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/ReCirq/get_basis_change_matrix,get_basis_change_matrix: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/get_generic_qaoa_circuit,get_generic_qaoa_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/get_variational_energy,get_variational_energy: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/ReCirq/ising_qaoa_expectation_and_variance,ising_qaoa_expectation_and_variance: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/ising_qaoa_grad,ising_qaoa_grad: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/layer_hadamard,layer_hadamard: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/layer_measure,layer_measure: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/ReCirq/measure_reset_circuit,measure_reset_circuit: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/ReCirq/minimizable_qaoa_fun,minimizable_qaoa_fun: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/print_table_of_benchmarks,print_table_of_benchmarks: implementation of the Function Table pattern.,Function Table
+dynamic/ReCirq/qaoa_expectation_and_variance_fun,qaoa_expectation_and_variance_fun: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/qaoa_fun,qaoa_fun: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/sk_model_qaoa_spec_to_exe,sk_model_qaoa_spec_to_exe: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/test_basis_change_gate_decompose,test_basis_change_gate_decompose: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/test_basis_change_pow,test_basis_change_pow: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/test_cz_layer_basis_change_stage_gate,test_cz_layer_basis_change_stage_gate: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/test_cz_layer_basis_change_stage_str,test_cz_layer_basis_change_stage_str: implementation of the Basis Change pattern.,Basis Change
+dynamic/ReCirq/test_get_generic_qaoa_circuit,test_get_generic_qaoa_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/test_ising_qaoa_grad,test_ising_qaoa_grad: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/ReCirq/test_variational_ground_state_minimal_qubits,test_variational_ground_state_minimal_qubits: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/ReCirq/variational_ground_state_minimal_qubits,variational_ground_state_minimal_qubits: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/ReCirq/variational_ground_state_minimal_qubits_cols,variational_ground_state_minimal_qubits_cols: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)

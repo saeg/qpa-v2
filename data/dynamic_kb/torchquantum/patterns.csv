@@ -1,0 +1,15 @@
+name,summary,pattern
+dynamic/torchquantum/Grover,Grover: implementation of the Grover pattern.,Grover
+dynamic/torchquantum/GroverResult,GroverResult: implementation of the Grover pattern.,Grover
+dynamic/torchquantum/TrainableUnitaryStrict,TrainableUnitaryStrict: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/torchquantum/VQE,VQE: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/torchquantum/VQEDataset,VQEDataset: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/torchquantum/construct_grover_circuit,construct_grover_circuit: implementation of the Grover pattern.,Grover
+dynamic/torchquantum/construct_qft_circuit,construct_qft_circuit: implementation of the Basis Change pattern.,Basis Change
+dynamic/torchquantum/cu2,cu2: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/torchquantum/diffusion_operator,diffusion_operator: implementation of the Grover pattern.,Grover
+dynamic/torchquantum/forward,forward: implementation of the Initialization pattern.,Initialization
+dynamic/torchquantum/initial_state_prep,initial_state_prep: implementation of the Initialization pattern.,Initialization
+dynamic/torchquantum/qubitunitary,qubitunitary: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/torchquantum/qubitunitaryfast,qubitunitaryfast: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/torchquantum/qubitunitarystrict,qubitunitarystrict: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility

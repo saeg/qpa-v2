@@ -1,0 +1,9 @@
+name,summary,pattern
+dynamic/qadence/QNN,QNN: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/qadence/VariationalParameter,VariationalParameter: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qadence/build_qnn_from_configs,build_qnn_from_configs: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/qadence/change_to_z_basis,change_to_z_basis: implementation of the Basis Change pattern.,Basis Change
+dynamic/qadence/fidelity,fidelity: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/qadence/get_variational_parametric_node_attr,get_variational_parametric_node_attr: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qadence/qft,qft: implementation of the Basis Change pattern.,Basis Change
+dynamic/qadence/set_as_variational,set_as_variational: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)

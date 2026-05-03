@@ -1,0 +1,9 @@
+Notebook: MaxCut
+URL:      https://raw.githubusercontent.com/eclipse-qrisp/Qrisp/main/documentation/source/general/tutorial/QAOAtutorial/MaxCut.ipynb
+Expected patterns: Quantum Approximate Optimization Algorithm (QAOA)
+Raw qrisp calls:   0
+Quantum calls:     0
+
+Execution sequence (quantum-related calls only):
+------------------------------------------------------------
+  (no quantum calls captured)

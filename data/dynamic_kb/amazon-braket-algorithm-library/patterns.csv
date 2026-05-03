@@ -1,0 +1,19 @@
+name,summary,pattern
+dynamic/amazon-braket-algorithm-library/balanced_oracle,balanced_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/amazon-braket-algorithm-library/build_grover_circuit,build_grover_circuit: implementation of the Grover pattern.,Grover
+dynamic/amazon-braket-algorithm-library/build_oracle,build_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/amazon-braket-algorithm-library/build_oracle_circuit,build_oracle_circuit: implementation of the Oracle pattern.,Oracle
+dynamic/amazon-braket-algorithm-library/constant_oracle,constant_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/amazon-braket-algorithm-library/controlled_grover_circuit,controlled_grover_circuit: implementation of the Grover pattern.,Grover
+dynamic/amazon-braket-algorithm-library/get_cost,get_cost: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/amazon-braket-algorithm-library/get_quantum_phase_estimation_results,get_quantum_phase_estimation_results: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/amazon-braket-algorithm-library/grovers_search,grovers_search: implementation of the Grover pattern.,Grover
+dynamic/amazon-braket-algorithm-library/imag_time_propogator_qaee,imag_time_propogator_qaee: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/amazon-braket-algorithm-library/qaoa,qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/amazon-braket-algorithm-library/qft,qft: implementation of the Basis Change pattern.,Basis Change
+dynamic/amazon-braket-algorithm-library/quantum_phase_estimation,quantum_phase_estimation: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/amazon-braket-algorithm-library/quantum_phase_estimation_circuit,quantum_phase_estimation_circuit: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/amazon-braket-algorithm-library/random_circuit,random_circuit: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/amazon-braket-algorithm-library/run_qaoa_circuit,run_qaoa_circuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/amazon-braket-algorithm-library/run_quantum_phase_estimation,run_quantum_phase_estimation: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/amazon-braket-algorithm-library/simons_oracle,simons_oracle: implementation of the Oracle pattern.,Oracle

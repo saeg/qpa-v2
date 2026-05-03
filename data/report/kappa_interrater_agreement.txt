@@ -1,0 +1,175 @@
+Inter-Rater Agreement Report
+======================================================================
+Generated:   2026-04-28
+Source file: kappa_validation_after_review1.xlsx
+Raters:      Current Pattern (CP, proposer), Rater 1, Rater 2
+Note:        Rater 3 column contains post-consolidation results
+             (all empty) and is excluded from all calculations.
+
+======================================================================
+Sheet: Qiskit Algorithms  (n=39, single-label)
+======================================================================
+All-agree (exact):       24/39 = 61.5%
+CP  vs Rater 1  Cohen k: 0.5749
+CP  vs Rater 2  Cohen k: 0.5749
+R1  vs Rater 2  Cohen k: 1.0000
+Light's kappa:           0.7166
+Fleiss' kappa:           0.6963
+
+Disagreements (15):
+  qiskit_algorithms.eigensolvers.eigensolver.E   CP=Variational Quantum Algorithm (VQA)  R1=Variational Quantum Eigensolver (VQE)  R2=Variational Quantum Eigensolver (VQE)
+  qiskit_algorithms.eigensolvers.vqd.VQD         CP=Variational Quantum Algorithm (VQA)  R1=Variational Quantum Eigensolver (VQE)  R2=Variational Quantum Eigensolver (VQE)
+  qiskit_algorithms.state_fidelities.compute_u   CP=Uncompute  R1=SWAP Test  R2=SWAP Test
+  qiskit_algorithms.time_evolvers.imaginary_ti   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.pvqd.pvqd.PV   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.real_time_ev   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.time_evoluti   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+
+======================================================================
+Sheet: Qiskit ML  (n=31, single-label)
+======================================================================
+All-agree (exact):       17/31 = 54.8%
+CP  vs Rater 1  Cohen k: 0.4022
+CP  vs Rater 2  Cohen k: 0.5453
+R1  vs Rater 2  Cohen k: 0.7792
+Light's kappa:           0.5756
+Fleiss' kappa:           0.5664
+
+Disagreements (14):
+  qiskit_machine_learning.algorithms.classifie   CP=Quantum Kernel Estimator (QKE)  R1=Variational Quantum Algorithm (VQA)  R2=Variational Quantum Algorithm (VQA)
+  qiskit_machine_learning.algorithms.classifie   CP=Quantum Kernel Estimator (QKE)  R1=Variational Quantum Algorithm (VQA)  R2=Variational Quantum Algorithm (VQA)
+  qiskit_machine_learning.algorithms.regressor   CP=Quantum Kernel Estimator (QKE)  R1=Variational Quantum Algorithm (VQA)  R2=Variational Quantum Algorithm (VQA)
+  qiskit_machine_learning.kernels.FidelityQuan   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=SWAP Test
+  qiskit_machine_learning.kernels.FidelityStat   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=SWAP Test
+  qiskit_machine_learning.kernels.TrainableFid   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=Data Encoding
+  qiskit_machine_learning.kernels.TrainableFid   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=Data Encoding
+  qiskit_machine_learning.circuit.library.RawF   CP=Data Encoding  R1=Variational Quantum Algorithm (VQA)  R2=Data Encoding
+  qiskit_machine_learning.circuit.library.raw_   CP=Data Encoding  R1=Variational Quantum Algorithm (VQA)  R2=Data Encoding
+  qiskit_machine_learning.gradients.LinCombEst   CP=Variational Quantum Algorithm (VQA)  R1=Linear Combination of Unitaries  R2=Linear Combination of Unitaries
+  qiskit_machine_learning.gradients.LinCombSam   CP=Variational Quantum Algorithm (VQA)  R1=Linear Combination of Unitaries  R2=Linear Combination of Unitaries
+  qiskit_machine_learning.gradients.LinCombQGT   CP=Variational Quantum Algorithm (VQA)  R1=Linear Combination of Unitaries  R2=Linear Combination of Unitaries
+  qiskit_machine_learning.algorithms.inference   CP=Domain Specific Application  R1=Variational Quantum Algorithm (VQA)  R2=Domain Specific Application
+  qiskit_machine_learning.state_fidelities.Com   CP=Uncompute  R1=SWAP Test  R2=SWAP Test
+
+======================================================================
+Sheet: Combined (Algorithms + ML)  (n=70, single-label)
+======================================================================
+All-agree (exact):       41/70 = 58.6%
+CP  vs Rater 1  Cohen k: 0.5272
+CP  vs Rater 2  Cohen k: 0.5830
+R1  vs Rater 2  Cohen k: 0.9185
+Light's kappa:           0.6763
+Fleiss' kappa:           0.6723
+
+Disagreements (29):
+  qiskit_algorithms.eigensolvers.eigensolver.E   CP=Variational Quantum Algorithm (VQA)  R1=Variational Quantum Eigensolver (VQE)  R2=Variational Quantum Eigensolver (VQE)
+  qiskit_algorithms.eigensolvers.vqd.VQD         CP=Variational Quantum Algorithm (VQA)  R1=Variational Quantum Eigensolver (VQE)  R2=Variational Quantum Eigensolver (VQE)
+  qiskit_algorithms.state_fidelities.compute_u   CP=Uncompute  R1=SWAP Test  R2=SWAP Test
+  qiskit_algorithms.time_evolvers.imaginary_ti   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.pvqd.pvqd.PV   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.real_time_ev   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.time_evoluti   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_algorithms.time_evolvers.variational.   CP=Variational Quantum Algorithm (VQA)  R1=Hamiltonian Simulation  R2=Hamiltonian Simulation
+  qiskit_machine_learning.algorithms.classifie   CP=Quantum Kernel Estimator (QKE)  R1=Variational Quantum Algorithm (VQA)  R2=Variational Quantum Algorithm (VQA)
+  qiskit_machine_learning.algorithms.classifie   CP=Quantum Kernel Estimator (QKE)  R1=Variational Quantum Algorithm (VQA)  R2=Variational Quantum Algorithm (VQA)
+  qiskit_machine_learning.algorithms.regressor   CP=Quantum Kernel Estimator (QKE)  R1=Variational Quantum Algorithm (VQA)  R2=Variational Quantum Algorithm (VQA)
+  qiskit_machine_learning.kernels.FidelityQuan   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=SWAP Test
+  qiskit_machine_learning.kernels.FidelityStat   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=SWAP Test
+  qiskit_machine_learning.kernels.TrainableFid   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=Data Encoding
+  qiskit_machine_learning.kernels.TrainableFid   CP=Quantum Kernel Estimator (QKE)  R1=SWAP Test  R2=Data Encoding
+  qiskit_machine_learning.circuit.library.RawF   CP=Data Encoding  R1=Variational Quantum Algorithm (VQA)  R2=Data Encoding
+  qiskit_machine_learning.circuit.library.raw_   CP=Data Encoding  R1=Variational Quantum Algorithm (VQA)  R2=Data Encoding
+  qiskit_machine_learning.gradients.LinCombEst   CP=Variational Quantum Algorithm (VQA)  R1=Linear Combination of Unitaries  R2=Linear Combination of Unitaries
+  qiskit_machine_learning.gradients.LinCombSam   CP=Variational Quantum Algorithm (VQA)  R1=Linear Combination of Unitaries  R2=Linear Combination of Unitaries
+  qiskit_machine_learning.gradients.LinCombQGT   CP=Variational Quantum Algorithm (VQA)  R1=Linear Combination of Unitaries  R2=Linear Combination of Unitaries
+  qiskit_machine_learning.algorithms.inference   CP=Domain Specific Application  R1=Variational Quantum Algorithm (VQA)  R2=Domain Specific Application
+  qiskit_machine_learning.state_fidelities.Com   CP=Uncompute  R1=SWAP Test  R2=SWAP Test
+
+======================================================================
+Sheet: Qrisp GT  (n=22, multi-label)
+======================================================================
+Multi-label: exact set match rates
+  All three agree (exact): 1/22 = 4.5%
+  CP  vs Rater 1 (exact):  1/22 = 4.5%
+  CP  vs Rater 2 (exact):  6/22 = 27.3%
+  R1  vs Rater 2 (exact):  10/22 = 45.5%
+
+Per-label binary Cohen kappa (averaged across 15 labels):
+  Label                                              CP_R1    CP_R2    R1_R2
+  amplitude amplification                             +0.000   +0.645   +0.000
+  basis change                                        -0.078   +0.492   +0.463
+  circuit construction utility                        +0.000   +1.000   +0.000
+  data encoding                                       +0.000   +0.000   +0.861
+  domain specific application                         +0.000   +0.000   +0.064
+  grover                                              +0.353   +0.353   +1.000
+  hamiltonian simulation                              +0.450   +0.450   +1.000
+  initialization                                      -0.073   +0.463   -0.048
+  linear combination of unitaries                     +0.000   +0.000   +1.000
+  quantum amplitude estimation                        +0.000   +1.000   +0.000
+  quantum approximate optimization algorithm (qaoa)   +0.433   +0.899   +0.506
+  quantum arithmetic                                  +0.000   +0.000   +1.000
+  quantum logical operators                           +0.000   +0.000   +1.000
+  quantum phase estimation (qpe)                      +0.225   +0.421   +0.645
+  variational quantum algorithm (vqa)                 +0.000   +0.000   +1.000
+  MEAN                                                +0.087   +0.382   +0.566
+  Light's kappa (per-label avg): 0.3450
+
+Single-label items only (11/22):
+  CP  vs Rater 1  Cohen k: 0.0517
+  CP  vs Rater 2  Cohen k: 0.3774
+  R1  vs Rater 2  Cohen k: 0.5810
+  Light's kappa:           0.3367
+  Fleiss' kappa:           0.2964
+  All-agree:               1/11 = 9.1%
+
+Item-by-item comparison:
+  #    CP                                   R1                       R2                       Status
+  #1   linear combination of unitaries        data encoding              data encoding              R1=R2
+  #2   linear combination of unitaries        data encoding              data encoding              R1=R2
+  #3   basis change, quantum phase estimati   data encoding              data encoding              R1=R2
+  #4   quantum approximate optimization alg   hamiltonian simulation     hamiltonian simulation     R1=R2
+  #5   basis change                           circuit construction uti   basis change               CP=R2
+  #6   linear combination of unitaries        basis change               basis change               R1=R2
+  #7   hamiltonian simulation, initializati   hamiltonian simulation     hamiltonian simulation,    CP=R2
+  #8   initialization, quantum phase estima   data encoding              domain specific applicat   DISAGREE
+  #9   quantum arithmetic                     data encoding              data encoding              R1=R2
+  #10  quantum approximate optimization alg   quantum approximate opti   quantum approximate opti   R1=R2
+  #11  grover, hamiltonian simulation, quan   quantum approximate opti   quantum approximate opti   R1=R2
+  #12  quantum approximate optimization alg   domain specific applicat   quantum approximate opti   CP=R2
+  #13  quantum approximate optimization alg   domain specific applicat   quantum approximate opti   CP=R2
+  #14  initialization, quantum approximate    domain specific applicat   quantum approximate opti   DISAGREE
+  #15  quantum approximate optimization alg   quantum approximate opti   quantum approximate opti   ALL
+  #16  quantum approximate optimization alg   domain specific applicat   domain specific applicat   DISAGREE
+  #17  quantum amplitude estimation           domain specific applicat   quantum amplitude estima   CP=R2
+  #18  basis change, quantum phase estimati   domain specific applicat   basis change               DISAGREE
+  #19  amplitude amplification, grover, qua   domain specific applicat   amplitude amplification    DISAGREE
+  #20  grover, quantum phase estimation (qp   domain specific applicat   quantum phase estimation   DISAGREE
+  #21  amplitude amplification, basis chang   grover, initialization,    grover, quantum phase es   DISAGREE
+  #22  quantum arithmetic                     quantum logical operator   quantum logical operator   R1=R2
+
+======================================================================
+Summary
+======================================================================
+Sheet                           n    All-agree  Light k    Fleiss k
+----------------------------------------------------------------------
+  Qiskit Algorithms               39  24/39 (62%)   0.7166     0.6963
+  Qiskit ML                       31  17/31 (55%)   0.5756     0.5664
+  Combined (Algorithms + ML)      70  41/70 (59%)   0.6763     0.6723
+  Qrisp GT (single-label sub)     11  1/11 (9%)     0.3367     0.2964
+  Qrisp GT (per-label binary)     22  1/22 (5%)     0.3450     N/A
+

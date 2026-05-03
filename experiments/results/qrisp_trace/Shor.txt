@@ -1,0 +1,9 @@
+Notebook: Shor
+URL:      https://raw.githubusercontent.com/eclipse-qrisp/Qrisp/main/documentation/source/general/tutorial/Shor.ipynb
+Expected patterns: Quantum Phase Estimation (QPE), Quantum Arithmetic
+Raw qrisp calls:   0
+Quantum calls:     0
+
+Execution sequence (quantum-related calls only):
+------------------------------------------------------------
+  (no quantum calls captured)

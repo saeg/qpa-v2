@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/toqito/dicke",
+    "summary": "dicke: implementation of the Initialization pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

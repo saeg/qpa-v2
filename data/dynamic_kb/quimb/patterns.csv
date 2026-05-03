@@ -1,0 +1,15 @@
+name,summary,pattern
+dynamic/quimb/MPS_computational_state,MPS_computational_state: implementation of the Initialization pattern.,Initialization
+dynamic/quimb/build_pascal_table,build_pascal_table: implementation of the Function Table pattern.,Function Table
+dynamic/quimb/circ_a2a_rand,circ_a2a_rand: implementation of the Circuit Construction Utility pattern.,Circuit Construction Utility
+dynamic/quimb/circ_ansatz_1D_rand,circ_ansatz_1D_rand: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/quimb/circ_qaoa,circ_qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/quimb/cprint,cprint: implementation of the Initialization pattern.,Initialization
+dynamic/quimb/crx_param_gen,crx_param_gen: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/quimb/cry_param_gen,cry_param_gen: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/quimb/crz_param_gen,crz_param_gen: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/quimb/dynamic_random,dynamic_random: implementation of the Dynamic Circuit pattern.,Dynamic Circuit
+dynamic/quimb/fidelity,fidelity: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/quimb/gates_qaoa,gates_qaoa: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/quimb/get_pascal_table,get_pascal_table: implementation of the Function Table pattern.,Function Table
+dynamic/quimb/rotation,rotation: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic

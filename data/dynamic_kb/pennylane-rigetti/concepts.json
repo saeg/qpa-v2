@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/pennylane-rigetti/rotation",
+    "summary": "rotation: implementation of the Data Encoding pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "/dynamic/Pulser/get_noise_table",
+    "summary": "get_noise_table: implementation of the Function Table pattern.",
+    "docstring": "",
+    "type": "Function",
+    "is_target_subclass": false,
+    "base_classes": [],
+    "internal_keywords": "",
+    "internal_comments": ""
+  }
+]

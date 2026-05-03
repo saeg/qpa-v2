@@ -1,0 +1,30 @@
+---
+title: 'Figure 3b: Pattern Detection and Reporting'
+---
+graph TD
+    C1[<strong>Combined KB</strong><br/><i>Seed KB + Dynamic KBs</i>]
+    D1[<strong>Notebook .py Files</strong><br/><i>Converted notebooks</i>]
+    A1[<strong>Pattern Definitions</strong><br/><i>61 quantum patterns</i>]
+
+    G[<strong>8. Run Analysis</strong><br/><i>name · summary · title<br/>pattern_desc · defined_doc<br/>internal_keywords · internal_comments</i>]
+
+    V[<strong>Keyword Veto</strong><br/><i>Auto-generated exclusive<br/>keyword filter</i>]
+
+    G1[<strong>Pattern Matches</strong><br/><i>quantum_concept_matches<br/>_with_patterns.csv</i>]
+
+    H[<strong>9. Generate Report</strong>]
+
+    H1[<strong>Markdown Report</strong><br/><i>final_pattern_report.md</i>]
+    H2[<strong>CSV Tables</strong><br/><i>data/report/</i>]
+
+    C1 --> G
+    D1 --> G
+    A1 --> G
+    G --> V --> G1 --> H
+    H --> H1 & H2
+
+    classDef process fill:white,color:black,stroke:black,stroke-width:2px,font-size:13px
+    classDef data fill:white,color:black,stroke:black,stroke-width:1px,stroke-dasharray: 3 3,font-size:12px
+
+    class C1,D1,A1,G1,H1,H2 data
+    class G,V,H process

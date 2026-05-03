@@ -1,0 +1,53 @@
+name,summary,pattern
+dynamic/squlearn/BaseQNN,BaseQNN: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/ComposedEncodingCircuit,ComposedEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/ConvertedLayeredEncodingCircuit,ConvertedLayeredEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/EncodingCircuitBase,EncodingCircuitBase: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/EncodingCircuitDerivatives,EncodingCircuitDerivatives: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/EncodingSlotsMismatchError,EncodingSlotsMismatchError: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/FidelityKernelExpectationValue,FidelityKernelExpectationValue: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/squlearn/HighDimEncodingCircuit,HighDimEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/HubregtsenEncodingCircuit,HubregtsenEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/InvertedEncodingCircuit,InvertedEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/KernelOptimizer,KernelOptimizer: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/squlearn/KyriienkoEncodingCircuit,KyriienkoEncodingCircuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/squlearn/LayeredEncodingCircuit,LayeredEncodingCircuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/squlearn/LowLevelQNN,LowLevelQNN: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/LowLevelQNNBase,LowLevelQNNBase: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/LowLevelQNNPennyLane,LowLevelQNNPennyLane: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/LowLevelQNNQiskit,LowLevelQNNQiskit: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/LowLevelQNNQulacs,LowLevelQNNQulacs: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/MultiControlEncodingCircuit,MultiControlEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/PrunedEncodingCircuit,PrunedEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/QCNNEncodingCircuit,QCNNEncodingCircuit: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/squlearn/QGPR,QGPR: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/squlearn/QKRR,QKRR: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/squlearn/QNNClassifier,QNNClassifier: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/QNNLossBase,QNNLossBase: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/QNNRegressor,QNNRegressor: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/QNN_gradient,QNN_gradient: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/QRCClassifier,QRCClassifier: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/QRCRegressor,QRCRegressor: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/QSVC,QSVC: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/squlearn/QSVR,QSVR: implementation of the SWAP Test pattern.,SWAP Test
+dynamic/squlearn/QiskitEncodingCircuit,QiskitEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/RandomEncodingCircuit,RandomEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/RandomLayeredEncodingCircuit,RandomLayeredEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/TargetAlignment,TargetAlignment: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/squlearn/TranspiledEncodingCircuit,TranspiledEncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/YZ_CX_EncodingCircuit,YZ_CX_EncodingCircuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/create_from_encoding_circuits,create_from_encoding_circuits: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/encoding_circuit,encoding_circuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/encoding_style,encoding_style: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/evaluate_qnn,evaluate_qnn: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/feature_vector,feature_vector: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/final_encoding,final_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/num_encoding_layers,num_encoding_layers: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/num_encoding_slots,num_encoding_slots: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/num_variational_layers,num_variational_layers: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/squlearn/origin_encoding_circuit,origin_encoding_circuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/qnn,qnn: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
+dynamic/squlearn/set_quantum_kernel,set_quantum_kernel: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/squlearn/to_encoding_circuit,to_encoding_circuit: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/squlearn/variational_arrangement,variational_arrangement: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/squlearn/variational_gate_block,variational_gate_block: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)

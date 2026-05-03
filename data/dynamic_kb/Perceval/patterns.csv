@@ -1,0 +1,6 @@
+name,summary,pattern
+dynamic/Perceval/apply_rotations_to_qubits,apply_rotations_to_qubits: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/Perceval/compute_physical_logical_perf,compute_physical_logical_perf: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Perceval/encoding,encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Perceval/get_basic_state_from_encoding,get_basic_state_from_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Perceval/logical_perf,logical_perf: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators

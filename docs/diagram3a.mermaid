@@ -1,0 +1,24 @@
+---
+title: 'Figure 3a: Vocabulary Expansion'
+---
+graph TD
+    F1[<strong>Seed KB</strong><br/><i>285 concepts · 5 frameworks<br/>w/ internal keywords</i>]
+    S1[<strong>Library Source</strong><br/><i>Target project .py files</i>]
+
+    E1[<strong>7. Build Dynamic KBs</strong><br/><i>Docstring vs. Seed KB<br/>threshold ≥ 0.70</i>]
+
+    E2[<strong>Dynamic KB</strong><br/><i>data/dynamic_kb/&lt;project&gt;/</i>]
+
+    C1[<strong>Combined KB</strong><br/><i>Seed KB + Dynamic KBs</i>]
+
+    S1 --> E1
+    F1 --> E1
+    E1 --> E2
+    F1 --> C1
+    E2 --> C1
+
+    classDef process fill:white,color:black,stroke:black,stroke-width:2px,font-size:13px
+    classDef data fill:white,color:black,stroke:black,stroke-width:1px,stroke-dasharray: 3 3,font-size:12px
+
+    class F1,S1,E2,C1 data
+    class E1 process

@@ -1,0 +1,30 @@
+name,summary,pattern
+dynamic/qiskit-optimization/AmplificationProblem,AmplificationProblem: implementation of the Amplitude Amplification pattern.,Amplitude Amplification
+dynamic/qiskit-optimization/Eigensolver,Eigensolver: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qiskit-optimization/EncodingCommutationVerifier,EncodingCommutationVerifier: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qiskit-optimization/Grover,Grover: implementation of the Grover pattern.,Grover
+dynamic/qiskit-optimization/GroverOptimizationResult,GroverOptimizationResult: implementation of the Grover pattern.,Grover
+dynamic/qiskit-optimization/GroverOptimizer,GroverOptimizer: implementation of the Grover pattern.,Grover
+dynamic/qiskit-optimization/MinimumEigensolver,MinimumEigensolver: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/MinimumEigensolverResult,MinimumEigensolverResult: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/QAOA,QAOA: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qiskit-optimization/QuantumRandomAccessEncoding,QuantumRandomAccessEncoding: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/qiskit-optimization/QuantumRandomAccessOptimizationResult,QuantumRandomAccessOptimizationResult: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qiskit-optimization/QuantumRandomAccessOptimizer,QuantumRandomAccessOptimizer: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qiskit-optimization/SamplingMinimumEigensolver,SamplingMinimumEigensolver: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/SamplingMinimumEigensolverResult,SamplingMinimumEigensolverResult: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/SamplingVQE,SamplingVQE: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/SamplingVQEResult,SamplingVQEResult: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/VQE,VQE: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/VQEResult,VQEResult: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/VariationalAlgorithm,VariationalAlgorithm: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qiskit-optimization/VariationalResult,VariationalResult: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/qiskit-optimization/WarmStartQAOAFactory,WarmStartQAOAFactory: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qiskit-optimization/WarmStartQAOAOptimizer,WarmStartQAOAOptimizer: implementation of the Quantum Approximate Optimization Algorithm (QAOA) pattern.,Quantum Approximate Optimization Algorithm (QAOA)
+dynamic/qiskit-optimization/construct_circuit,construct_circuit: implementation of the Grover pattern.,Grover
+dynamic/qiskit-optimization/create_initial_state,create_initial_state: implementation of the Initialization pattern.,Initialization
+dynamic/qiskit-optimization/eigenvalue,eigenvalue: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)
+dynamic/qiskit-optimization/encoding,encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/qiskit-optimization/grover_operator,grover_operator: implementation of the Grover pattern.,Grover
+dynamic/qiskit-optimization/oracle,oracle: implementation of the Oracle pattern.,Oracle
+dynamic/qiskit-optimization/relaxed_result,relaxed_result: implementation of the Variational Quantum Eigensolver (VQE) pattern.,Variational Quantum Eigensolver (VQE)

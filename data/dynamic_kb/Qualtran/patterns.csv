@@ -1,0 +1,91 @@
+name,summary,pattern
+dynamic/Qualtran/AddScaledValIntoPhaseReg,AddScaledValIntoPhaseReg: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/Qualtran/BitEncoding,BitEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/BlackBoxKikuchiEntryOracle,BlackBoxKikuchiEntryOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/BlackBoxKikuchiRowColumnOracle,BlackBoxKikuchiRowColumnOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/BlockEncoding,BlockEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/ComplexPhaseOracle,ComplexPhaseOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/DoubleFactorizationBlockEncoding,DoubleFactorizationBlockEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/EntryOracle,EntryOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/ExplicitEntryOracle,ExplicitEntryOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/GroverEncoder,GroverEncoder: implementation of the Grover pattern.,Grover
+dynamic/Qualtran/GroverSynthesizer,GroverSynthesizer: implementation of the Grover pattern.,Grover
+dynamic/Qualtran/GuidedHamiltonianPhaseEstimation,GuidedHamiltonianPhaseEstimation: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/HamiltonianSimulationByGQSP,HamiltonianSimulationByGQSP: implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+dynamic/Qualtran/IntState,IntState: implementation of the Amplitude Amplification pattern.,Amplitude Amplification
+dynamic/Qualtran/LCUBlockEncoding,LCUBlockEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/LogicalErrorModel,LogicalErrorModel: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qualtran/PrepareOracle,PrepareOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/QFTPhaseGradient,QFTPhaseGradient: implementation of the Quantum Arithmetic pattern.,Quantum Arithmetic
+dynamic/Qualtran/QPEWindowStateBase,QPEWindowStateBase: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/QubitizationQPE,QubitizationQPE: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/QvrInterface,QvrInterface: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/RowColumnOracle,RowColumnOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/SelectBlockEncoding,SelectBlockEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/SelectOracle,SelectOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/SingleFactorizationBlockEncoding,SingleFactorizationBlockEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/SqrtEntryOracle,SqrtEntryOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/SymmetricBandedRowColumnOracle,SymmetricBandedRowColumnOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/TestBlockEncoding,TestBlockEncoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/TestPauliSelectOracle,TestPauliSelectOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/TestPrepareOracle,TestPrepareOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/TestSelectOracle,TestSelectOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/TextbookQPE,TextbookQPE: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/TopLeftRowColumnOracle,TopLeftRowColumnOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/TwoBitFFFT,TwoBitFFFT: implementation of the Basis Change pattern.,Basis Change
+dynamic/Qualtran/UniformEntryOracle,UniformEntryOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/UniformSqrtEntryOracle,UniformSqrtEntryOracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/cost_eval_oracle,cost_eval_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/format_classical_truth_table,format_classical_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/from_matrix,from_matrix: implementation of the Linear Combination of Unitaries pattern.,Linear Combination of Unitaries
+dynamic/Qualtran/get_binst_table_attributes,get_binst_table_attributes: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/get_classical_truth_table,get_classical_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/logical_error_model,logical_error_model: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qualtran/logical_error_rate,logical_error_rate: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qualtran/n_discrete_logical_gates,n_discrete_logical_gates: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qualtran/oracle_O_F,oracle_O_F: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/oracle_O_H,oracle_O_H: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/phase_gradient_oracle,phase_gradient_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/phase_oracle,phase_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/qpe_bloq,qpe_bloq: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/qpe_fail_prob,qpe_fail_prob: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/qpe_precision,qpe_precision: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/qpe_window_state,qpe_window_state: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/signed_block_encodings,signed_block_encodings: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_add_truth_table,test_add_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/test_black_box_lcu_block_encoding,test_black_box_lcu_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_black_box_select_block_encoding,test_black_box_select_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_cnot_truth_table,test_cnot_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/test_df_block_encoding,test_df_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_explicit_entry_oracle,test_explicit_entry_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/test_hamiltonian_simulation_by_gqsp,test_hamiltonian_simulation_by_gqsp: implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+dynamic/Qualtran/test_hamiltonian_simulation_by_gqsp_t_complexity,test_hamiltonian_simulation_by_gqsp_t_complexity: implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation
+dynamic/Qualtran/test_i_truth_table,test_i_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/test_lcu_block_encoding,test_lcu_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_logical_error_model,test_logical_error_model: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qualtran/test_logical_error_rate,test_logical_error_rate: implementation of the Quantum Logical Operators pattern.,Quantum Logical Operators
+dynamic/Qualtran/test_mean_estimation_grover,test_mean_estimation_grover: implementation of the Grover pattern.,Grover
+dynamic/Qualtran/test_multi_truth_table,test_multi_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/test_one_body_block_encoding,test_one_body_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_phase_estimation_of_qubitized_hubbard_model_notebook,test_phase_estimation_of_qubitized_hubbard_model_notebook: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_phase_oracle,test_phase_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/test_phase_oracle_consistent_protocols,test_phase_oracle_consistent_protocols: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/test_prepare_oracle,test_prepare_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/test_qpe_of_gqsp,test_qpe_of_gqsp: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_qubitization_phase_estimation_of_walk,test_qubitization_phase_estimation_of_walk: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_qubitization_qpe_chem_thc_bloq_autotester,test_qubitization_qpe_chem_thc_bloq_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_qubitization_qpe_hubbard_model_large_autotester,test_qubitization_qpe_hubbard_model_large_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_qubitization_qpe_hubbard_model_small_autotester,test_qubitization_qpe_hubbard_model_small_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_qubitization_qpe_sparse_chem_bloq_autotester,test_qubitization_qpe_sparse_chem_bloq_autotester: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_select_block_encoding,test_select_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_select_oracle,test_select_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/test_sf_block_encoding,test_sf_block_encoding: implementation of the Data Encoding pattern.,Data Encoding
+dynamic/Qualtran/test_symmetric_banded_row_column_oracle,test_symmetric_banded_row_column_oracle: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/test_symmetric_banded_row_column_oracle_classical,test_symmetric_banded_row_column_oracle_classical: implementation of the Oracle pattern.,Oracle
+dynamic/Qualtran/test_textbook_phase_estimation_qubitized_walk,test_textbook_phase_estimation_qubitized_walk: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_textbook_phase_estimation_zpow_theta,test_textbook_phase_estimation_zpow_theta: implementation of the Quantum Phase Estimation (QPE) pattern.,Quantum Phase Estimation (QPE)
+dynamic/Qualtran/test_truth_table,test_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/test_truth_table_classical,test_truth_table_classical: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/test_truth_table_using_classical_sim,test_truth_table_using_classical_sim: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/test_x_truth_table,test_x_truth_table: implementation of the Function Table pattern.,Function Table
+dynamic/Qualtran/verify_hamiltonian_simulation_by_gqsp,verify_hamiltonian_simulation_by_gqsp: implementation of the Hamiltonian Simulation pattern.,Hamiltonian Simulation

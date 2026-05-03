@@ -1,0 +1,10 @@
+{
+  "notebook": "GQSP_filtering",
+  "url": "https://raw.githubusercontent.com/eclipse-qrisp/Qrisp/main/documentation/source/general/tutorial/GQSP_filtering.ipynb",
+  "expected_patterns": [
+    "Linear Combination of Unitaries"
+  ],
+  "raw_call_count": 0,
+  "quantum_call_count": 0,
+  "sequence": []
+}

@@ -1,0 +1,5 @@
+name,summary,pattern
+dynamic/tensorflow-quantum/Differentiator,Differentiator: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/tensorflow-quantum/NoisyPQC,NoisyPQC: implementation of the Variational Quantum Algorithm (VQA) pattern.,Variational Quantum Algorithm (VQA)
+dynamic/tensorflow-quantum/SampledExpectation,SampledExpectation: implementation of the Domain Specific Application pattern.,Domain Specific Application
+dynamic/tensorflow-quantum/test_dnn_qnn_dnn,test_dnn_qnn_dnn: implementation of the Quantum Neural Network (QNN) pattern.,Quantum Neural Network (QNN)
