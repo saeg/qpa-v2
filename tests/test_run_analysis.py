@@ -280,9 +280,10 @@ class TestMainFunction:
                         mock_model_class.return_value = mock_model
                         mock_model.encode.return_value = MagicMock()
 
-                        with patch(
-                            "pathlib.Path.rglob", return_value=[Path("test.py")]
-                        ):
+                        with patch("src.analysis.run.torch.save"), \
+                             patch(
+                                "pathlib.Path.rglob", return_value=[NOTEBOOKS_ROOT_DIR / "test_project" / "test.py"]
+                            ):
                             with patch(
                                 "src.analysis.run.load_pattern_descriptions",
                                 return_value={}
@@ -330,9 +331,10 @@ class TestMainFunction:
                         mock_model_class.return_value = mock_model
                         mock_model.encode.return_value = MagicMock()
 
-                        with patch(
-                            "pathlib.Path.rglob", return_value=[Path("test.py")]
-                        ):
+                        with patch("src.analysis.run.torch.save"), \
+                             patch(
+                                "pathlib.Path.rglob", return_value=[NOTEBOOKS_ROOT_DIR / "test_project" / "test.py"]
+                            ):
                             with patch(
                                 "src.analysis.run.load_pattern_descriptions",
                                 return_value={}
