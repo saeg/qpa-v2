@@ -31,11 +31,7 @@ install: ensure-uv discover-and-clone
     @echo " Installing all dependencies from pyproject.toml..."
     @uv sync --python {{VENV}}/bin/python
 
-    @echo " Installing cloned repositories in editable mode..."
-    @uv pip install --python {{VENV}}/bin/python -e ./target_github_projects/qiskit
-    @uv pip install --python {{VENV}}/bin/python -e ./target_github_projects/pennylane
-    @uv pip install --python {{VENV}}/bin/python -e ./target_github_projects/qiskit-algorithms
-    @echo ">>> Unified environment setup complete."
+    @echo ">>> Environment setup complete."
     @echo "To activate it manually, run: source {{VENV}}/bin/activate"
 
 # Runs all core concept identification scripts. This is the main analysis command.
