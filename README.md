@@ -1,6 +1,6 @@
-# qpa — Quantum Patterns Analyzer
+# qpa - Quantum Patterns Analyzer
 
-qpa is an open-source Python tool that automatically mines quantum computing pattern usage from open-source projects. It builds a knowledge base from major quantum frameworks, discovers and clones relevant GitHub repositories, and uses semantic search to detect pattern implementations in Jupyter Notebooks.
+qpa is an open-source Python tool that mines quantum computing pattern usage from open-source projects. It builds a knowledge base from major quantum frameworks, discovers and clones relevant GitHub repositories, and uses semantic search to detect pattern implementations in Jupyter Notebooks.
 
 The full pipeline runs end-to-end with a single command:
 
@@ -12,11 +12,11 @@ just all
 
 The tool operates in three stages:
 
-**Stage 1 — Data collection.** The GitHub API is queried to find Python-based quantum repositories (filtered by stars, contributors, and activity). Repositories are cloned locally and the PlanQK Pattern Atlas is downloaded.
+**Stage 1 - Data collection.** The GitHub API is queried to find Python-based quantum repositories (filtered by stars, contributors, and activity). Repositories are cloned locally and the PlanQK Pattern Atlas is downloaded.
 
-**Stage 2 — Knowledge base construction.** Core quantum concepts are extracted from five seed frameworks (Qiskit, PennyLane, Classiq, Qiskit Algorithms, Qiskit Machine Learning) and classified against the pattern catalog. A *dynamic KB* is then built automatically: for each target project, qpa scans its library source code and promotes public functions whose docstrings semantically match a seed KB concept into a project-specific extension of the KB.
+**Stage 2 - Knowledge base construction.** Core quantum concepts are extracted from five seed frameworks (Qiskit, PennyLane, Classiq, Qiskit Algorithms, Qiskit Machine Learning) and classified against the pattern catalog. A *dynamic KB* is then built automatically: for each target project, qpa scans its library source code and promotes public functions whose docstrings semantically match a seed KB concept into a project-specific extension of the KB.
 
-**Stage 3 — Pattern detection.** Jupyter Notebooks are converted to Python scripts and scanned across seven semantic channels. Results are aggregated into a structured report.
+**Stage 3 - Pattern detection.** Jupyter Notebooks are converted to Python scripts and scanned across seven semantic channels. Results are aggregated into a structured report.
 
 ### Matching channels
 
@@ -147,4 +147,4 @@ just clean                               # remove all generated artifacts
 
 ## Embedding model
 
-`all-mpnet-base-v2` (sentence-transformers). Max 384 tokens per input. Chosen for reproducibility — no API calls, no non-determinism.
+`all-mpnet-base-v2` (sentence-transformers). Max 384 tokens per input. Chosen for reproducibility as there are  no API calls,  and reduced non-determinism.
