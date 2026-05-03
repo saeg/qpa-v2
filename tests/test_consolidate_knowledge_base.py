@@ -75,7 +75,7 @@ class TestKnowledgeBaseConsolidator:
             "pennylane": Path("/test/pennylane.csv"),
             "qiskit": Path("/test/qiskit.csv")
         }), \
-        patch('pathlib.Path.exists', side_effect=lambda path: path.name != "pennylane.csv"), \
+        patch('pathlib.Path.exists', side_effect=[True, False, True]), \
         patch('pandas.read_csv') as mock_read_csv, \
         patch('pathlib.Path.mkdir'), \
         patch('pandas.DataFrame.to_csv') as mock_to_csv:

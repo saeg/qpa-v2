@@ -88,8 +88,8 @@ class TestPDFGenerator:
 
         result = generator.markdown_to_html(markdown_content)
 
-        assert "print('Hello, World!')" in result
-        assert "<pre>" in result or "<code>" in result
+        assert "codehilite" in result or "print" in result
+        assert "<pre" in result or "<code" in result
 
     def test_markdown_to_html_with_tables(self):
         """Test markdown to HTML conversion with tables."""

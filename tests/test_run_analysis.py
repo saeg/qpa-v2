@@ -288,7 +288,7 @@ class TestMainFunction:
                                 return_value={}
                             ):
                                 with patch(
-                                    "src.analysis.run.PATTERN_EXCLUSIVE_KEYWORDS_FILE.exists",
+                                    "pathlib.Path.exists",
                                     return_value=False
                                 ):
                                     with patch(
@@ -338,7 +338,7 @@ class TestMainFunction:
                                 return_value={}
                             ):
                                 with patch(
-                                    "src.analysis.run.PATTERN_EXCLUSIVE_KEYWORDS_FILE.exists",
+                                    "pathlib.Path.exists",
                                     return_value=False
                                 ):
                                     with patch(

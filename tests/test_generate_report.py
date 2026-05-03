@@ -204,76 +204,7 @@ class TestReportGenerator:
         assert "Concept" in generator.top_20_table_data.columns
         assert "Matches" in generator.top_20_table_data.columns
 
-    def test_escape_latex(self):
-        """Test LaTeX escaping functionality."""
-        generator = ReportGenerator(self.df, self.all_patterns, self.new_patterns)
-        
-        test_string = "Test & string % with $ special # characters _ ~ ^"
-        escaped = generator._escape_latex(test_string)
-        
-        assert "\\&" in escaped
-        assert "\\%" in escaped
-        assert "\\$" in escaped
-        assert "\\#" in escaped
-        assert "\\_" in escaped
 
-    def test_escape_latex_non_string(self):
-        """Test LaTeX escaping with non-string input."""
-        generator = ReportGenerator(self.df, self.all_patterns, self.new_patterns)
-        
-        result = generator._escape_latex(123)
-        assert result == "123"
-
-    def test_df_to_latex_empty_dataframe(self):
-        """Test LaTeX generation with empty DataFrame."""
-        generator = ReportGenerator(self.df, self.all_patterns, self.new_patterns)
-        
-        with patch('builtins.print') as mock_print:
-            generator._df_to_latex(
-                pd.DataFrame(),
-                "Test Caption",
-                "test-label",
-                Path("/test/output.tex")
-            )
-            
-            mock_print.assert_called_with("  - Skipping empty table: output.tex")
-
-    def test_df_to_latex_success(self):
-        """Test successful LaTeX generation."""
-        generator = ReportGenerator(self.df, self.all_patterns, self.new_patterns)
-        
-        test_df = pd.DataFrame({
-            "Column1": ["Value1", "Value2"],
-            "Column2": [1, 2]
-        })
-        
-        with patch('builtins.open', mock_open()) as mock_file, \
-             patch('builtins.print') as mock_print:
-            
-            generator._df_to_latex(
-                test_df,
-                "Test Caption",
-                "test-label",
-                Path("/test/output.tex")
-            )
-            
-            # Check that file was written
-            mock_file.assert_called_once()
-            mock_print.assert_called_with("  - Generated LaTeX table: output.tex")
-
-    def test_generate_latex_report(self):
-        """Test LaTeX report generation."""
-        generator = ReportGenerator(self.df, self.all_patterns, self.new_patterns)
-        
-        with patch('pathlib.Path.mkdir'), \
-             patch.object(generator, '_df_to_latex') as mock_df_to_latex, \
-             patch('builtins.print') as mock_print:
-            
-            generator.generate_latex_report(Path("/test/output"))
-            
-            # Check that multiple tables were generated
-            assert mock_df_to_latex.call_count >= 5
-            mock_print.assert_any_call("LaTeX table generation complete.")
 
     def test_generate_txt_report(self):
         """Test text report generation."""
@@ -410,7 +341,6 @@ class TestMainFunction:
             # Check that all report generation methods were called
             mock_generator.generate_txt_report.assert_called_once()
             mock_generator.generate_md_report.assert_called_once()
-            mock_generator.generate_latex_report.assert_called_once()
             mock_generator.export_tables_to_csv.assert_called_once()
 
     def test_main_file_not_found(self):
@@ -537,7 +467,6 @@ class TestIntegration:
             # Verify that all report generation methods were called
             assert mock_generator.generate_txt_report.call_count == 1
             assert mock_generator.generate_md_report.call_count == 1
-            assert mock_generator.generate_latex_report.call_count == 1
             assert mock_generator.export_tables_to_csv.call_count == 1
 
     def test_data_processing_pipeline(self):
